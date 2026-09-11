@@ -1,19 +1,21 @@
-EXPENSE VOUCHER
-Voucher Ref: CLM111958
-Date of Service: 27-02-2023
-Facility: Greenleaf Hospital | Facility Code: PRV1003
-Claimant: Yash Joshi | Claimant ID: PAT27054
+OUTPATIENT PRESCRIPTION
+Ref No: CLM108491   Date Issued: 19-11-2024
 
-SERVICE ITEMS:
-  - Clopidogrel 75mg  x3  INR 1449
-  - Metformin 1000mg  x3  INR 306
-  - Cetirizine 10mg  x2  INR 1328
-  - Losartan 50mg  x2  INR 820
+PATIENT
+  Full Name  : Rahul Joshi
+  Member ID  : PAT16428
+  Clinical Dx: Vitamin D Deficiency
 
-COST SUMMARY:
-  Consultation Fee ............... INR 1271
-  Tests & Medicines .............. INR 1049
-  GST @ 18% ........................ INR 417
+PRESCRIBER
+  Name       : Dr. Suresh Sharma
+  Facility   : Lotus Wellness Hub
+  License    : PRV1005
 
-Net Payable: INR 2737
-Certified by: Dr. Arun Mehta
+DRUG LIST:
+  1. Dolo 650  x2  INR 327
+  2. Pantoprazole 40mg  x1  INR 201
+  3. Metformin 1000mg  x2  INR 372
+
+Dispensing Note: Dispense as written. No substitution.
+Rx Valid Until : 30 days from date of issue.
+Prescriber Seal: ___________________

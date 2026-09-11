@@ -1,15 +1,23 @@
-LAB REPORT
-==========
-Ref: CLM145269   Date: 13-03-2024
-Lab: NovaMed Institute  Lic: PRV1008
-Amount: INR 8811
-
-Patient: Bhavya Iyer  ID: PAT41685
-Doctor : Dr. Kavitha Krishnamurthy
-
-INVESTIGATIONS:
-  - Chest X-Ray: 100.0
-  - ECG (Electrocardiogram): 62.05
-  - COVID-19 RT-PCR: 5.12
-
-Report validated and digitally signed.
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM921874
+Report Date: 15-04-2024
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Gaurav Singh
+Patient ID : PAT50562
+Referred By: Dr. Deepika Pillai
+----------------------------------------------
+TEST RESULTS:
+  - Thyroid Stimulating Hormone (TSH): 145.47
+  - Serum Creatinine: 91.98
+  - Lipid Profile: 113.11
+----------------------------------------------
+Total Charges: INR 7032
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Deepika Pillai
+##############################################

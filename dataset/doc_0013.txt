@@ -1,26 +1,26 @@
 >>>>>>>>>> DIAGNOSTIC LABORATORY REPORT <<<<<<<<<<
 
 SAMPLE DETAILS
-  Collected On : 23-03-2025
-  Reported On  : 23-03-2025
-  Sample Ref   : CLM109863
+  Collected On : 21-09-2024
+  Reported On  : 21-09-2024
+  Sample Ref   : CLM946305
 
 LABORATORY INFO
   Name         : Global Horizon Hospital
   Accred. No.  : PRV2004
 
 PATIENT INFO
-  Name         : Jyoti Saxena
-  UHID         : PAT82420
-  Referring Dr : Dr. Mohan Iyer
+  Name         : Aarav Iyer
+  UHID         : PAT82692
+  Referring Dr : Dr. Vikram Agarwal
 
 TEST FINDINGS:
-  01. Blood Glucose (PP): 156.13
-  02. Lipid Profile: 176.88
-  03. Thyroid Stimulating Hormone (TSH): 81.57
+  01. HbA1c: 125.23
+  02. Lipid Profile: 105.83
+  03. Liver Function Test (LFT): 92.14
 
 BILLING SUMMARY
-  Amount Due   : INR 2047
+  Amount Due   : INR 6317
   All results reviewed by a certified pathologist.
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<

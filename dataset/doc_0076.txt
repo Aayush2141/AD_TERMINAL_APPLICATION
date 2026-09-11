@@ -1,25 +1,14 @@
-==========================================================
-                    MEDICAL INVOICE
-==========================================================
-Invoice No : CLM147128
-Date       : 23-04-2023
-----------------------------------------------------------
-Provider   : Apollo Health Clinic
-Provider ID: PRV1001
-----------------------------------------------------------
-Patient    : Manav Nair
-Patient ID : PAT30934
-----------------------------------------------------------
-ITEMISED CHARGES:
-  - Clopidogrel 75mg  x2  INR 1358
-  - Pantoprazole 40mg  x1  INR 274
-----------------------------------------------------------
-Consultation Fee   : INR 835
-Subtotal           : INR 5854
-GST (18%)          : INR 1204
-----------------------------------------------------------
-TOTAL AMOUNT DUE   : INR 7893
-==========================================================
-Attending Physician: Dr. Suresh Nambiar
-Signature          : ___________________
-==========================================================
+LAB REPORT
+==========
+Ref: CLM741599   Date: 10-12-2024
+Lab: NovaMed Institute  Lic: PRV1008
+Amount: INR 4028
+
+Patient: Zara Shah  ID: PAT36237
+Doctor : Dr. Rajesh Mehta
+
+INVESTIGATIONS:
+  - HbA1c: 105.9
+  - Serum Creatinine: 32.97
+
+Report validated and digitally signed.

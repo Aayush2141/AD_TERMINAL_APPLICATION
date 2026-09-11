@@ -1,20 +1,18 @@
-OUTPATIENT PRESCRIPTION
-Ref No: CLM105021   Date Issued: 10-08-2025
+EXPENSE VOUCHER
+Voucher Ref: CLM695164
+Date of Service: 20-02-2024
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Zara Sharma | Claimant ID: PAT30392
 
-PATIENT
-  Full Name  : Zara Pillai
-  Member ID  : PAT68799
-  Clinical Dx: Hypertension
+SERVICE ITEMS:
+  - Metformin 1000mg  x3  INR 95
+  - Atorvastatin 20mg  x1  INR 351
+  - Cetirizine 10mg  x1  INR 272
 
-PRESCRIBER
-  Name       : Dr. Deepika Mehta
-  Facility   : Lotus Wellness Hub
-  License    : PRV1005
+COST SUMMARY:
+  Consultation Fee ............... INR 1459
+  Tests & Medicines .............. INR 5884
+  GST @ 18% ........................ INR 1321
 
-DRUG LIST:
-  1. Pantoprazole 40mg  x1  INR 611
-  2. Omeprazole 20mg  x3  INR 2019
-
-Dispensing Note: Dispense as written. No substitution.
-Rx Valid Until : 30 days from date of issue.
-Prescriber Seal: ___________________
+Net Payable: INR 8664
+Certified by: Dr. Sunita Rao

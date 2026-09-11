@@ -1,25 +1,19 @@
-##############################################
-#          LABORATORY TEST REPORT            #
-##############################################
-Report ID  : CLM108969
-Report Date: 08-11-2025
-----------------------------------------------
-Laboratory : LifeLine Laboratories
-Lab Reg.   : PRV1007
-----------------------------------------------
-Patient    : Farida Verma
-Patient ID : PAT66881
-Referred By: Dr. Sunita Krishnamurthy
-----------------------------------------------
-TEST RESULTS:
-  - HbA1c: 136.52
-  - Liver Function Test (LFT): 36.42
-  - ECG (Electrocardiogram): 35.43
-  - Urine Routine & Microscopy: 122.09
-  - Blood Glucose (Fasting): 76.82
-----------------------------------------------
-Total Charges: INR 6998
-----------------------------------------------
-Verified By: Lab Technician
-Pathologist: Dr. Sunita Krishnamurthy
-##############################################
+EXPENSE VOUCHER
+Voucher Ref: CLM624783
+Date of Service: 18-08-2024
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Farida Patel | Claimant ID: PAT88385
+
+SERVICE ITEMS:
+  - Omeprazole 20mg  x1  INR 156
+  - Paracetamol 650mg  x2  INR 152
+  - Amoxicillin 500mg  x1  INR 110
+  - Pantoprazole 40mg  x1  INR 237
+
+COST SUMMARY:
+  Consultation Fee ............... INR 841
+  Tests & Medicines .............. INR 6953
+  GST @ 18% ........................ INR 1402
+
+Net Payable: INR 9196
+Certified by: Dr. Rajesh Mehta

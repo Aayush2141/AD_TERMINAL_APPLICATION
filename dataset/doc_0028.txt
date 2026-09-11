@@ -1,25 +1,16 @@
-##############################################
-#          LABORATORY TEST REPORT            #
-##############################################
-Report ID  : CLM158029
-Report Date: 10-10-2024
-----------------------------------------------
-Laboratory : LifeLine Laboratories
-Lab Reg.   : PRV1007
-----------------------------------------------
-Patient    : Simran Patel
-Patient ID : PAT89905
-Referred By: Dr. Sunita Agarwal
-----------------------------------------------
-TEST RESULTS:
-  - Kidney Function Test (KFT): 140.75
-  - Complete Blood Count (CBC): 91.08
-  - Liver Function Test (LFT): 137.63
-  - COVID-19 RT-PCR: 184.82
-  - Serum Creatinine: 157.67
-----------------------------------------------
-Total Charges: INR 6217
-----------------------------------------------
-Verified By: Lab Technician
-Pathologist: Dr. Sunita Agarwal
-##############################################
+LAB REPORT
+==========
+Ref: CLM841666   Date: 05-07-2024
+Lab: NovaMed Institute  Lic: PRV1008
+Amount: INR 2514
+
+Patient: Arjun Joshi  ID: PAT78386
+Doctor : Dr. Kavitha Iyer
+
+INVESTIGATIONS:
+  - HbA1c: 16.73
+  - Complete Blood Count (CBC): 144.16
+  - Liver Function Test (LFT): 95.7
+  - Kidney Function Test (KFT): 124.48
+
+Report validated and digitally signed.

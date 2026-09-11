@@ -1,17 +1,15 @@
-EXPENSE VOUCHER
-Voucher Ref: CLM172911
-Date of Service: 12-02-2024
-Facility: Greenleaf Hospital | Facility Code: PRV1003
-Claimant: Amrita Choudhary | Claimant ID: PAT83526
+E-PRESCRIPTION
+TxnID: CLM707727  |  Date: 12-12-2024  |  [QR-CODE: CLM707727]
+Physician : Dr. Vikram Agarwal   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Arjun Patel   UHI: PAT48680
+Ailment: Vitamin D Deficiency
 
-SERVICE ITEMS:
-  - Paracetamol 650mg  x3  INR 969
-  - Clopidogrel 75mg  x1  INR 234
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Cetirizine 10mg  x3  INR 177                            | As directed |
+  | Omeprazole 20mg  x3  INR 208                            | As directed |
+  +----------------------------------------------------------+-------------+
 
-COST SUMMARY:
-  Consultation Fee ............... INR 521
-  Tests & Medicines .............. INR 3368
-  GST @ 18% ........................ INR 700
-
-Net Payable: INR 4589
-Certified by: Dr. Deepika Desai
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

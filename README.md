@@ -35,31 +35,27 @@ Every document is passed through a **masking pipeline** that uses regular expres
 
 | Pattern type          | Replaced with   |
 |-----------------------|-----------------|
+| Reference & Claim IDs | `<REF_ID>`      |
 | Dates (DD-MM-YYYY, …) | `<DATE>`        |
-| INR monetary amounts  | `<AMOUNT>`      |
+| Monetary amounts      | `<AMOUNT>`      |
 | Doctor names (Dr. …)  | `<DOCTOR>`      |
-| Patient / Provider IDs| `<REF_ID>`      |
-| Lab result numbers    | `<NUMBER>`      |
-| Proper noun sequences | `<NAME>`        |
-| Percentages           | `<PERCENT>`     |
-| Quantity markers      | `<QTY>`         |
+| Percentages (18%)     | `<PERCENT>`     |
+| Decimal numbers       | `<NUMBER>`      |
+| Quantities & dosages  | `<QTY>`         |
+| Patient name values   | `<PATIENT>`     |
+| Provider name values  | `<PROVIDER>`    |
 
 What remains is the **structural skeleton** — section headers, field labels, separator lines, and placeholder tokens in the original order.
 
 #### Step 2 — Skeleton Comparison (`similarity_engine.py`)
-Every pair of skeletons is compared using a **two-component weighted score**:
+Every pair of skeletons of the same document type is compared using a **two-component weighted score**:
 
 ```
-Combined Score = 0.70 × Sequence Similarity + 0.30 × Feature Similarity
+Combined Score = 0.75 × Sequence Similarity + 0.25 × Line Count Ratio
 ```
 
-- **Sequence Similarity** (70 %): `difflib.SequenceMatcher` ratio on the full skeleton text. Catches same phrases in same order.
-- **Feature Similarity** (30 %): Compares a vector of structural properties:
-  - Number of non-empty lines
-  - Number of unique placeholder token types
-  - Number of ALL-CAPS section headers
-  - Presence of separator lines (`===`, `---`)
-  - Total character length
+- **Sequence Similarity** (75 %): `difflib.SequenceMatcher` ratio on the full skeleton text. Measures character and phrase alignment of the document layout.
+- **Line Count Ratio** (25 %): Compares proportional length (`min(lines_a, lines_b) / max(lines_a, lines_b)`) to verify structural height.
 
 #### Step 3 — Fraud Flagging (`fraud_flagger.py`)
 | Score range | Flag  | Action              |
@@ -159,4 +155,3 @@ The synthetic dataset deliberately simulates the fraud pattern:
 - **30 known fraud pairs** — recorded in `ground_truth.csv` (5 documents × C(5,2) = 10 pairs per cluster × 3 clusters).
 
 This design lets you measure detection accuracy objectively after each run.
-# AD_TERMINAL_APPLICATION

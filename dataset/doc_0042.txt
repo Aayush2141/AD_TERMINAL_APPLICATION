@@ -1,24 +1,21 @@
-##############################################
-#          LABORATORY TEST REPORT            #
-##############################################
-Report ID  : CLM122839
-Report Date: 09-01-2023
-----------------------------------------------
-Laboratory : LifeLine Laboratories
-Lab Reg.   : PRV1007
-----------------------------------------------
-Patient    : Om Singh
-Patient ID : PAT18330
-Referred By: Dr. Kavitha Sharma
-----------------------------------------------
-TEST RESULTS:
-  - Chest X-Ray: 199.72
-  - Blood Glucose (PP): 169.54
-  - Complete Blood Count (CBC): 85.54
-  - HBsAg (Hepatitis B): 22.04
-----------------------------------------------
-Total Charges: INR 1878
-----------------------------------------------
-Verified By: Lab Technician
-Pathologist: Dr. Kavitha Sharma
-##############################################
+OUTPATIENT PRESCRIPTION
+Ref No: CLM148225   Date Issued: 11-01-2024
+
+PATIENT
+  Full Name  : Chetan Mehta
+  Member ID  : PAT59131
+  Clinical Dx: Hypertension
+
+PRESCRIBER
+  Name       : Dr. Deepika Pillai
+  Facility   : Lotus Wellness Hub
+  License    : PRV1005
+
+DRUG LIST:
+  1. Dolo 650  x1  INR 200
+  2. Amoxicillin 500mg  x3  INR 227
+  3. Pantoprazole 40mg  x1  INR 126
+
+Dispensing Note: Dispense as written. No substitution.
+Rx Valid Until : 30 days from date of issue.
+Prescriber Seal: ___________________

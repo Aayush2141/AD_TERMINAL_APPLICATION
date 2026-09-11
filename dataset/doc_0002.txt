@@ -1,24 +1,23 @@
 ***** HEALTHCARE BILLING DOCUMENT *****
-Bill Ref   : CLM130513
-Bill Date  : 28-02-2024
+Bill Ref   : CLM974628
+Bill Date  : 12-03-2024
 ***************************************
 TO:
-  Patient Name : Tanvi Joshi
-  Patient ID   : PAT31319
+  Patient Name : Deepa Mehta
+  Patient ID   : PAT37460
 FROM:
   Issued By  : Zenith Medical Centre
   Reg. No.   : PRV2003
 ***************************************
 PRESCRIBED ITEMS / SERVICES:
-  - Amlodipine 5mg  x3  INR 2100
-  - Clopidogrel 75mg  x1  INR 596
-  - Montelukast 10mg  x3  INR 900
-  - Metformin 1000mg  x1  INR 523
-- Consultation        : INR 892
-- Investigations      : INR 1153
+  - Cetirizine 10mg  x1  INR 103
+  - Omeprazole 20mg  x3  INR 196
+  - Amlodipine 5mg  x2  INR 120
+- Consultation        : INR 461
+- Investigations      : INR 5022
 ***************************************
-GST Applied    : 18%  (INR 368)
-GRAND TOTAL    : INR 2413
+GST Applied    : 18%  (INR 986)
+GRAND TOTAL    : INR 6469
 ***************************************
-Authorised By  : Dr. Priyanka Pillai
+Authorised By  : Dr. Kavitha Iyer
 ***************************************

@@ -1,31 +1,5 @@
-flag,doc_id_a,doc_id_b,doc_type,combined_score,sequence_sim,feature_sim,provider_a,provider_b
-RED,doc_0000,doc_0004,invoice,98.3,0.976,0.9994,Apex Health Partners,Elite Diagnostics Hub
-RED,doc_0000,doc_0003,invoice,96.3,0.9637,0.9623,Apex Health Partners,Global Horizon Hospital
-RED,doc_0006,doc_0007,prescription,95.9,0.9564,0.9665,Crestview Healthcare,Pinnacle Pathology
-RED,doc_0012,doc_0013,lab,95.8,0.9415,0.995,Zenith Medical Centre,Global Horizon Hospital
-RED,doc_0001,doc_0003,invoice,95.5,0.95,0.9664,Sterling Care Clinic,Global Horizon Hospital
-RED,doc_0003,doc_0004,invoice,95.5,0.9522,0.9628,Global Horizon Hospital,Elite Diagnostics Hub
-RED,doc_0002,doc_0003,invoice,94.6,0.9369,0.9666,Zenith Medical Centre,Global Horizon Hospital
-RED,doc_0005,doc_0008,prescription,94.6,0.9409,0.9569,Silverline Medicare,Vanguard Clinical Labs
-RED,doc_0011,doc_0012,lab,93.9,0.929,0.9616,Sterling Care Clinic,Zenith Medical Centre
-RED,doc_0011,doc_0013,lab,93.9,0.9308,0.9569,Sterling Care Clinic,Global Horizon Hospital
-RED,doc_0000,doc_0001,invoice,93.4,0.9357,0.9309,Apex Health Partners,Sterling Care Clinic
-RED,doc_0002,doc_0004,invoice,93.4,0.935,0.9317,Zenith Medical Centre,Elite Diagnostics Hub
-RED,doc_0005,doc_0006,prescription,92.9,0.9309,0.9229,Silverline Medicare,Crestview Healthcare
-RED,doc_0000,doc_0002,invoice,92.6,0.9236,0.9311,Apex Health Partners,Zenith Medical Centre
-RED,doc_0001,doc_0004,invoice,92.5,0.9217,0.9314,Sterling Care Clinic,Elite Diagnostics Hub
-RED,doc_0010,doc_0012,lab,92.5,0.9089,0.9621,Apex Health Partners,Zenith Medical Centre
-RED,doc_0001,doc_0002,invoice,92.2,0.8883,0.9997,Sterling Care Clinic,Zenith Medical Centre
-RED,doc_0010,doc_0013,lab,92.1,0.9011,0.9669,Apex Health Partners,Global Horizon Hospital
-RED,doc_0010,doc_0014,lab,92.0,0.9024,0.9601,Apex Health Partners,Elite Diagnostics Hub
-RED,doc_0007,doc_0009,prescription,91.9,0.8856,0.9984,Pinnacle Pathology,Tr
-RED,doc_0010,doc_0011,lab,91.6,0.9111,0.9262,Apex Health Partners,Sterling Care Clinic
-RED,doc_0006,doc_0009,prescription,91.0,0.8871,0.9648,Crestview Healthcare,Tr
-RED,doc_0005,doc_0007,prescription,90.8,0.9165,0.8894,Silverline Medicare,Pinnacle Pathology
-RED,doc_0012,doc_0014,lab,90.8,0.9006,0.9248,Zenith Medical Centre,Elite Diagnostics Hub
-AMBER,doc_0005,doc_0009,prescription,89.8,0.903,0.8879,Silverline Medicare,Tr
-AMBER,doc_0006,doc_0008,prescription,89.5,0.8984,0.8874,Crestview Healthcare,Vanguard Clinical Labs
-AMBER,doc_0007,doc_0008,prescription,87.9,0.8893,0.8538,Pinnacle Pathology,Vanguard Clinical Labs
-AMBER,doc_0008,doc_0009,prescription,87.8,0.8886,0.8524,Vanguard Clinical Labs,Tr
-AMBER,doc_0011,doc_0014,lab,86.5,0.8537,0.8913,Sterling Care Clinic,Elite Diagnostics Hub
-AMBER,doc_0013,doc_0014,lab,85.9,0.8293,0.9292,Global Horizon Hospital,Elite Diagnostics Hub
+flag,doc_id_a,doc_id_b,score,provider_a,provider_b
+RED,doc_0000,doc_0003,98.2,Apex Health Partners,Global Horizon Hospital
+RED,doc_0000,doc_0004,95.7,Apex Health Partners,Elite Diagnostics Hub
+RED,doc_0000,doc_0002,95.4,Apex Health Partners,Zenith Medical Centre
+RED,doc_0000,doc_0001,91.5,Apex Health Partners,Sterling Care Clinic

@@ -1,27 +1,20 @@
-==========================================================
-                    MEDICAL INVOICE
-==========================================================
-Invoice No : CLM108856
-Date       : 12-04-2025
-----------------------------------------------------------
-Provider   : Apollo Health Clinic
-Provider ID: PRV1001
-----------------------------------------------------------
-Patient    : Bhavya Saxena
-Patient ID : PAT53583
-----------------------------------------------------------
-ITEMISED CHARGES:
-  - Montelukast 10mg  x2  INR 1524
-  - Clopidogrel 75mg  x2  INR 1392
-  - Atorvastatin 20mg  x1  INR 188
-  - Vitamin D3 60000IU  x1  INR 783
-----------------------------------------------------------
-Consultation Fee   : INR 1031
-Subtotal           : INR 6959
-GST (18%)          : INR 1438
-----------------------------------------------------------
-TOTAL AMOUNT DUE   : INR 9428
-==========================================================
-Attending Physician: Dr. Mohan Mehta
-Signature          : ___________________
-==========================================================
+OUTPATIENT PRESCRIPTION
+Ref No: CLM471371   Date Issued: 03-07-2024
+
+PATIENT
+  Full Name  : Simran Joshi
+  Member ID  : PAT15544
+  Clinical Dx: Type 2 Diabetes Mellitus
+
+PRESCRIBER
+  Name       : Dr. Deepika Pillai
+  Facility   : Lotus Wellness Hub
+  License    : PRV1005
+
+DRUG LIST:
+  1. Pantoprazole 40mg  x2  INR 141
+  2. Amlodipine 5mg  x1  INR 334
+
+Dispensing Note: Dispense as written. No substitution.
+Rx Valid Until : 30 days from date of issue.
+Prescriber Seal: ___________________

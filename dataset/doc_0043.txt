@@ -1,17 +1,19 @@
-LAB REPORT
-==========
-Ref: CLM110590   Date: 11-10-2023
-Lab: NovaMed Institute  Lic: PRV1008
-Amount: INR 2725
+EXPENSE VOUCHER
+Voucher Ref: CLM401603
+Date of Service: 22-09-2024
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Arjun Patel | Claimant ID: PAT67898
 
-Patient: Gaurav Trivedi  ID: PAT92978
-Doctor : Dr. Deepika Nambiar
+SERVICE ITEMS:
+  - Atorvastatin 20mg  x3  INR 275
+  - Amlodipine 5mg  x3  INR 203
+  - Metformin 1000mg  x2  INR 378
+  - Amoxicillin 500mg  x1  INR 198
 
-INVESTIGATIONS:
-  - Chest X-Ray: 80.05
-  - Liver Function Test (LFT): 146.06
-  - Urine Routine & Microscopy: 62.85
-  - Thyroid Stimulating Hormone (TSH): 62.85
-  - COVID-19 RT-PCR: 51.35
+COST SUMMARY:
+  Consultation Fee ............... INR 1387
+  Tests & Medicines .............. INR 3875
+  GST @ 18% ........................ INR 947
 
-Report validated and digitally signed.
+Net Payable: INR 6209
+Certified by: Dr. Vikram Agarwal

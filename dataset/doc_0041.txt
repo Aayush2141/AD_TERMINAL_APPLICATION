@@ -1,19 +1,15 @@
-EXPENSE VOUCHER
-Voucher Ref: CLM143714
-Date of Service: 08-03-2025
-Facility: Greenleaf Hospital | Facility Code: PRV1003
-Claimant: Bharat Kapoor | Claimant ID: PAT37152
+E-PRESCRIPTION
+TxnID: CLM592296  |  Date: 26-05-2024  |  [QR-CODE: CLM592296]
+Physician : Dr. Kavitha Iyer   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Deepa Nair   UHI: PAT62098
+Ailment: Type 2 Diabetes Mellitus
 
-SERVICE ITEMS:
-  - Dolo 650  x1  INR 333
-  - Atorvastatin 20mg  x1  INR 183
-  - Vitamin D3 60000IU  x3  INR 918
-  - Paracetamol 650mg  x1  INR 162
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Atorvastatin 20mg  x1  INR 305                          | As directed |
+  | Cetirizine 10mg  x1  INR 349                            | As directed |
+  +----------------------------------------------------------+-------------+
 
-COST SUMMARY:
-  Consultation Fee ............... INR 343
-  Tests & Medicines .............. INR 914
-  GST @ 18% ........................ INR 226
-
-Net Payable: INR 1483
-Certified by: Dr. Deepika Agarwal
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

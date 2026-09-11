@@ -1,18 +1,19 @@
-E-PRESCRIPTION
-TxnID: CLM167569  |  Date: 05-06-2025  |  [QR-CODE: CLM167569]
-Physician : Dr. Deepika Pillai   Institute: BlueCross Pharmacy   Reg: PRV1006
-Patient Name: Karan Trivedi   UHI: PAT49221
-Ailment: Vitamin D Deficiency
+EXPENSE VOUCHER
+Voucher Ref: CLM932463
+Date of Service: 20-08-2024
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Aditi Patel | Claimant ID: PAT75513
 
-  +----------------------------------------------------------+-------------+
-  | MEDICINE / DOSE                                          | DURATION    |
-  +----------------------------------------------------------+-------------+
-  | Amlodipine 5mg  x2  INR 778                             | As directed |
-  | Paracetamol 650mg  x3  INR 486                          | As directed |
-  | Pantoprazole 40mg  x2  INR 1294                         | As directed |
-  | Azithromycin 250mg  x2  INR 1584                        | As directed |
-  | Amoxicillin 500mg  x3  INR 2082                         | As directed |
-  +----------------------------------------------------------+-------------+
+SERVICE ITEMS:
+  - Amoxicillin 500mg  x1  INR 156
+  - Metformin 1000mg  x3  INR 391
+  - Amlodipine 5mg  x3  INR 296
+  - Atorvastatin 20mg  x1  INR 227
 
-REGULATORY NOTE: This e-prescription is system-generated and legally valid.
-Physician Digital Signature: ___________________
+COST SUMMARY:
+  Consultation Fee ............... INR 1260
+  Tests & Medicines .............. INR 4174
+  GST @ 18% ........................ INR 978
+
+Net Payable: INR 6412
+Certified by: Dr. Suresh Sharma

@@ -1,22 +1,25 @@
-##############################################
-#          LABORATORY TEST REPORT            #
-##############################################
-Report ID  : CLM152045
-Report Date: 28-12-2023
-----------------------------------------------
-Laboratory : LifeLine Laboratories
-Lab Reg.   : PRV1007
-----------------------------------------------
-Patient    : Manav Verma
-Patient ID : PAT51033
-Referred By: Dr. Deepika Iyer
-----------------------------------------------
-TEST RESULTS:
-  - Liver Function Test (LFT): 117.98
-  - Urine Routine & Microscopy: 105.03
-----------------------------------------------
-Total Charges: INR 2495
-----------------------------------------------
-Verified By: Lab Technician
-Pathologist: Dr. Deepika Iyer
-##############################################
+==========================================================
+                    MEDICAL INVOICE
+==========================================================
+Invoice No : CLM830316
+Date       : 18-07-2024
+----------------------------------------------------------
+Provider   : Apollo Health Clinic
+Provider ID: PRV1001
+----------------------------------------------------------
+Patient    : Hema Joshi
+Patient ID : PAT30253
+----------------------------------------------------------
+ITEMISED CHARGES:
+  - Pantoprazole 40mg  x1  INR 129
+  - Dolo 650  x1  INR 355
+----------------------------------------------------------
+Consultation Fee   : INR 586
+Subtotal           : INR 871
+GST (18%)          : INR 262
+----------------------------------------------------------
+TOTAL AMOUNT DUE   : INR 1719
+==========================================================
+Attending Physician: Dr. Deepika Pillai
+Signature          : ___________________
+==========================================================

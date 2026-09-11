@@ -1,17 +1,15 @@
-LAB REPORT
-==========
-Ref: CLM154378   Date: 14-06-2025
-Lab: NovaMed Institute  Lic: PRV1008
-Amount: INR 2081
+E-PRESCRIPTION
+TxnID: CLM871711  |  Date: 06-11-2024  |  [QR-CODE: CLM871711]
+Physician : Dr. Kavitha Iyer   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Aditi Gupta   UHI: PAT77561
+Ailment: Vitamin D Deficiency
 
-Patient: Aditi Kumar  ID: PAT65069
-Doctor : Dr. Suresh Desai
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Pantoprazole 40mg  x1  INR 300                          | As directed |
+  | Amlodipine 5mg  x3  INR 390                             | As directed |
+  +----------------------------------------------------------+-------------+
 
-INVESTIGATIONS:
-  - Complete Blood Count (CBC): 159.73
-  - Urine Routine & Microscopy: 144.97
-  - Thyroid Stimulating Hormone (TSH): 168.18
-  - Blood Glucose (PP): 183.95
-  - Serum Creatinine: 196.15
-
-Report validated and digitally signed.
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

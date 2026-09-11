@@ -1,22 +1,24 @@
-OUTPATIENT PRESCRIPTION
-Ref No: CLM162992   Date Issued: 28-06-2025
-
-PATIENT
-  Full Name  : Varun Bhatia
-  Member ID  : PAT26341
-  Clinical Dx: Upper Respiratory Tract Infection
-
-PRESCRIBER
-  Name       : Dr. Vikram Krishnamurthy
-  Facility   : Lotus Wellness Hub
-  License    : PRV1005
-
-DRUG LIST:
-  1. Azithromycin 250mg  x1  INR 277
-  2. Ibuprofen 400mg  x2  INR 814
-  3. Atorvastatin 20mg  x1  INR 474
-  4. Cetirizine 10mg  x1  INR 455
-
-Dispensing Note: Dispense as written. No substitution.
-Rx Valid Until : 30 days from date of issue.
-Prescriber Seal: ___________________
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM386544
+Report Date: 23-05-2024
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Zara Mehta
+Patient ID : PAT56009
+Referred By: Dr. Rajesh Mehta
+----------------------------------------------
+TEST RESULTS:
+  - Serum Creatinine: 91.74
+  - Kidney Function Test (KFT): 99.02
+  - Thyroid Stimulating Hormone (TSH): 104.33
+  - Complete Blood Count (CBC): 5.31
+----------------------------------------------
+Total Charges: INR 2952
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Rajesh Mehta
+##############################################

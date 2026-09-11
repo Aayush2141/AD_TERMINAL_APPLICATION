@@ -1,27 +1,24 @@
-==========================================================
-                    MEDICAL INVOICE
-==========================================================
-Invoice No : CLM159029
-Date       : 25-09-2024
-----------------------------------------------------------
-Provider   : Apollo Health Clinic
-Provider ID: PRV1001
-----------------------------------------------------------
-Patient    : Uday Trivedi
-Patient ID : PAT25572
-----------------------------------------------------------
-ITEMISED CHARGES:
-  - Dolo 650  x1  INR 253
-  - Losartan 50mg  x3  INR 1713
-  - Ibuprofen 400mg  x2  INR 1124
-  - Montelukast 10mg  x1  INR 96
-----------------------------------------------------------
-Consultation Fee   : INR 1091
-Subtotal           : INR 4630
-GST (18%)          : INR 1029
-----------------------------------------------------------
-TOTAL AMOUNT DUE   : INR 6750
-==========================================================
-Attending Physician: Dr. Mohan Krishnamurthy
-Signature          : ___________________
-==========================================================
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM781533
+Report Date: 11-03-2024
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Arjun Sharma
+Patient ID : PAT47601
+Referred By: Dr. Deepika Pillai
+----------------------------------------------
+TEST RESULTS:
+  - HbA1c: 56.86
+  - Lipid Profile: 5.2
+  - Liver Function Test (LFT): 139.69
+  - Complete Blood Count (CBC): 126.04
+----------------------------------------------
+Total Charges: INR 9331
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Deepika Pillai
+##############################################

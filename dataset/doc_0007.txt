@@ -1,23 +1,21 @@
 ==================================================
                    PRESCRIPTION
 ==================================================
-Rx No.     : CLM192779
-Date       : 21-01-2023
+Rx No.     : CLM122056
+Date       : 19-09-2024
 --------------------------------------------------
-Doctor     : Dr. Arun Agarwal
+Doctor     : Dr. Rajesh Mehta
 Clinic     : Pinnacle Pathology
 Reg. No.   : PRV2008
 --------------------------------------------------
-Patient    : Aditi Iyer
-Patient ID : PAT19287
-Diagnosis  : Dyslipidemia
+Patient    : Bhavya Nair
+Patient ID : PAT38864
+Diagnosis  : Type 2 Diabetes Mellitus
 --------------------------------------------------
 MEDICATIONS PRESCRIBED:
-  - Omeprazole 20mg  x3  INR 1602
-  - Ibuprofen 400mg  x1  INR 534
-  - Atorvastatin 20mg  x2  INR 488
-  - Amlodipine 5mg  x1  INR 149
-  - Paracetamol 650mg  x3  INR 1473
+  - Amlodipine 5mg  x3  INR 390
+  - Atorvastatin 20mg  x2  INR 188
+  - Dolo 650  x3  INR 182
 --------------------------------------------------
 Instructions: Take as directed. Avoid alcohol.
 Follow-up   : After 7 days or as needed.

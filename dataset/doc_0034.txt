@@ -1,18 +1,17 @@
-E-PRESCRIPTION
-TxnID: CLM185462  |  Date: 05-08-2023  |  [QR-CODE: CLM185462]
-Physician : Dr. Kavitha Krishnamurthy   Institute: BlueCross Pharmacy   Reg: PRV1006
-Patient Name: Rahul Iyer   UHI: PAT23154
-Ailment: Vitamin D Deficiency
+EXPENSE VOUCHER
+Voucher Ref: CLM134225
+Date of Service: 08-05-2024
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Priya Gupta | Claimant ID: PAT69510
 
-  +----------------------------------------------------------+-------------+
-  | MEDICINE / DOSE                                          | DURATION    |
-  +----------------------------------------------------------+-------------+
-  | Amoxicillin 500mg  x1  INR 126                          | As directed |
-  | Amlodipine 5mg  x2  INR 642                             | As directed |
-  | Atorvastatin 20mg  x2  INR 1376                         | As directed |
-  | Cetirizine 10mg  x3  INR 1371                           | As directed |
-  | Clopidogrel 75mg  x3  INR 396                           | As directed |
-  +----------------------------------------------------------+-------------+
+SERVICE ITEMS:
+  - Atorvastatin 20mg  x1  INR 362
+  - Omeprazole 20mg  x1  INR 160
 
-REGULATORY NOTE: This e-prescription is system-generated and legally valid.
-Physician Digital Signature: ___________________
+COST SUMMARY:
+  Consultation Fee ............... INR 841
+  Tests & Medicines .............. INR 5910
+  GST @ 18% ........................ INR 1215
+
+Net Payable: INR 7966
+Certified by: Dr. Rajesh Mehta

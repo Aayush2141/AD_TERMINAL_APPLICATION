@@ -1,23 +1,16 @@
-##############################################
-#          LABORATORY TEST REPORT            #
-##############################################
-Report ID  : CLM100337
-Report Date: 10-12-2024
-----------------------------------------------
-Laboratory : LifeLine Laboratories
-Lab Reg.   : PRV1007
-----------------------------------------------
-Patient    : Rahul Pillai
-Patient ID : PAT29476
-Referred By: Dr. Kavitha Nambiar
-----------------------------------------------
-TEST RESULTS:
-  - Dengue NS1 Antigen: 9.21
-  - HBsAg (Hepatitis B): 149.07
-  - Urine Routine & Microscopy: 141.19
-----------------------------------------------
-Total Charges: INR 9520
-----------------------------------------------
-Verified By: Lab Technician
-Pathologist: Dr. Kavitha Nambiar
-##############################################
+LAB REPORT
+==========
+Ref: CLM420214   Date: 19-10-2024
+Lab: NovaMed Institute  Lic: PRV1008
+Amount: INR 2538
+
+Patient: Aarav Nair  ID: PAT23006
+Doctor : Dr. Sunita Rao
+
+INVESTIGATIONS:
+  - Kidney Function Test (KFT): 68.13
+  - Serum Creatinine: 66.97
+  - Lipid Profile: 129.16
+  - Liver Function Test (LFT): 148.51
+
+Report validated and digitally signed.

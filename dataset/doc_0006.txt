@@ -1,23 +1,22 @@
 ==================================================
                    PRESCRIPTION
 ==================================================
-Rx No.     : CLM109072
-Date       : 25-09-2023
+Rx No.     : CLM694916
+Date       : 03-02-2024
 --------------------------------------------------
-Doctor     : Dr. Vikram Nambiar
+Doctor     : Dr. Suresh Sharma
 Clinic     : Crestview Healthcare
 Reg. No.   : PRV2007
 --------------------------------------------------
-Patient    : Nisha Kapoor
-Patient ID : PAT31643
-Diagnosis  : Anxiety Disorder
+Patient    : Priya Shah
+Patient ID : PAT19071
+Diagnosis  : Hypertension
 --------------------------------------------------
 MEDICATIONS PRESCRIBED:
-  - Omeprazole 20mg  x3  INR 1107
-  - Ibuprofen 400mg  x2  INR 1474
-  - Dolo 650  x3  INR 1296
-  - Amlodipine 5mg  x2  INR 1158
-  - Vitamin D3 60000IU  x2  INR 346
+  - Amlodipine 5mg  x1  INR 356
+  - Omeprazole 20mg  x3  INR 80
+  - Metformin 1000mg  x3  INR 245
+  - Atorvastatin 20mg  x2  INR 89
 --------------------------------------------------
 Instructions: Take as directed. Avoid alcohol.
 Follow-up   : After 7 days or as needed.

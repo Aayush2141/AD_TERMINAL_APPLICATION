@@ -1,20 +1,20 @@
 ==================================================
                    PRESCRIPTION
 ==================================================
-Rx No.     : CLM114323
-Date       : 08-04-2023
+Rx No.     : CLM595948
+Date       : 26-07-2024
 --------------------------------------------------
-Doctor     : Dr. Vikram Sharma
+Doctor     : Dr. Kavitha Iyer
 Clinic     : Vanguard Clinical Labs
 Reg. No.   : PRV2009
 --------------------------------------------------
-Patient    : Chetan Choudhary
-Patient ID : PAT34050
-Diagnosis  : Acute Gastroenteritis
+Patient    : Bhavya Patel
+Patient ID : PAT22704
+Diagnosis  : Upper Respiratory Infection
 --------------------------------------------------
 MEDICATIONS PRESCRIBED:
-  - Azithromycin 250mg  x3  INR 450
-  - Dolo 650  x1  INR 717
+  - Amoxicillin 500mg  x1  INR 343
+  - Cetirizine 10mg  x1  INR 222
 --------------------------------------------------
 Instructions: Take as directed. Avoid alcohol.
 Follow-up   : After 7 days or as needed.

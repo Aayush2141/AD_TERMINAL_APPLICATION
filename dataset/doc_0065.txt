@@ -1,23 +1,14 @@
-OUTPATIENT PRESCRIPTION
-Ref No: CLM103719   Date Issued: 03-01-2025
+LAB REPORT
+==========
+Ref: CLM908320   Date: 18-12-2024
+Lab: NovaMed Institute  Lic: PRV1008
+Amount: INR 3118
 
-PATIENT
-  Full Name  : Gaurav Kumar
-  Member ID  : PAT84991
-  Clinical Dx: Type 2 Diabetes Mellitus
+Patient: Zara Rao  ID: PAT14947
+Doctor : Dr. Kavitha Iyer
 
-PRESCRIBER
-  Name       : Dr. Suresh Desai
-  Facility   : Lotus Wellness Hub
-  License    : PRV1005
+INVESTIGATIONS:
+  - Complete Blood Count (CBC): 126.82
+  - HbA1c: 16.07
 
-DRUG LIST:
-  1. Vitamin D3 60000IU  x2  INR 1088
-  2. Clopidogrel 75mg  x1  INR 751
-  3. Ibuprofen 400mg  x2  INR 708
-  4. Pantoprazole 40mg  x2  INR 248
-  5. Montelukast 10mg  x3  INR 333
-
-Dispensing Note: Dispense as written. No substitution.
-Rx Valid Until : 30 days from date of issue.
-Prescriber Seal: ___________________
+Report validated and digitally signed.

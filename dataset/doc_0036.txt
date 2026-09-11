@@ -1,17 +1,16 @@
 LAB REPORT
 ==========
-Ref: CLM176436   Date: 05-04-2024
+Ref: CLM615611   Date: 03-08-2024
 Lab: NovaMed Institute  Lic: PRV1008
-Amount: INR 6335
+Amount: INR 7557
 
-Patient: Manav Rao  ID: PAT97404
-Doctor : Dr. Rajesh Sharma
+Patient: Deepa Kumar  ID: PAT53687
+Doctor : Dr. Vikram Agarwal
 
 INVESTIGATIONS:
-  - Dengue NS1 Antigen: 21.78
-  - Kidney Function Test (KFT): 76.58
-  - Liver Function Test (LFT): 72.11
-  - Urine Routine & Microscopy: 59.53
-  - Chest X-Ray: 140.01
+  - Complete Blood Count (CBC): 137.49
+  - Lipid Profile: 28.04
+  - Liver Function Test (LFT): 88.21
+  - Kidney Function Test (KFT): 95.58
 
 Report validated and digitally signed.

@@ -1,28 +1,15 @@
-==========================================================
-                    MEDICAL INVOICE
-==========================================================
-Invoice No : CLM182545
-Date       : 19-04-2025
-----------------------------------------------------------
-Provider   : Apollo Health Clinic
-Provider ID: PRV1001
-----------------------------------------------------------
-Patient    : Nisha Malhotra
-Patient ID : PAT41979
-----------------------------------------------------------
-ITEMISED CHARGES:
-  - Omeprazole 20mg  x2  INR 202
-  - Atorvastatin 20mg  x3  INR 915
-  - Dolo 650  x1  INR 517
-  - Amlodipine 5mg  x1  INR 525
-  - Ibuprofen 400mg  x3  INR 1779
-----------------------------------------------------------
-Consultation Fee   : INR 1232
-Subtotal           : INR 3895
-GST (18%)          : INR 922
-----------------------------------------------------------
-TOTAL AMOUNT DUE   : INR 6049
-==========================================================
-Attending Physician: Dr. Mohan Mehta
-Signature          : ___________________
-==========================================================
+E-PRESCRIPTION
+TxnID: CLM557592  |  Date: 20-09-2024  |  [QR-CODE: CLM557592]
+Physician : Dr. Sunita Rao   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Aditi Kumar   UHI: PAT85574
+Ailment: Acute Gastroenteritis
+
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Metformin 1000mg  x1  INR 377                           | As directed |
+  | Pantoprazole 40mg  x2  INR 99                           | As directed |
+  +----------------------------------------------------------+-------------+
+
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

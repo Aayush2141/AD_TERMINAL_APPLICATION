@@ -1,26 +1,25 @@
 >>>>>>>>>> DIAGNOSTIC LABORATORY REPORT <<<<<<<<<<
 
 SAMPLE DETAILS
-  Collected On : 23-06-2023
-  Reported On  : 23-06-2023
-  Sample Ref   : CLM127608
+  Collected On : 11-02-2024
+  Reported On  : 11-02-2024
+  Sample Ref   : CLM579434
 
 LABORATORY INFO
   Name         : Zenith Medical Centre
   Accred. No.  : PRV2003
 
 PATIENT INFO
-  Name         : Chitra Rao
-  UHID         : PAT76244
-  Referring Dr : Dr. Kavitha Chandra
+  Name         : Aarav Shah
+  UHID         : PAT91416
+  Referring Dr : Dr. Suresh Sharma
 
 TEST FINDINGS:
-  01. Blood Glucose (PP): 148.38
-  02. Kidney Function Test (KFT): 110.56
-  03. HbA1c: 85.82
+  01. HbA1c: 20.5
+  02. Liver Function Test (LFT): 97.18
 
 BILLING SUMMARY
-  Amount Due   : INR 7470
+  Amount Due   : INR 7025
   All results reviewed by a certified pathologist.
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<

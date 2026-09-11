@@ -1,20 +1,25 @@
-OUTPATIENT PRESCRIPTION
-Ref No: CLM166769   Date Issued: 13-11-2025
-
-PATIENT
-  Full Name  : Bhavya Rao
-  Member ID  : PAT33405
-  Clinical Dx: Type 2 Diabetes Mellitus
-
-PRESCRIBER
-  Name       : Dr. Deepika Chandra
-  Facility   : Lotus Wellness Hub
-  License    : PRV1005
-
-DRUG LIST:
-  1. Paracetamol 650mg  x2  INR 1592
-  2. Cetirizine 10mg  x2  INR 992
-
-Dispensing Note: Dispense as written. No substitution.
-Rx Valid Until : 30 days from date of issue.
-Prescriber Seal: ___________________
+==========================================================
+                    MEDICAL INVOICE
+==========================================================
+Invoice No : CLM233636
+Date       : 02-05-2024
+----------------------------------------------------------
+Provider   : Apollo Health Clinic
+Provider ID: PRV1001
+----------------------------------------------------------
+Patient    : Deepa Kapoor
+Patient ID : PAT15229
+----------------------------------------------------------
+ITEMISED CHARGES:
+  - Pantoprazole 40mg  x3  INR 306
+  - Atorvastatin 20mg  x3  INR 298
+----------------------------------------------------------
+Consultation Fee   : INR 983
+Subtotal           : INR 6817
+GST (18%)          : INR 1404
+----------------------------------------------------------
+TOTAL AMOUNT DUE   : INR 9204
+==========================================================
+Attending Physician: Dr. Vikram Agarwal
+Signature          : ___________________
+==========================================================

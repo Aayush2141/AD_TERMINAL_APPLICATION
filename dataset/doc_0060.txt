@@ -1,20 +1,16 @@
-OUTPATIENT PRESCRIPTION
-Ref No: CLM142982   Date Issued: 22-05-2024
+E-PRESCRIPTION
+TxnID: CLM776796  |  Date: 27-03-2024  |  [QR-CODE: CLM776796]
+Physician : Dr. Vikram Agarwal   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Bhavya Patel   UHI: PAT29194
+Ailment: Hypertension
 
-PATIENT
-  Full Name  : Varun Choudhary
-  Member ID  : PAT31842
-  Clinical Dx: Mild Anaemia
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Omeprazole 20mg  x1  INR 119                            | As directed |
+  | Cetirizine 10mg  x3  INR 138                            | As directed |
+  | Paracetamol 650mg  x3  INR 341                          | As directed |
+  +----------------------------------------------------------+-------------+
 
-PRESCRIBER
-  Name       : Dr. Kavitha Pillai
-  Facility   : Lotus Wellness Hub
-  License    : PRV1005
-
-DRUG LIST:
-  1. Amlodipine 5mg  x2  INR 1358
-  2. Montelukast 10mg  x2  INR 662
-
-Dispensing Note: Dispense as written. No substitution.
-Rx Valid Until : 30 days from date of issue.
-Prescriber Seal: ___________________
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

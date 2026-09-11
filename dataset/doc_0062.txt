@@ -1,28 +1,20 @@
-==========================================================
-                    MEDICAL INVOICE
-==========================================================
-Invoice No : CLM134117
-Date       : 23-08-2023
-----------------------------------------------------------
-Provider   : Apollo Health Clinic
-Provider ID: PRV1001
-----------------------------------------------------------
-Patient    : Varun Pillai
-Patient ID : PAT36237
-----------------------------------------------------------
-ITEMISED CHARGES:
-  - Atorvastatin 20mg  x2  INR 1466
-  - Amlodipine 5mg  x2  INR 1552
-  - Azithromycin 250mg  x1  INR 613
-  - Metformin 1000mg  x3  INR 1041
-  - Clopidogrel 75mg  x2  INR 422
-----------------------------------------------------------
-Consultation Fee   : INR 836
-Subtotal           : INR 6848
-GST (18%)          : INR 1383
-----------------------------------------------------------
-TOTAL AMOUNT DUE   : INR 9067
-==========================================================
-Attending Physician: Dr. Sunita Bose
-Signature          : ___________________
-==========================================================
+OUTPATIENT PRESCRIPTION
+Ref No: CLM949153   Date Issued: 19-11-2024
+
+PATIENT
+  Full Name  : Bhavya Mehta
+  Member ID  : PAT89299
+  Clinical Dx: Hypothyroidism
+
+PRESCRIBER
+  Name       : Dr. Deepika Pillai
+  Facility   : Lotus Wellness Hub
+  License    : PRV1005
+
+DRUG LIST:
+  1. Amoxicillin 500mg  x2  INR 119
+  2. Cetirizine 10mg  x3  INR 126
+
+Dispensing Note: Dispense as written. No substitution.
+Rx Valid Until : 30 days from date of issue.
+Prescriber Seal: ___________________

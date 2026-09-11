@@ -1,18 +1,23 @@
-EXPENSE VOUCHER
-Voucher Ref: CLM184676
-Date of Service: 22-07-2025
-Facility: Greenleaf Hospital | Facility Code: PRV1003
-Claimant: Jyoti Nair | Claimant ID: PAT33627
-
-SERVICE ITEMS:
-  - Omeprazole 20mg  x1  INR 352
-  - Atorvastatin 20mg  x1  INR 569
-  - Montelukast 10mg  x3  INR 1767
-
-COST SUMMARY:
-  Consultation Fee ............... INR 1378
-  Tests & Medicines .............. INR 1265
-  GST @ 18% ........................ INR 475
-
-Net Payable: INR 3118
-Certified by: Dr. Anitha Pillai
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM797416
+Report Date: 09-06-2024
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Arjun Iyer
+Patient ID : PAT72163
+Referred By: Dr. Rajesh Mehta
+----------------------------------------------
+TEST RESULTS:
+  - Serum Creatinine: 62.98
+  - Liver Function Test (LFT): 15.17
+  - Thyroid Stimulating Hormone (TSH): 64.59
+----------------------------------------------
+Total Charges: INR 6040
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Rajesh Mehta
+##############################################

@@ -1,16 +1,14 @@
 E-PRESCRIPTION
-TxnID: CLM147824  |  Date: 24-03-2023  |  [QR-CODE: CLM147824]
-Physician : Dr. Anitha Bose   Institute: BlueCross Pharmacy   Reg: PRV1006
-Patient Name: Ishaan Choudhary   UHI: PAT33021
-Ailment: Vitamin D Deficiency
+TxnID: CLM335615  |  Date: 27-02-2024  |  [QR-CODE: CLM335615]
+Physician : Dr. Sunita Rao   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Farida Patel   UHI: PAT94896
+Ailment: Upper Respiratory Infection
 
   +----------------------------------------------------------+-------------+
   | MEDICINE / DOSE                                          | DURATION    |
   +----------------------------------------------------------+-------------+
-  | Ibuprofen 400mg  x2  INR 1086                           | As directed |
-  | Vitamin D3 60000IU  x2  INR 792                         | As directed |
-  | Pantoprazole 40mg  x1  INR 529                          | As directed |
-  | Atorvastatin 20mg  x1  INR 194                          | As directed |
+  | Omeprazole 20mg  x3  INR 147                            | As directed |
+  | Pantoprazole 40mg  x2  INR 304                          | As directed |
   +----------------------------------------------------------+-------------+
 
 REGULATORY NOTE: This e-prescription is system-generated and legally valid.

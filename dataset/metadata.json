@@ -1,562 +1,562 @@
 {
   "doc_0000": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0000.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0000.txt",
     "doc_type": "invoice",
     "template_key": "invoice_1",
     "provider": "Apex Health Partners",
     "is_fraud": true
   },
   "doc_0001": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0001.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0001.txt",
     "doc_type": "invoice",
     "template_key": "invoice_1",
     "provider": "Sterling Care Clinic",
     "is_fraud": true
   },
   "doc_0002": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0002.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0002.txt",
     "doc_type": "invoice",
     "template_key": "invoice_1",
     "provider": "Zenith Medical Centre",
     "is_fraud": true
   },
   "doc_0003": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0003.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0003.txt",
     "doc_type": "invoice",
     "template_key": "invoice_1",
     "provider": "Global Horizon Hospital",
     "is_fraud": true
   },
   "doc_0004": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0004.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0004.txt",
     "doc_type": "invoice",
     "template_key": "invoice_1",
     "provider": "Elite Diagnostics Hub",
     "is_fraud": true
   },
   "doc_0005": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0005.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0005.txt",
     "doc_type": "prescription",
     "template_key": "prescription_0",
     "provider": "Silverline Medicare",
     "is_fraud": true
   },
   "doc_0006": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0006.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0006.txt",
     "doc_type": "prescription",
     "template_key": "prescription_0",
     "provider": "Crestview Healthcare",
     "is_fraud": true
   },
   "doc_0007": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0007.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0007.txt",
     "doc_type": "prescription",
     "template_key": "prescription_0",
     "provider": "Pinnacle Pathology",
     "is_fraud": true
   },
   "doc_0008": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0008.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0008.txt",
     "doc_type": "prescription",
     "template_key": "prescription_0",
     "provider": "Vanguard Clinical Labs",
     "is_fraud": true
   },
   "doc_0009": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0009.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0009.txt",
     "doc_type": "prescription",
     "template_key": "prescription_0",
     "provider": "Trident Specialty Care",
     "is_fraud": true
   },
   "doc_0010": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0010.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0010.txt",
     "doc_type": "lab",
     "template_key": "lab_2",
     "provider": "Apex Health Partners",
     "is_fraud": true
   },
   "doc_0011": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0011.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0011.txt",
     "doc_type": "lab",
     "template_key": "lab_2",
     "provider": "Sterling Care Clinic",
     "is_fraud": true
   },
   "doc_0012": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0012.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0012.txt",
     "doc_type": "lab",
     "template_key": "lab_2",
     "provider": "Zenith Medical Centre",
     "is_fraud": true
   },
   "doc_0013": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0013.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0013.txt",
     "doc_type": "lab",
     "template_key": "lab_2",
     "provider": "Global Horizon Hospital",
     "is_fraud": true
   },
   "doc_0014": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0014.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0014.txt",
     "doc_type": "lab",
     "template_key": "lab_2",
     "provider": "Elite Diagnostics Hub",
     "is_fraud": true
   },
   "doc_0015": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0015.txt",
-    "doc_type": "prescription",
-    "template_key": "prescription_1",
-    "provider": "Lotus Wellness Hub",
-    "is_fraud": false
-  },
-  "doc_0016": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0016.txt",
-    "doc_type": "prescription",
-    "template_key": "prescription_2",
-    "provider": "BlueCross Pharmacy",
-    "is_fraud": false
-  },
-  "doc_0017": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0017.txt",
-    "doc_type": "lab",
-    "template_key": "lab_0",
-    "provider": "LifeLine Laboratories",
-    "is_fraud": false
-  },
-  "doc_0018": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0018.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0015.txt",
     "doc_type": "invoice",
     "template_key": "invoice_0",
     "provider": "Apollo Health Clinic",
     "is_fraud": false
   },
-  "doc_0019": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0019.txt",
-    "doc_type": "invoice",
-    "template_key": "invoice_2",
-    "provider": "Greenleaf Hospital",
-    "is_fraud": false
-  },
-  "doc_0020": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0020.txt",
+  "doc_0016": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0016.txt",
     "doc_type": "lab",
     "template_key": "lab_1",
     "provider": "NovaMed Institute",
     "is_fraud": false
   },
+  "doc_0017": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0017.txt",
+    "doc_type": "lab",
+    "template_key": "lab_1",
+    "provider": "NovaMed Institute",
+    "is_fraud": false
+  },
+  "doc_0018": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0018.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_2",
+    "provider": "BlueCross Pharmacy",
+    "is_fraud": false
+  },
+  "doc_0019": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0019.txt",
+    "doc_type": "invoice",
+    "template_key": "invoice_0",
+    "provider": "Apollo Health Clinic",
+    "is_fraud": false
+  },
+  "doc_0020": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0020.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_2",
+    "provider": "BlueCross Pharmacy",
+    "is_fraud": false
+  },
   "doc_0021": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0021.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0021.txt",
     "doc_type": "lab",
     "template_key": "lab_0",
     "provider": "LifeLine Laboratories",
     "is_fraud": false
   },
   "doc_0022": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0022.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0022.txt",
     "doc_type": "invoice",
     "template_key": "invoice_2",
     "provider": "Greenleaf Hospital",
     "is_fraud": false
   },
   "doc_0023": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0023.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0023.txt",
     "doc_type": "prescription",
-    "template_key": "prescription_1",
-    "provider": "Lotus Wellness Hub",
+    "template_key": "prescription_2",
+    "provider": "BlueCross Pharmacy",
     "is_fraud": false
   },
   "doc_0024": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0024.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0024.txt",
     "doc_type": "lab",
     "template_key": "lab_1",
     "provider": "NovaMed Institute",
     "is_fraud": false
   },
   "doc_0025": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0025.txt",
-    "doc_type": "lab",
-    "template_key": "lab_0",
-    "provider": "LifeLine Laboratories",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0025.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_2",
+    "provider": "BlueCross Pharmacy",
     "is_fraud": false
   },
   "doc_0026": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0026.txt",
-    "doc_type": "lab",
-    "template_key": "lab_1",
-    "provider": "NovaMed Institute",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0026.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_1",
+    "provider": "Lotus Wellness Hub",
     "is_fraud": false
   },
   "doc_0027": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0027.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0027.txt",
     "doc_type": "invoice",
-    "template_key": "invoice_0",
-    "provider": "Apollo Health Clinic",
+    "template_key": "invoice_2",
+    "provider": "Greenleaf Hospital",
     "is_fraud": false
   },
   "doc_0028": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0028.txt",
-    "doc_type": "lab",
-    "template_key": "lab_0",
-    "provider": "LifeLine Laboratories",
-    "is_fraud": false
-  },
-  "doc_0029": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0029.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0028.txt",
     "doc_type": "lab",
     "template_key": "lab_1",
     "provider": "NovaMed Institute",
     "is_fraud": false
   },
-  "doc_0030": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0030.txt",
+  "doc_0029": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0029.txt",
     "doc_type": "lab",
     "template_key": "lab_0",
     "provider": "LifeLine Laboratories",
     "is_fraud": false
   },
+  "doc_0030": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0030.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_1",
+    "provider": "Lotus Wellness Hub",
+    "is_fraud": false
+  },
   "doc_0031": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0031.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0031.txt",
     "doc_type": "lab",
     "template_key": "lab_0",
     "provider": "LifeLine Laboratories",
     "is_fraud": false
   },
   "doc_0032": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0032.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0032.txt",
+    "doc_type": "invoice",
+    "template_key": "invoice_0",
+    "provider": "Apollo Health Clinic",
+    "is_fraud": false
+  },
+  "doc_0033": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0033.txt",
     "doc_type": "lab",
     "template_key": "lab_1",
     "provider": "NovaMed Institute",
     "is_fraud": false
   },
-  "doc_0033": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0033.txt",
-    "doc_type": "lab",
-    "template_key": "lab_0",
-    "provider": "LifeLine Laboratories",
-    "is_fraud": false
-  },
   "doc_0034": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0034.txt",
-    "doc_type": "prescription",
-    "template_key": "prescription_2",
-    "provider": "BlueCross Pharmacy",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0034.txt",
+    "doc_type": "invoice",
+    "template_key": "invoice_2",
+    "provider": "Greenleaf Hospital",
     "is_fraud": false
   },
   "doc_0035": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0035.txt",
-    "doc_type": "lab",
-    "template_key": "lab_0",
-    "provider": "LifeLine Laboratories",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0035.txt",
+    "doc_type": "invoice",
+    "template_key": "invoice_2",
+    "provider": "Greenleaf Hospital",
     "is_fraud": false
   },
   "doc_0036": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0036.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0036.txt",
     "doc_type": "lab",
     "template_key": "lab_1",
     "provider": "NovaMed Institute",
     "is_fraud": false
   },
   "doc_0037": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0037.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0037.txt",
     "doc_type": "invoice",
     "template_key": "invoice_0",
     "provider": "Apollo Health Clinic",
     "is_fraud": false
   },
   "doc_0038": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0038.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0038.txt",
     "doc_type": "prescription",
     "template_key": "prescription_2",
     "provider": "BlueCross Pharmacy",
     "is_fraud": false
   },
   "doc_0039": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0039.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0039.txt",
     "doc_type": "lab",
-    "template_key": "lab_0",
-    "provider": "LifeLine Laboratories",
+    "template_key": "lab_1",
+    "provider": "NovaMed Institute",
     "is_fraud": false
   },
   "doc_0040": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0040.txt",
-    "doc_type": "invoice",
-    "template_key": "invoice_2",
-    "provider": "Greenleaf Hospital",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0040.txt",
+    "doc_type": "lab",
+    "template_key": "lab_1",
+    "provider": "NovaMed Institute",
     "is_fraud": false
   },
   "doc_0041": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0041.txt",
-    "doc_type": "invoice",
-    "template_key": "invoice_2",
-    "provider": "Greenleaf Hospital",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0041.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_2",
+    "provider": "BlueCross Pharmacy",
     "is_fraud": false
   },
   "doc_0042": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0042.txt",
-    "doc_type": "lab",
-    "template_key": "lab_0",
-    "provider": "LifeLine Laboratories",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0042.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_1",
+    "provider": "Lotus Wellness Hub",
     "is_fraud": false
   },
   "doc_0043": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0043.txt",
-    "doc_type": "lab",
-    "template_key": "lab_1",
-    "provider": "NovaMed Institute",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0043.txt",
+    "doc_type": "invoice",
+    "template_key": "invoice_2",
+    "provider": "Greenleaf Hospital",
     "is_fraud": false
   },
   "doc_0044": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0044.txt",
-    "doc_type": "invoice",
-    "template_key": "invoice_2",
-    "provider": "Greenleaf Hospital",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0044.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_1",
+    "provider": "Lotus Wellness Hub",
     "is_fraud": false
   },
   "doc_0045": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0045.txt",
-    "doc_type": "invoice",
-    "template_key": "invoice_2",
-    "provider": "Greenleaf Hospital",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0045.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_2",
+    "provider": "BlueCross Pharmacy",
     "is_fraud": false
   },
   "doc_0046": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0046.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0046.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_2",
+    "provider": "BlueCross Pharmacy",
+    "is_fraud": false
+  },
+  "doc_0047": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0047.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_1",
+    "provider": "Lotus Wellness Hub",
+    "is_fraud": false
+  },
+  "doc_0048": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0048.txt",
     "doc_type": "invoice",
     "template_key": "invoice_0",
     "provider": "Apollo Health Clinic",
     "is_fraud": false
   },
-  "doc_0047": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0047.txt",
-    "doc_type": "prescription",
-    "template_key": "prescription_2",
-    "provider": "BlueCross Pharmacy",
-    "is_fraud": false
-  },
-  "doc_0048": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0048.txt",
-    "doc_type": "lab",
-    "template_key": "lab_0",
-    "provider": "LifeLine Laboratories",
-    "is_fraud": false
-  },
   "doc_0049": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0049.txt",
-    "doc_type": "prescription",
-    "template_key": "prescription_2",
-    "provider": "BlueCross Pharmacy",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0049.txt",
+    "doc_type": "invoice",
+    "template_key": "invoice_0",
+    "provider": "Apollo Health Clinic",
     "is_fraud": false
   },
   "doc_0050": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0050.txt",
-    "doc_type": "lab",
-    "template_key": "lab_0",
-    "provider": "LifeLine Laboratories",
-    "is_fraud": false
-  },
-  "doc_0051": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0051.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0050.txt",
     "doc_type": "lab",
     "template_key": "lab_1",
     "provider": "NovaMed Institute",
     "is_fraud": false
   },
-  "doc_0052": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0052.txt",
-    "doc_type": "invoice",
-    "template_key": "invoice_0",
-    "provider": "Apollo Health Clinic",
-    "is_fraud": false
-  },
-  "doc_0053": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0053.txt",
+  "doc_0051": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0051.txt",
     "doc_type": "invoice",
     "template_key": "invoice_2",
     "provider": "Greenleaf Hospital",
     "is_fraud": false
   },
-  "doc_0054": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0054.txt",
+  "doc_0052": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0052.txt",
     "doc_type": "lab",
     "template_key": "lab_0",
     "provider": "LifeLine Laboratories",
     "is_fraud": false
   },
-  "doc_0055": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0055.txt",
-    "doc_type": "prescription",
-    "template_key": "prescription_1",
-    "provider": "Lotus Wellness Hub",
+  "doc_0053": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0053.txt",
+    "doc_type": "lab",
+    "template_key": "lab_0",
+    "provider": "LifeLine Laboratories",
     "is_fraud": false
   },
-  "doc_0056": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0056.txt",
-    "doc_type": "prescription",
-    "template_key": "prescription_1",
-    "provider": "Lotus Wellness Hub",
-    "is_fraud": false
-  },
-  "doc_0057": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0057.txt",
-    "doc_type": "prescription",
-    "template_key": "prescription_2",
-    "provider": "BlueCross Pharmacy",
-    "is_fraud": false
-  },
-  "doc_0058": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0058.txt",
+  "doc_0054": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0054.txt",
     "doc_type": "invoice",
     "template_key": "invoice_0",
     "provider": "Apollo Health Clinic",
     "is_fraud": false
   },
+  "doc_0055": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0055.txt",
+    "doc_type": "lab",
+    "template_key": "lab_0",
+    "provider": "LifeLine Laboratories",
+    "is_fraud": false
+  },
+  "doc_0056": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0056.txt",
+    "doc_type": "invoice",
+    "template_key": "invoice_2",
+    "provider": "Greenleaf Hospital",
+    "is_fraud": false
+  },
+  "doc_0057": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0057.txt",
+    "doc_type": "invoice",
+    "template_key": "invoice_0",
+    "provider": "Apollo Health Clinic",
+    "is_fraud": false
+  },
+  "doc_0058": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0058.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_1",
+    "provider": "Lotus Wellness Hub",
+    "is_fraud": false
+  },
   "doc_0059": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0059.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0059.txt",
     "doc_type": "prescription",
     "template_key": "prescription_2",
     "provider": "BlueCross Pharmacy",
     "is_fraud": false
   },
   "doc_0060": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0060.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0060.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_2",
+    "provider": "BlueCross Pharmacy",
+    "is_fraud": false
+  },
+  "doc_0061": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0061.txt",
+    "doc_type": "invoice",
+    "template_key": "invoice_2",
+    "provider": "Greenleaf Hospital",
+    "is_fraud": false
+  },
+  "doc_0062": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0062.txt",
     "doc_type": "prescription",
     "template_key": "prescription_1",
     "provider": "Lotus Wellness Hub",
     "is_fraud": false
   },
-  "doc_0061": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0061.txt",
-    "doc_type": "lab",
-    "template_key": "lab_1",
-    "provider": "NovaMed Institute",
-    "is_fraud": false
-  },
-  "doc_0062": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0062.txt",
-    "doc_type": "invoice",
-    "template_key": "invoice_0",
-    "provider": "Apollo Health Clinic",
-    "is_fraud": false
-  },
   "doc_0063": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0063.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0063.txt",
     "doc_type": "invoice",
     "template_key": "invoice_2",
     "provider": "Greenleaf Hospital",
     "is_fraud": false
   },
   "doc_0064": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0064.txt",
-    "doc_type": "invoice",
-    "template_key": "invoice_0",
-    "provider": "Apollo Health Clinic",
-    "is_fraud": false
-  },
-  "doc_0065": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0065.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0064.txt",
     "doc_type": "prescription",
     "template_key": "prescription_1",
     "provider": "Lotus Wellness Hub",
     "is_fraud": false
   },
-  "doc_0066": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0066.txt",
+  "doc_0065": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0065.txt",
     "doc_type": "lab",
     "template_key": "lab_1",
     "provider": "NovaMed Institute",
     "is_fraud": false
   },
+  "doc_0066": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0066.txt",
+    "doc_type": "lab",
+    "template_key": "lab_0",
+    "provider": "LifeLine Laboratories",
+    "is_fraud": false
+  },
   "doc_0067": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0067.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0067.txt",
     "doc_type": "prescription",
-    "template_key": "prescription_2",
-    "provider": "BlueCross Pharmacy",
+    "template_key": "prescription_1",
+    "provider": "Lotus Wellness Hub",
     "is_fraud": false
   },
   "doc_0068": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0068.txt",
-    "doc_type": "invoice",
-    "template_key": "invoice_0",
-    "provider": "Apollo Health Clinic",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0068.txt",
+    "doc_type": "lab",
+    "template_key": "lab_0",
+    "provider": "LifeLine Laboratories",
     "is_fraud": false
   },
   "doc_0069": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0069.txt",
-    "doc_type": "prescription",
-    "template_key": "prescription_2",
-    "provider": "BlueCross Pharmacy",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0069.txt",
+    "doc_type": "invoice",
+    "template_key": "invoice_2",
+    "provider": "Greenleaf Hospital",
     "is_fraud": false
   },
   "doc_0070": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0070.txt",
-    "doc_type": "lab",
-    "template_key": "lab_0",
-    "provider": "LifeLine Laboratories",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0070.txt",
+    "doc_type": "invoice",
+    "template_key": "invoice_0",
+    "provider": "Apollo Health Clinic",
     "is_fraud": false
   },
   "doc_0071": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0071.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0071.txt",
     "doc_type": "invoice",
-    "template_key": "invoice_2",
-    "provider": "Greenleaf Hospital",
+    "template_key": "invoice_0",
+    "provider": "Apollo Health Clinic",
     "is_fraud": false
   },
   "doc_0072": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0072.txt",
-    "doc_type": "prescription",
-    "template_key": "prescription_2",
-    "provider": "BlueCross Pharmacy",
-    "is_fraud": false
-  },
-  "doc_0073": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0073.txt",
-    "doc_type": "invoice",
-    "template_key": "invoice_0",
-    "provider": "Apollo Health Clinic",
-    "is_fraud": false
-  },
-  "doc_0074": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0074.txt",
-    "doc_type": "prescription",
-    "template_key": "prescription_2",
-    "provider": "BlueCross Pharmacy",
-    "is_fraud": false
-  },
-  "doc_0075": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0075.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0072.txt",
     "doc_type": "invoice",
     "template_key": "invoice_2",
     "provider": "Greenleaf Hospital",
     "is_fraud": false
   },
-  "doc_0076": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0076.txt",
+  "doc_0073": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0073.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_1",
+    "provider": "Lotus Wellness Hub",
+    "is_fraud": false
+  },
+  "doc_0074": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0074.txt",
+    "doc_type": "prescription",
+    "template_key": "prescription_1",
+    "provider": "Lotus Wellness Hub",
+    "is_fraud": false
+  },
+  "doc_0075": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0075.txt",
     "doc_type": "invoice",
     "template_key": "invoice_0",
     "provider": "Apollo Health Clinic",
     "is_fraud": false
   },
-  "doc_0077": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0077.txt",
+  "doc_0076": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0076.txt",
     "doc_type": "lab",
-    "template_key": "lab_0",
-    "provider": "LifeLine Laboratories",
+    "template_key": "lab_1",
+    "provider": "NovaMed Institute",
+    "is_fraud": false
+  },
+  "doc_0077": {
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0077.txt",
+    "doc_type": "invoice",
+    "template_key": "invoice_0",
+    "provider": "Apollo Health Clinic",
     "is_fraud": false
   },
   "doc_0078": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0078.txt",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0078.txt",
     "doc_type": "prescription",
     "template_key": "prescription_2",
     "provider": "BlueCross Pharmacy",
     "is_fraud": false
   },
   "doc_0079": {
-    "path": "/Users/aayush/untitled folder 2/fraud_detector/dataset/doc_0079.txt",
-    "doc_type": "prescription",
-    "template_key": "prescription_1",
-    "provider": "Lotus Wellness Hub",
+    "path": "/Users/aayush/agrilink_Backup/agrilink/fraud_detector/dataset/doc_0079.txt",
+    "doc_type": "invoice",
+    "template_key": "invoice_2",
+    "provider": "Greenleaf Hospital",
     "is_fraud": false
   }
 }

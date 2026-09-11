@@ -1,17 +1,21 @@
-E-PRESCRIPTION
-TxnID: CLM128256  |  Date: 25-09-2023  |  [QR-CODE: CLM128256]
-Physician : Dr. Deepika Sharma   Institute: BlueCross Pharmacy   Reg: PRV1006
-Patient Name: Bhavya Nair   UHI: PAT98895
-Ailment: Vitamin D Deficiency
+OUTPATIENT PRESCRIPTION
+Ref No: CLM332120   Date Issued: 21-02-2024
 
-  +----------------------------------------------------------+-------------+
-  | MEDICINE / DOSE                                          | DURATION    |
-  +----------------------------------------------------------+-------------+
-  | Amoxicillin 500mg  x1  INR 57                           | As directed |
-  | Omeprazole 20mg  x1  INR 358                            | As directed |
-  | Cetirizine 10mg  x1  INR 190                            | As directed |
-  | Paracetamol 650mg  x2  INR 692                          | As directed |
-  +----------------------------------------------------------+-------------+
+PATIENT
+  Full Name  : Karan Shah
+  Member ID  : PAT49608
+  Clinical Dx: Upper Respiratory Infection
 
-REGULATORY NOTE: This e-prescription is system-generated and legally valid.
-Physician Digital Signature: ___________________
+PRESCRIBER
+  Name       : Dr. Kavitha Iyer
+  Facility   : Lotus Wellness Hub
+  License    : PRV1005
+
+DRUG LIST:
+  1. Amoxicillin 500mg  x1  INR 312
+  2. Pantoprazole 40mg  x2  INR 214
+  3. Dolo 650  x3  INR 275
+
+Dispensing Note: Dispense as written. No substitution.
+Rx Valid Until : 30 days from date of issue.
+Prescriber Seal: ___________________

@@ -1,25 +1,27 @@
-##############################################
-#          LABORATORY TEST REPORT            #
-##############################################
-Report ID  : CLM170454
-Report Date: 26-11-2023
-----------------------------------------------
-Laboratory : LifeLine Laboratories
-Lab Reg.   : PRV1007
-----------------------------------------------
-Patient    : Uday Trivedi
-Patient ID : PAT20730
-Referred By: Dr. Arun Sharma
-----------------------------------------------
-TEST RESULTS:
-  - Lipid Profile: 98.02
-  - Blood Glucose (PP): 179.83
-  - Liver Function Test (LFT): 89.37
-  - Serum Creatinine: 11.6
-  - Blood Glucose (Fasting): 26.82
-----------------------------------------------
-Total Charges: INR 9402
-----------------------------------------------
-Verified By: Lab Technician
-Pathologist: Dr. Arun Sharma
-##############################################
+==========================================================
+                    MEDICAL INVOICE
+==========================================================
+Invoice No : CLM932250
+Date       : 12-09-2024
+----------------------------------------------------------
+Provider   : Apollo Health Clinic
+Provider ID: PRV1001
+----------------------------------------------------------
+Patient    : Bhavya Patel
+Patient ID : PAT36342
+----------------------------------------------------------
+ITEMISED CHARGES:
+  - Dolo 650  x2  INR 257
+  - Metformin 1000mg  x3  INR 113
+  - Paracetamol 650mg  x3  INR 357
+  - Cetirizine 10mg  x2  INR 233
+----------------------------------------------------------
+Consultation Fee   : INR 1225
+Subtotal           : INR 1914
+GST (18%)          : INR 565
+----------------------------------------------------------
+TOTAL AMOUNT DUE   : INR 3704
+==========================================================
+Attending Physician: Dr. Sunita Rao
+Signature          : ___________________
+==========================================================

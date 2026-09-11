@@ -1,16 +1,19 @@
-LAB REPORT
-==========
-Ref: CLM118715   Date: 28-10-2025
-Lab: NovaMed Institute  Lic: PRV1008
-Amount: INR 1630
+EXPENSE VOUCHER
+Voucher Ref: CLM417530
+Date of Service: 26-05-2024
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Hema Sharma | Claimant ID: PAT56129
 
-Patient: Aditi Gupta  ID: PAT18812
-Doctor : Dr. Anitha Pillai
+SERVICE ITEMS:
+  - Metformin 1000mg  x2  INR 317
+  - Atorvastatin 20mg  x3  INR 376
+  - Paracetamol 650mg  x2  INR 369
+  - Cetirizine 10mg  x3  INR 399
 
-INVESTIGATIONS:
-  - Blood Glucose (PP): 5.67
-  - Kidney Function Test (KFT): 37.62
-  - Liver Function Test (LFT): 103.79
-  - Lipid Profile: 182.75
+COST SUMMARY:
+  Consultation Fee ............... INR 613
+  Tests & Medicines .............. INR 6727
+  GST @ 18% ........................ INR 1321
 
-Report validated and digitally signed.
+Net Payable: INR 8661
+Certified by: Dr. Suresh Sharma

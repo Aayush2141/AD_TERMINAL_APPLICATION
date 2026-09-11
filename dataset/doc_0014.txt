@@ -1,28 +1,26 @@
 >>>>>>>>>> DIAGNOSTIC LABORATORY REPORT <<<<<<<<<<
 
 SAMPLE DETAILS
-  Collected On : 26-03-2024
-  Reported On  : 26-03-2024
-  Sample Ref   : CLM121300
+  Collected On : 09-01-2024
+  Reported On  : 09-01-2024
+  Sample Ref   : CLM612262
 
 LABORATORY INFO
   Name         : Elite Diagnostics Hub
   Accred. No.  : PRV2005
 
 PATIENT INFO
-  Name         : Yash Iyer
-  UHID         : PAT63964
-  Referring Dr : Dr. Anitha Chandra
+  Name         : Aditi Iyer
+  UHID         : PAT65518
+  Referring Dr : Dr. Vikram Agarwal
 
 TEST FINDINGS:
-  01. Thyroid Stimulating Hormone (TSH): 5.22
-  02. Kidney Function Test (KFT): 39.03
-  03. HBsAg (Hepatitis B): 65.99
-  04. Liver Function Test (LFT): 172.94
-  05. Serum Creatinine: 193.39
+  01. Kidney Function Test (KFT): 31.34
+  02. Lipid Profile: 95.5
+  03. HbA1c: 40.33
 
 BILLING SUMMARY
-  Amount Due   : INR 3604
+  Amount Due   : INR 9681
   All results reviewed by a certified pathologist.
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<

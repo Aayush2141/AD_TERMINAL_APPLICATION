@@ -1,25 +1,17 @@
-==========================================================
-                    MEDICAL INVOICE
-==========================================================
-Invoice No : CLM161525
-Date       : 16-08-2024
-----------------------------------------------------------
-Provider   : Apollo Health Clinic
-Provider ID: PRV1001
-----------------------------------------------------------
-Patient    : Gaurav Pillai
-Patient ID : PAT24953
-----------------------------------------------------------
-ITEMISED CHARGES:
-  - Paracetamol 650mg  x3  INR 312
-  - Clopidogrel 75mg  x1  INR 202
-----------------------------------------------------------
-Consultation Fee   : INR 1475
-Subtotal           : INR 2829
-GST (18%)          : INR 774
-----------------------------------------------------------
-TOTAL AMOUNT DUE   : INR 5078
-==========================================================
-Attending Physician: Dr. Sunita Iyer
-Signature          : ___________________
-==========================================================
+EXPENSE VOUCHER
+Voucher Ref: CLM810250
+Date of Service: 13-07-2024
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Priya Singh | Claimant ID: PAT19961
+
+SERVICE ITEMS:
+  - Omeprazole 20mg  x3  INR 211
+  - Dolo 650  x2  INR 165
+
+COST SUMMARY:
+  Consultation Fee ............... INR 1269
+  Tests & Medicines .............. INR 5984
+  GST @ 18% ........................ INR 1305
+
+Net Payable: INR 8558
+Certified by: Dr. Suresh Sharma

@@ -1,17 +1,26 @@
-E-PRESCRIPTION
-TxnID: CLM144501  |  Date: 08-06-2023  |  [QR-CODE: CLM144501]
-Physician : Dr. Arun Agarwal   Institute: BlueCross Pharmacy   Reg: PRV1006
-Patient Name: Tanvi Singh   UHI: PAT79547
-Ailment: Hypothyroidism
-
-  +----------------------------------------------------------+-------------+
-  | MEDICINE / DOSE                                          | DURATION    |
-  +----------------------------------------------------------+-------------+
-  | Amlodipine 5mg  x1  INR 155                             | As directed |
-  | Montelukast 10mg  x1  INR 312                           | As directed |
-  | Clopidogrel 75mg  x1  INR 227                           | As directed |
-  | Atorvastatin 20mg  x3  INR 618                          | As directed |
-  +----------------------------------------------------------+-------------+
-
-REGULATORY NOTE: This e-prescription is system-generated and legally valid.
-Physician Digital Signature: ___________________
+==========================================================
+                    MEDICAL INVOICE
+==========================================================
+Invoice No : CLM476096
+Date       : 02-07-2024
+----------------------------------------------------------
+Provider   : Apollo Health Clinic
+Provider ID: PRV1001
+----------------------------------------------------------
+Patient    : Chetan Singh
+Patient ID : PAT26011
+----------------------------------------------------------
+ITEMISED CHARGES:
+  - Pantoprazole 40mg  x2  INR 191
+  - Amoxicillin 500mg  x2  INR 307
+  - Cetirizine 10mg  x1  INR 265
+----------------------------------------------------------
+Consultation Fee   : INR 1302
+Subtotal           : INR 5543
+GST (18%)          : INR 1232
+----------------------------------------------------------
+TOTAL AMOUNT DUE   : INR 8077
+==========================================================
+Attending Physician: Dr. Deepika Pillai
+Signature          : ___________________
+==========================================================

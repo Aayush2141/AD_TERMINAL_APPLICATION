@@ -1,20 +1,15 @@
-EXPENSE VOUCHER
-Voucher Ref: CLM150941
-Date of Service: 15-06-2025
-Facility: Greenleaf Hospital | Facility Code: PRV1003
-Claimant: Priya Choudhary | Claimant ID: PAT86983
+LAB REPORT
+==========
+Ref: CLM997594   Date: 25-07-2024
+Lab: NovaMed Institute  Lic: PRV1008
+Amount: INR 10490
 
-SERVICE ITEMS:
-  - Paracetamol 650mg  x1  INR 504
-  - Cetirizine 10mg  x2  INR 582
-  - Pantoprazole 40mg  x2  INR 302
-  - Amoxicillin 500mg  x3  INR 1278
-  - Losartan 50mg  x3  INR 2130
+Patient: Aarav Mehta  ID: PAT71993
+Doctor : Dr. Kavitha Iyer
 
-COST SUMMARY:
-  Consultation Fee ............... INR 1400
-  Tests & Medicines .............. INR 1611
-  GST @ 18% ........................ INR 541
+INVESTIGATIONS:
+  - Liver Function Test (LFT): 147.14
+  - HbA1c: 36.58
+  - Lipid Profile: 58.06
 
-Net Payable: INR 3552
-Certified by: Dr. Mohan Iyer
+Report validated and digitally signed.

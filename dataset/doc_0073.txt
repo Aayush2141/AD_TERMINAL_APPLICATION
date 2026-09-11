@@ -1,26 +1,21 @@
-==========================================================
-                    MEDICAL INVOICE
-==========================================================
-Invoice No : CLM194026
-Date       : 16-02-2025
-----------------------------------------------------------
-Provider   : Apollo Health Clinic
-Provider ID: PRV1001
-----------------------------------------------------------
-Patient    : Aarav Kapoor
-Patient ID : PAT30701
-----------------------------------------------------------
-ITEMISED CHARGES:
-  - Dolo 650  x2  INR 1422
-  - Pantoprazole 40mg  x1  INR 141
-  - Losartan 50mg  x3  INR 1911
-----------------------------------------------------------
-Consultation Fee   : INR 1146
-Subtotal           : INR 3205
-GST (18%)          : INR 783
-----------------------------------------------------------
-TOTAL AMOUNT DUE   : INR 5134
-==========================================================
-Attending Physician: Dr. Suresh Sharma
-Signature          : ___________________
-==========================================================
+OUTPATIENT PRESCRIPTION
+Ref No: CLM671971   Date Issued: 10-06-2024
+
+PATIENT
+  Full Name  : Aditi Patel
+  Member ID  : PAT52981
+  Clinical Dx: Acute Gastroenteritis
+
+PRESCRIBER
+  Name       : Dr. Kavitha Iyer
+  Facility   : Lotus Wellness Hub
+  License    : PRV1005
+
+DRUG LIST:
+  1. Dolo 650  x1  INR 334
+  2. Paracetamol 650mg  x3  INR 334
+  3. Atorvastatin 20mg  x2  INR 345
+
+Dispensing Note: Dispense as written. No substitution.
+Rx Valid Until : 30 days from date of issue.
+Prescriber Seal: ___________________

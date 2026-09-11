@@ -1,20 +1,26 @@
-EXPENSE VOUCHER
-Voucher Ref: CLM186800
-Date of Service: 16-09-2024
-Facility: Greenleaf Hospital | Facility Code: PRV1003
-Claimant: Manav Kapoor | Claimant ID: PAT54869
-
-SERVICE ITEMS:
-  - Omeprazole 20mg  x1  INR 354
-  - Vitamin D3 60000IU  x2  INR 1542
-  - Pantoprazole 40mg  x1  INR 756
-  - Ibuprofen 400mg  x3  INR 1650
-  - Dolo 650  x2  INR 1082
-
-COST SUMMARY:
-  Consultation Fee ............... INR 1448
-  Tests & Medicines .............. INR 3162
-  GST @ 18% ........................ INR 829
-
-Net Payable: INR 5439
-Certified by: Dr. Arun Pillai
+==========================================================
+                    MEDICAL INVOICE
+==========================================================
+Invoice No : CLM970720
+Date       : 25-11-2024
+----------------------------------------------------------
+Provider   : Apollo Health Clinic
+Provider ID: PRV1001
+----------------------------------------------------------
+Patient    : Farida Joshi
+Patient ID : PAT72722
+----------------------------------------------------------
+ITEMISED CHARGES:
+  - Amoxicillin 500mg  x2  INR 88
+  - Paracetamol 650mg  x2  INR 114
+  - Atorvastatin 20mg  x2  INR 203
+----------------------------------------------------------
+Consultation Fee   : INR 1099
+Subtotal           : INR 7654
+GST (18%)          : INR 1575
+----------------------------------------------------------
+TOTAL AMOUNT DUE   : INR 10328
+==========================================================
+Attending Physician: Dr. Kavitha Iyer
+Signature          : ___________________
+==========================================================

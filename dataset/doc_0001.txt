@@ -1,24 +1,23 @@
 ***** HEALTHCARE BILLING DOCUMENT *****
-Bill Ref   : CLM120927
-Bill Date  : 23-07-2024
+Bill Ref   : CLM733052
+Bill Date  : 09-01-2024
 ***************************************
 TO:
-  Patient Name : Eshan Iyer
-  Patient ID   : PAT23396
+  Patient Name : Priya Shah
+  Patient ID   : PAT80284
 FROM:
   Issued By  : Sterling Care Clinic
   Reg. No.   : PRV2002
 ***************************************
 PRESCRIBED ITEMS / SERVICES:
-  - Montelukast 10mg  x1  INR 797
-  - Losartan 50mg  x2  INR 1198
-  - Paracetamol 650mg  x1  INR 437
-  - Pantoprazole 40mg  x1  INR 615
-- Consultation        : INR 313
-- Investigations      : INR 6716
+  - Amoxicillin 500mg  x2  INR 254
+  - Atorvastatin 20mg  x2  INR 159
+  - Cetirizine 10mg  x1  INR 252
+- Consultation        : INR 1219
+- Investigations      : INR 5327
 ***************************************
-GST Applied    : 18%  (INR 1265)
-GRAND TOTAL    : INR 8294
+GST Applied    : 18%  (INR 1178)
+GRAND TOTAL    : INR 7724
 ***************************************
-Authorised By  : Dr. Sunita Iyer
+Authorised By  : Dr. Rajesh Mehta
 ***************************************

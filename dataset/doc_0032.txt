@@ -1,15 +1,26 @@
-LAB REPORT
-==========
-Ref: CLM120759   Date: 10-09-2023
-Lab: NovaMed Institute  Lic: PRV1008
-Amount: INR 8382
-
-Patient: Arjun Shah  ID: PAT24871
-Doctor : Dr. Kavitha Krishnamurthy
-
-INVESTIGATIONS:
-  - Dengue NS1 Antigen: 154.65
-  - Lipid Profile: 170.96
-  - Kidney Function Test (KFT): 68.31
-
-Report validated and digitally signed.
+==========================================================
+                    MEDICAL INVOICE
+==========================================================
+Invoice No : CLM219629
+Date       : 27-02-2024
+----------------------------------------------------------
+Provider   : Apollo Health Clinic
+Provider ID: PRV1001
+----------------------------------------------------------
+Patient    : Eshan Shah
+Patient ID : PAT19710
+----------------------------------------------------------
+ITEMISED CHARGES:
+  - Amoxicillin 500mg  x2  INR 144
+  - Amlodipine 5mg  x3  INR 331
+  - Pantoprazole 40mg  x1  INR 86
+----------------------------------------------------------
+Consultation Fee   : INR 1393
+Subtotal           : INR 1536
+GST (18%)          : INR 527
+----------------------------------------------------------
+TOTAL AMOUNT DUE   : INR 3456
+==========================================================
+Attending Physician: Dr. Suresh Sharma
+Signature          : ___________________
+==========================================================

@@ -1,15 +1,21 @@
-E-PRESCRIPTION
-TxnID: CLM131553  |  Date: 07-10-2024  |  [QR-CODE: CLM131553]
-Physician : Dr. Kavitha Chandra   Institute: BlueCross Pharmacy   Reg: PRV1006
-Patient Name: Hema Pillai   UHI: PAT88317
-Ailment: Vitamin D Deficiency
+OUTPATIENT PRESCRIPTION
+Ref No: CLM986982   Date Issued: 17-02-2024
 
-  +----------------------------------------------------------+-------------+
-  | MEDICINE / DOSE                                          | DURATION    |
-  +----------------------------------------------------------+-------------+
-  | Montelukast 10mg  x2  INR 374                           | As directed |
-  | Metformin 1000mg  x2  INR 1588                          | As directed |
-  +----------------------------------------------------------+-------------+
+PATIENT
+  Full Name  : Chetan Patel
+  Member ID  : PAT31012
+  Clinical Dx: Upper Respiratory Infection
 
-REGULATORY NOTE: This e-prescription is system-generated and legally valid.
-Physician Digital Signature: ___________________
+PRESCRIBER
+  Name       : Dr. Vikram Agarwal
+  Facility   : Lotus Wellness Hub
+  License    : PRV1005
+
+DRUG LIST:
+  1. Pantoprazole 40mg  x3  INR 294
+  2. Paracetamol 650mg  x1  INR 182
+  3. Amlodipine 5mg  x3  INR 150
+
+Dispensing Note: Dispense as written. No substitution.
+Rx Valid Until : 30 days from date of issue.
+Prescriber Seal: ___________________

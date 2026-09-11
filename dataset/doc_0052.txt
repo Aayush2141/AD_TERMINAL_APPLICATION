@@ -1,26 +1,24 @@
-==========================================================
-                    MEDICAL INVOICE
-==========================================================
-Invoice No : CLM143214
-Date       : 04-09-2025
-----------------------------------------------------------
-Provider   : Apollo Health Clinic
-Provider ID: PRV1001
-----------------------------------------------------------
-Patient    : Gaurav Trivedi
-Patient ID : PAT29709
-----------------------------------------------------------
-ITEMISED CHARGES:
-  - Vitamin D3 60000IU  x3  INR 2295
-  - Losartan 50mg  x3  INR 1353
-  - Pantoprazole 40mg  x1  INR 659
-----------------------------------------------------------
-Consultation Fee   : INR 985
-Subtotal           : INR 1039
-GST (18%)          : INR 364
-----------------------------------------------------------
-TOTAL AMOUNT DUE   : INR 2388
-==========================================================
-Attending Physician: Dr. Priyanka Krishnamurthy
-Signature          : ___________________
-==========================================================
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM754644
+Report Date: 21-10-2024
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Gaurav Joshi
+Patient ID : PAT52622
+Referred By: Dr. Deepika Pillai
+----------------------------------------------
+TEST RESULTS:
+  - Complete Blood Count (CBC): 134.99
+  - Liver Function Test (LFT): 48.99
+  - Thyroid Stimulating Hormone (TSH): 23.1
+  - Serum Creatinine: 19.8
+----------------------------------------------
+Total Charges: INR 5575
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Deepika Pillai
+##############################################

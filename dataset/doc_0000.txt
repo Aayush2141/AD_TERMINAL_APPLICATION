@@ -1,22 +1,24 @@
 ***** HEALTHCARE BILLING DOCUMENT *****
-Bill Ref   : CLM197197
-Bill Date  : 09-04-2023
+Bill Ref   : CLM688508
+Bill Date  : 07-12-2024
 ***************************************
 TO:
-  Patient Name : Bhavya Kapoor
-  Patient ID   : PAT21395
+  Patient Name : Karan Joshi
+  Patient ID   : PAT81426
 FROM:
   Issued By  : Apex Health Partners
   Reg. No.   : PRV2001
 ***************************************
 PRESCRIBED ITEMS / SERVICES:
-  - Metformin 1000mg  x1  INR 567
-  - Omeprazole 20mg  x3  INR 231
+  - Pantoprazole 40mg  x3  INR 132
+  - Omeprazole 20mg  x3  INR 359
+  - Metformin 1000mg  x1  INR 382
+  - Paracetamol 650mg  x2  INR 96
 - Consultation        : INR 528
 - Investigations      : INR 704
 ***************************************
 GST Applied    : 18%  (INR 221)
 GRAND TOTAL    : INR 1453
 ***************************************
-Authorised By  : Dr. Deepika Iyer
+Authorised By  : Dr. Deepika Pillai
 ***************************************

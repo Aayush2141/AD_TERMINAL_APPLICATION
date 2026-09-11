@@ -1,21 +1,19 @@
-OUTPATIENT PRESCRIPTION
-Ref No: CLM117751   Date Issued: 25-11-2025
+EXPENSE VOUCHER
+Voucher Ref: CLM755383
+Date of Service: 10-10-2024
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Gaurav Patel | Claimant ID: PAT75873
 
-PATIENT
-  Full Name  : Jyoti Malhotra
-  Member ID  : PAT68790
-  Clinical Dx: Hypertension
+SERVICE ITEMS:
+  - Amoxicillin 500mg  x2  INR 164
+  - Metformin 1000mg  x1  INR 245
+  - Pantoprazole 40mg  x3  INR 195
+  - Dolo 650  x2  INR 345
 
-PRESCRIBER
-  Name       : Dr. Suresh Iyer
-  Facility   : Lotus Wellness Hub
-  License    : PRV1005
+COST SUMMARY:
+  Consultation Fee ............... INR 564
+  Tests & Medicines .............. INR 4044
+  GST @ 18% ........................ INR 829
 
-DRUG LIST:
-  1. Clopidogrel 75mg  x1  INR 232
-  2. Montelukast 10mg  x3  INR 1356
-  3. Losartan 50mg  x3  INR 540
-
-Dispensing Note: Dispense as written. No substitution.
-Rx Valid Until : 30 days from date of issue.
-Prescriber Seal: ___________________
+Net Payable: INR 5437
+Certified by: Dr. Kavitha Iyer

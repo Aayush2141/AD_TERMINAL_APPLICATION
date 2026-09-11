@@ -1,16 +1,15 @@
 E-PRESCRIPTION
-TxnID: CLM198736  |  Date: 21-04-2024  |  [QR-CODE: CLM198736]
-Physician : Dr. Priyanka Chandra   Institute: BlueCross Pharmacy   Reg: PRV1006
-Patient Name: Zara Patel   UHI: PAT95948
-Ailment: Hypertension
+TxnID: CLM985506  |  Date: 04-04-2024  |  [QR-CODE: CLM985506]
+Physician : Dr. Suresh Sharma   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Eshan Nair   UHI: PAT62487
+Ailment: Type 2 Diabetes Mellitus
 
   +----------------------------------------------------------+-------------+
   | MEDICINE / DOSE                                          | DURATION    |
   +----------------------------------------------------------+-------------+
-  | Cetirizine 10mg  x2  INR 794                            | As directed |
-  | Vitamin D3 60000IU  x1  INR 558                         | As directed |
-  | Amlodipine 5mg  x3  INR 1677                            | As directed |
-  | Azithromycin 250mg  x2  INR 1162                        | As directed |
+  | Paracetamol 650mg  x3  INR 293                          | As directed |
+  | Amlodipine 5mg  x2  INR 138                             | As directed |
+  | Cetirizine 10mg  x2  INR 90                             | As directed |
   +----------------------------------------------------------+-------------+
 
 REGULATORY NOTE: This e-prescription is system-generated and legally valid.

@@ -1,27 +1,15 @@
-==========================================================
-                    MEDICAL INVOICE
-==========================================================
-Invoice No : CLM182992
-Date       : 01-02-2025
-----------------------------------------------------------
-Provider   : Apollo Health Clinic
-Provider ID: PRV1001
-----------------------------------------------------------
-Patient    : Karan Choudhary
-Patient ID : PAT69460
-----------------------------------------------------------
-ITEMISED CHARGES:
-  - Amlodipine 5mg  x3  INR 408
-  - Losartan 50mg  x1  INR 209
-  - Dolo 650  x1  INR 682
-  - Paracetamol 650mg  x1  INR 740
-----------------------------------------------------------
-Consultation Fee   : INR 590
-Subtotal           : INR 6570
-GST (18%)          : INR 1288
-----------------------------------------------------------
-TOTAL AMOUNT DUE   : INR 8448
-==========================================================
-Attending Physician: Dr. Priyanka Bose
-Signature          : ___________________
-==========================================================
+E-PRESCRIPTION
+TxnID: CLM178957  |  Date: 05-04-2024  |  [QR-CODE: CLM178957]
+Physician : Dr. Deepika Pillai   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Simran Iyer   UHI: PAT98395
+Ailment: Hypothyroidism
+
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Amlodipine 5mg  x3  INR 336                             | As directed |
+  | Cetirizine 10mg  x2  INR 164                            | As directed |
+  +----------------------------------------------------------+-------------+
+
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

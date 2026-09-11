@@ -1,17 +1,17 @@
-LAB REPORT
-==========
-Ref: CLM174929   Date: 21-04-2024
-Lab: NovaMed Institute  Lic: PRV1008
-Amount: INR 5390
+EXPENSE VOUCHER
+Voucher Ref: CLM651640
+Date of Service: 04-12-2024
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Aditi Shah | Claimant ID: PAT68756
 
-Patient: Om Gupta  ID: PAT18109
-Doctor : Dr. Kavitha Krishnamurthy
+SERVICE ITEMS:
+  - Atorvastatin 20mg  x2  INR 201
+  - Amoxicillin 500mg  x3  INR 245
 
-INVESTIGATIONS:
-  - Chest X-Ray: 73.1
-  - ECG (Electrocardiogram): 183.63
-  - Dengue NS1 Antigen: 77.79
-  - Blood Glucose (Fasting): 155.01
-  - HbA1c: 135.94
+COST SUMMARY:
+  Consultation Fee ............... INR 525
+  Tests & Medicines .............. INR 5915
+  GST @ 18% ........................ INR 1159
 
-Report validated and digitally signed.
+Net Payable: INR 7599
+Certified by: Dr. Vikram Agarwal

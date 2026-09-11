@@ -1,27 +1,26 @@
 >>>>>>>>>> DIAGNOSTIC LABORATORY REPORT <<<<<<<<<<
 
 SAMPLE DETAILS
-  Collected On : 19-04-2025
-  Reported On  : 19-04-2025
-  Sample Ref   : CLM115714
+  Collected On : 24-09-2024
+  Reported On  : 24-09-2024
+  Sample Ref   : CLM830429
 
 LABORATORY INFO
   Name         : Apex Health Partners
   Accred. No.  : PRV2001
 
 PATIENT INFO
-  Name         : Simran Verma
-  UHID         : PAT64948
-  Referring Dr : Dr. Deepika Desai
+  Name         : Karan Joshi
+  UHID         : PAT73788
+  Referring Dr : Dr. Sunita Rao
 
 TEST FINDINGS:
-  01. Chest X-Ray: 2.36
-  02. Thyroid Stimulating Hormone (TSH): 124.42
-  03. HBsAg (Hepatitis B): 112.82
-  04. Lipid Profile: 20.45
+  01. Complete Blood Count (CBC): 139.05
+  02. Liver Function Test (LFT): 117.98
+  03. HbA1c: 43.5
 
 BILLING SUMMARY
-  Amount Due   : INR 5413
+  Amount Due   : INR 1668
   All results reviewed by a certified pathologist.
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<

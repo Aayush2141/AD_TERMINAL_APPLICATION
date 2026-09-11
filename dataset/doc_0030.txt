@@ -1,23 +1,22 @@
-##############################################
-#          LABORATORY TEST REPORT            #
-##############################################
-Report ID  : CLM111971
-Report Date: 08-11-2025
-----------------------------------------------
-Laboratory : LifeLine Laboratories
-Lab Reg.   : PRV1007
-----------------------------------------------
-Patient    : Zara Rao
-Patient ID : PAT85529
-Referred By: Dr. Rajesh Bose
-----------------------------------------------
-TEST RESULTS:
-  - Thyroid Stimulating Hormone (TSH): 99.35
-  - Urine Routine & Microscopy: 132.69
-  - Serum Creatinine: 80.39
-----------------------------------------------
-Total Charges: INR 1797
-----------------------------------------------
-Verified By: Lab Technician
-Pathologist: Dr. Rajesh Bose
-##############################################
+OUTPATIENT PRESCRIPTION
+Ref No: CLM709805   Date Issued: 12-08-2024
+
+PATIENT
+  Full Name  : Gaurav Rao
+  Member ID  : PAT55056
+  Clinical Dx: Vitamin D Deficiency
+
+PRESCRIBER
+  Name       : Dr. Deepika Pillai
+  Facility   : Lotus Wellness Hub
+  License    : PRV1005
+
+DRUG LIST:
+  1. Pantoprazole 40mg  x1  INR 203
+  2. Amoxicillin 500mg  x3  INR 288
+  3. Amlodipine 5mg  x2  INR 364
+  4. Metformin 1000mg  x1  INR 323
+
+Dispensing Note: Dispense as written. No substitution.
+Rx Valid Until : 30 days from date of issue.
+Prescriber Seal: ___________________

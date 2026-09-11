@@ -1,17 +1,19 @@
 EXPENSE VOUCHER
-Voucher Ref: CLM185427
-Date of Service: 02-01-2023
+Voucher Ref: CLM686075
+Date of Service: 20-06-2024
 Facility: Greenleaf Hospital | Facility Code: PRV1003
-Claimant: Aarav Trivedi | Claimant ID: PAT29973
+Claimant: Rahul Shah | Claimant ID: PAT90301
 
 SERVICE ITEMS:
-  - Paracetamol 650mg  x2  INR 1532
-  - Omeprazole 20mg  x2  INR 854
+  - Amoxicillin 500mg  x1  INR 170
+  - Metformin 1000mg  x3  INR 345
+  - Paracetamol 650mg  x2  INR 105
+  - Omeprazole 20mg  x3  INR 207
 
 COST SUMMARY:
-  Consultation Fee ............... INR 440
-  Tests & Medicines .............. INR 6899
-  GST @ 18% ........................ INR 1321
+  Consultation Fee ............... INR 602
+  Tests & Medicines .............. INR 5874
+  GST @ 18% ........................ INR 1165
 
-Net Payable: INR 8660
-Certified by: Dr. Anitha Bose
+Net Payable: INR 7641
+Certified by: Dr. Kavitha Iyer

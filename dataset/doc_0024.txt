@@ -1,16 +1,16 @@
 LAB REPORT
 ==========
-Ref: CLM123087   Date: 24-09-2025
+Ref: CLM976325   Date: 14-09-2024
 Lab: NovaMed Institute  Lic: PRV1008
-Amount: INR 5522
+Amount: INR 2081
 
-Patient: Amrita Kapoor  ID: PAT73372
-Doctor : Dr. Kavitha Iyer
+Patient: Priya Joshi  ID: PAT81582
+Doctor : Dr. Suresh Sharma
 
 INVESTIGATIONS:
-  - Complete Blood Count (CBC): 97.77
-  - Chest X-Ray: 71.29
-  - Thyroid Stimulating Hormone (TSH): 52.04
-  - HbA1c: 56.29
+  - Thyroid Stimulating Hormone (TSH): 72.07
+  - Complete Blood Count (CBC): 141.47
+  - Kidney Function Test (KFT): 45.49
+  - Liver Function Test (LFT): 59.11
 
 Report validated and digitally signed.

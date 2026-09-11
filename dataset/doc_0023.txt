@@ -1,22 +1,15 @@
-OUTPATIENT PRESCRIPTION
-Ref No: CLM103366   Date Issued: 10-10-2025
+E-PRESCRIPTION
+TxnID: CLM666390  |  Date: 03-03-2024  |  [QR-CODE: CLM666390]
+Physician : Dr. Kavitha Iyer   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Arjun Singh   UHI: PAT60205
+Ailment: Hypertension
 
-PATIENT
-  Full Name  : Karan Kumar
-  Member ID  : PAT19961
-  Clinical Dx: Hypertension
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Dolo 650  x2  INR 206                                   | As directed |
+  | Amlodipine 5mg  x3  INR 221                             | As directed |
+  +----------------------------------------------------------+-------------+
 
-PRESCRIBER
-  Name       : Dr. Deepika Agarwal
-  Facility   : Lotus Wellness Hub
-  License    : PRV1005
-
-DRUG LIST:
-  1. Montelukast 10mg  x3  INR 276
-  2. Clopidogrel 75mg  x2  INR 1190
-  3. Paracetamol 650mg  x2  INR 1454
-  4. Metformin 1000mg  x2  INR 240
-
-Dispensing Note: Dispense as written. No substitution.
-Rx Valid Until : 30 days from date of issue.
-Prescriber Seal: ___________________
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

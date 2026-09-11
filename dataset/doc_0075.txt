@@ -1,19 +1,25 @@
-EXPENSE VOUCHER
-Voucher Ref: CLM144186
-Date of Service: 26-05-2025
-Facility: Greenleaf Hospital | Facility Code: PRV1003
-Claimant: Eshan Mehta | Claimant ID: PAT90079
-
-SERVICE ITEMS:
-  - Metformin 1000mg  x1  INR 193
-  - Cetirizine 10mg  x2  INR 762
-  - Clopidogrel 75mg  x1  INR 56
-  - Vitamin D3 60000IU  x2  INR 884
-
-COST SUMMARY:
-  Consultation Fee ............... INR 328
-  Tests & Medicines .............. INR 6534
-  GST @ 18% ........................ INR 1235
-
-Net Payable: INR 8097
-Certified by: Dr. Suresh Iyer
+==========================================================
+                    MEDICAL INVOICE
+==========================================================
+Invoice No : CLM900152
+Date       : 03-10-2024
+----------------------------------------------------------
+Provider   : Apollo Health Clinic
+Provider ID: PRV1001
+----------------------------------------------------------
+Patient    : Arjun Rao
+Patient ID : PAT58096
+----------------------------------------------------------
+ITEMISED CHARGES:
+  - Cetirizine 10mg  x2  INR 370
+  - Amlodipine 5mg  x1  INR 389
+----------------------------------------------------------
+Consultation Fee   : INR 558
+Subtotal           : INR 1050
+GST (18%)          : INR 289
+----------------------------------------------------------
+TOTAL AMOUNT DUE   : INR 1897
+==========================================================
+Attending Physician: Dr. Deepika Pillai
+Signature          : ___________________
+==========================================================

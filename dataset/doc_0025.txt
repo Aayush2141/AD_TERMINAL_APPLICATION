@@ -1,24 +1,16 @@
-##############################################
-#          LABORATORY TEST REPORT            #
-##############################################
-Report ID  : CLM101331
-Report Date: 17-04-2023
-----------------------------------------------
-Laboratory : LifeLine Laboratories
-Lab Reg.   : PRV1007
-----------------------------------------------
-Patient    : Lakshmi Pillai
-Patient ID : PAT82768
-Referred By: Dr. Anitha Sharma
-----------------------------------------------
-TEST RESULTS:
-  - Urine Routine & Microscopy: 70.69
-  - Serum Creatinine: 91.02
-  - ECG (Electrocardiogram): 61.67
-  - Thyroid Stimulating Hormone (TSH): 46.49
-----------------------------------------------
-Total Charges: INR 6983
-----------------------------------------------
-Verified By: Lab Technician
-Pathologist: Dr. Anitha Sharma
-##############################################
+E-PRESCRIPTION
+TxnID: CLM372793  |  Date: 13-06-2024  |  [QR-CODE: CLM372793]
+Physician : Dr. Vikram Agarwal   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Bhavya Shah   UHI: PAT52840
+Ailment: Upper Respiratory Infection
+
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Dolo 650  x2  INR 287                                   | As directed |
+  | Amoxicillin 500mg  x3  INR 164                          | As directed |
+  | Omeprazole 20mg  x2  INR 145                            | As directed |
+  +----------------------------------------------------------+-------------+
+
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

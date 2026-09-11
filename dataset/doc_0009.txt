@@ -1,23 +1,21 @@
 ==================================================
                    PRESCRIPTION
 ==================================================
-Rx No.     : CLM128017
-Date       : 28-07-2023
+Rx No.     : CLM542374
+Date       : 06-05-2024
 --------------------------------------------------
-Doctor     : Dr. Kavitha Chandra
+Doctor     : Dr. Deepika Pillai
 Clinic     : Trident Specialty Care
 Reg. No.   : PRV2010
 --------------------------------------------------
-Patient    : Aarav Malhotra
-Patient ID : PAT44760
-Diagnosis  : Dengue Fever
+Patient    : Farida Singh
+Patient ID : PAT19880
+Diagnosis  : Hypothyroidism
 --------------------------------------------------
 MEDICATIONS PRESCRIBED:
-  - Atorvastatin 20mg  x3  INR 1815
-  - Omeprazole 20mg  x1  INR 371
-  - Pantoprazole 40mg  x1  INR 101
-  - Montelukast 10mg  x3  INR 1614
-  - Amoxicillin 500mg  x3  INR 1779
+  - Dolo 650  x3  INR 130
+  - Amoxicillin 500mg  x1  INR 286
+  - Cetirizine 10mg  x3  INR 253
 --------------------------------------------------
 Instructions: Take as directed. Avoid alcohol.
 Follow-up   : After 7 days or as needed.

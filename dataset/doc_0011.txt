@@ -1,25 +1,27 @@
 >>>>>>>>>> DIAGNOSTIC LABORATORY REPORT <<<<<<<<<<
 
 SAMPLE DETAILS
-  Collected On : 09-03-2024
-  Reported On  : 09-03-2024
-  Sample Ref   : CLM166308
+  Collected On : 22-04-2024
+  Reported On  : 22-04-2024
+  Sample Ref   : CLM171262
 
 LABORATORY INFO
   Name         : Sterling Care Clinic
   Accred. No.  : PRV2002
 
 PATIENT INFO
-  Name         : Farida Joshi
-  UHID         : PAT47353
-  Referring Dr : Dr. Mohan Sharma
+  Name         : Eshan Patel
+  UHID         : PAT84668
+  Referring Dr : Dr. Sunita Rao
 
 TEST FINDINGS:
-  01. COVID-19 RT-PCR: 148.61
-  02. Lipid Profile: 31.51
+  01. Liver Function Test (LFT): 9.48
+  02. Kidney Function Test (KFT): 76.67
+  03. Thyroid Stimulating Hormone (TSH): 127.85
+  04. Lipid Profile: 11.21
 
 BILLING SUMMARY
-  Amount Due   : INR 4303
+  Amount Due   : INR 3764
   All results reviewed by a certified pathologist.
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<

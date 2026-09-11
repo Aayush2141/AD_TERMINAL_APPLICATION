@@ -1,25 +1,25 @@
-##############################################
-#          LABORATORY TEST REPORT            #
-##############################################
-Report ID  : CLM121267
-Report Date: 06-12-2025
-----------------------------------------------
-Laboratory : LifeLine Laboratories
-Lab Reg.   : PRV1007
-----------------------------------------------
-Patient    : Deepa Reddy
-Patient ID : PAT15726
-Referred By: Dr. Suresh Pillai
-----------------------------------------------
-TEST RESULTS:
-  - HBsAg (Hepatitis B): 105.73
-  - Kidney Function Test (KFT): 193.27
-  - COVID-19 RT-PCR: 163.47
-  - Urine Routine & Microscopy: 160.35
-  - ECG (Electrocardiogram): 28.11
-----------------------------------------------
-Total Charges: INR 3344
-----------------------------------------------
-Verified By: Lab Technician
-Pathologist: Dr. Suresh Pillai
-##############################################
+==========================================================
+                    MEDICAL INVOICE
+==========================================================
+Invoice No : CLM856086
+Date       : 02-05-2024
+----------------------------------------------------------
+Provider   : Apollo Health Clinic
+Provider ID: PRV1001
+----------------------------------------------------------
+Patient    : Hema Gupta
+Patient ID : PAT56090
+----------------------------------------------------------
+ITEMISED CHARGES:
+  - Cetirizine 10mg  x3  INR 110
+  - Atorvastatin 20mg  x3  INR 367
+----------------------------------------------------------
+Consultation Fee   : INR 490
+Subtotal           : INR 4037
+GST (18%)          : INR 814
+----------------------------------------------------------
+TOTAL AMOUNT DUE   : INR 5341
+==========================================================
+Attending Physician: Dr. Rajesh Mehta
+Signature          : ___________________
+==========================================================

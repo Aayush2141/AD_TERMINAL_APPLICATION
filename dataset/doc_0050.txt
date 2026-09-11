@@ -1,24 +1,14 @@
-##############################################
-#          LABORATORY TEST REPORT            #
-##############################################
-Report ID  : CLM189278
-Report Date: 19-11-2025
-----------------------------------------------
-Laboratory : LifeLine Laboratories
-Lab Reg.   : PRV1007
-----------------------------------------------
-Patient    : Chitra Iyer
-Patient ID : PAT29786
-Referred By: Dr. Kavitha Krishnamurthy
-----------------------------------------------
-TEST RESULTS:
-  - Lipid Profile: 119.02
-  - Blood Glucose (PP): 77.2
-  - COVID-19 RT-PCR: 116.28
-  - Blood Glucose (Fasting): 190.87
-----------------------------------------------
-Total Charges: INR 6682
-----------------------------------------------
-Verified By: Lab Technician
-Pathologist: Dr. Kavitha Krishnamurthy
-##############################################
+LAB REPORT
+==========
+Ref: CLM724932   Date: 01-05-2024
+Lab: NovaMed Institute  Lic: PRV1008
+Amount: INR 7658
+
+Patient: Simran Verma  ID: PAT27038
+Doctor : Dr. Suresh Sharma
+
+INVESTIGATIONS:
+  - Serum Creatinine: 49.96
+  - Lipid Profile: 22.99
+
+Report validated and digitally signed.

@@ -1,22 +1,22 @@
 ##############################################
 #          LABORATORY TEST REPORT            #
 ##############################################
-Report ID  : CLM151646
-Report Date: 19-10-2025
+Report ID  : CLM534572
+Report Date: 21-10-2024
 ----------------------------------------------
 Laboratory : LifeLine Laboratories
 Lab Reg.   : PRV1007
 ----------------------------------------------
-Patient    : Tanvi Choudhary
-Patient ID : PAT27786
-Referred By: Dr. Kavitha Bose
+Patient    : Bhavya Joshi
+Patient ID : PAT60328
+Referred By: Dr. Deepika Pillai
 ----------------------------------------------
 TEST RESULTS:
-  - Serum Creatinine: 10.89
-  - ECG (Electrocardiogram): 190.41
+  - Liver Function Test (LFT): 127.61
+  - Kidney Function Test (KFT): 11.85
 ----------------------------------------------
-Total Charges: INR 9775
+Total Charges: INR 2656
 ----------------------------------------------
 Verified By: Lab Technician
-Pathologist: Dr. Kavitha Bose
+Pathologist: Dr. Deepika Pillai
 ##############################################

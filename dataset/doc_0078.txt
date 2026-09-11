@@ -1,14 +1,16 @@
 E-PRESCRIPTION
-TxnID: CLM107568  |  Date: 18-08-2025  |  [QR-CODE: CLM107568]
-Physician : Dr. Vikram Mehta   Institute: BlueCross Pharmacy   Reg: PRV1006
-Patient Name: Yash Sharma   UHI: PAT61897
-Ailment: Acute Gastroenteritis
+TxnID: CLM642491  |  Date: 12-03-2024  |  [QR-CODE: CLM642491]
+Physician : Dr. Kavitha Iyer   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Zara Kapoor   UHI: PAT82260
+Ailment: Hypothyroidism
 
   +----------------------------------------------------------+-------------+
   | MEDICINE / DOSE                                          | DURATION    |
   +----------------------------------------------------------+-------------+
-  | Amoxicillin 500mg  x2  INR 1534                         | As directed |
-  | Cetirizine 10mg  x1  INR 604                            | As directed |
+  | Cetirizine 10mg  x1  INR 393                            | As directed |
+  | Dolo 650  x1  INR 113                                   | As directed |
+  | Paracetamol 650mg  x2  INR 283                          | As directed |
+  | Pantoprazole 40mg  x3  INR 325                          | As directed |
   +----------------------------------------------------------+-------------+
 
 REGULATORY NOTE: This e-prescription is system-generated and legally valid.

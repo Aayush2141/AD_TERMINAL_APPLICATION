@@ -1,15 +1,22 @@
-E-PRESCRIPTION
-TxnID: CLM152035  |  Date: 26-08-2023  |  [QR-CODE: CLM152035]
-Physician : Dr. Rajesh Chandra   Institute: BlueCross Pharmacy   Reg: PRV1006
-Patient Name: Chitra Nair   UHI: PAT14910
-Ailment: Anxiety Disorder
+OUTPATIENT PRESCRIPTION
+Ref No: CLM886325   Date Issued: 22-03-2024
 
-  +----------------------------------------------------------+-------------+
-  | MEDICINE / DOSE                                          | DURATION    |
-  +----------------------------------------------------------+-------------+
-  | Vitamin D3 60000IU  x2  INR 1030                        | As directed |
-  | Losartan 50mg  x3  INR 1818                             | As directed |
-  +----------------------------------------------------------+-------------+
+PATIENT
+  Full Name  : Aarav Verma
+  Member ID  : PAT89635
+  Clinical Dx: Upper Respiratory Infection
 
-REGULATORY NOTE: This e-prescription is system-generated and legally valid.
-Physician Digital Signature: ___________________
+PRESCRIBER
+  Name       : Dr. Kavitha Iyer
+  Facility   : Lotus Wellness Hub
+  License    : PRV1005
+
+DRUG LIST:
+  1. Paracetamol 650mg  x2  INR 308
+  2. Atorvastatin 20mg  x1  INR 260
+  3. Cetirizine 10mg  x3  INR 302
+  4. Omeprazole 20mg  x2  INR 109
+
+Dispensing Note: Dispense as written. No substitution.
+Rx Valid Until : 30 days from date of issue.
+Prescriber Seal: ___________________

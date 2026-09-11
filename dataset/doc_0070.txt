@@ -1,25 +1,25 @@
-##############################################
-#          LABORATORY TEST REPORT            #
-##############################################
-Report ID  : CLM194556
-Report Date: 02-10-2024
-----------------------------------------------
-Laboratory : LifeLine Laboratories
-Lab Reg.   : PRV1007
-----------------------------------------------
-Patient    : Tanvi Trivedi
-Patient ID : PAT59832
-Referred By: Dr. Mohan Agarwal
-----------------------------------------------
-TEST RESULTS:
-  - Serum Creatinine: 184.14
-  - Liver Function Test (LFT): 174.63
-  - Urine Routine & Microscopy: 147.3
-  - ECG (Electrocardiogram): 12.93
-  - Blood Glucose (Fasting): 28.05
-----------------------------------------------
-Total Charges: INR 4538
-----------------------------------------------
-Verified By: Lab Technician
-Pathologist: Dr. Mohan Agarwal
-##############################################
+==========================================================
+                    MEDICAL INVOICE
+==========================================================
+Invoice No : CLM648913
+Date       : 12-02-2024
+----------------------------------------------------------
+Provider   : Apollo Health Clinic
+Provider ID: PRV1001
+----------------------------------------------------------
+Patient    : Gaurav Rao
+Patient ID : PAT76496
+----------------------------------------------------------
+ITEMISED CHARGES:
+  - Atorvastatin 20mg  x2  INR 80
+  - Pantoprazole 40mg  x3  INR 260
+----------------------------------------------------------
+Consultation Fee   : INR 1355
+Subtotal           : INR 5210
+GST (18%)          : INR 1181
+----------------------------------------------------------
+TOTAL AMOUNT DUE   : INR 7746
+==========================================================
+Attending Physician: Dr. Suresh Sharma
+Signature          : ___________________
+==========================================================
