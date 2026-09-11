@@ -13,6 +13,7 @@ Commands:
 
 import argparse
 import sys
+import time
 from pathlib import Path
 
 # Dataset paths are relative to this script's location so the tool works
@@ -49,6 +50,8 @@ def cmd_analyze(args) -> None:
       5. Evaluate accuracy against ground truth (full-dataset mode only).
       6. Save JSON and CSV reports to disk.
     """
+    start_time = time.time()
+
     import fraud_flagger
     import template_extractor
     import similarity_engine
@@ -100,6 +103,9 @@ def cmd_analyze(args) -> None:
     fraud_flagger.save_report(flagged, metrics, str(output_path))
     sim_path = output_path.parent / "similarity_results.json"
     similarity_engine.save_results(comparison_results, str(sim_path))
+
+    elapsed = time.time() - start_time
+    print(f"\n[✓] Analysis complete in {elapsed:.2f}s")
 
 
 def build_parser() -> argparse.ArgumentParser:
