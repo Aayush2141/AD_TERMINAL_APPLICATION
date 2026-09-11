@@ -1,10 +1,18 @@
 """
-fraud_flagger.py — Flags suspicious document pairs as RED or AMBER.
+fraud_flagger.py — Decides which document pairs are suspicious (fraud).
 
-Flagging Rules:
-  RED   (≥ 90% similar, different providers) → High fraud likelihood
-  AMBER (70–89% similar, different providers) → Suspicious, needs review
-  None  (< 70% similar, or same provider)    → Legitimate
+HOW IT WORKS:
+  After the similarity engine scores every pair of documents (0-100%),
+  this module looks at each score and decides whether to raise an alert:
+
+  RED   flag → score ≥ 90% AND documents come from DIFFERENT providers
+               → Almost certainly fraud (same template, different fake clinic)
+
+  AMBER flag → score 70–89% AND documents come from DIFFERENT providers
+               → Suspicious, worth a human review
+
+  No flag    → score < 70%, OR the documents are from the SAME provider
+               → Legitimate (either too different, or same clinic using its own template)
 """
 
 import csv
@@ -12,6 +20,9 @@ import json
 import re
 from pathlib import Path
 
+# ── Optional pretty-printing ─────────────────────────────────────────────────
+# If the 'rich' library is installed, alerts are shown in a nice colored table.
+# If not, we fall back to plain terminal output with ANSI color codes.
 try:
     from rich.console import Console
     from rich.table import Table
@@ -22,95 +33,148 @@ except ImportError:
     _RICH_AVAILABLE = False
     console = None
 
-# Default thresholds (can be overridden from the CLI)
-RED_THRESHOLD = 90.0
-AMBER_THRESHOLD = 70.0
+# ── Thresholds ────────────────────────────────────────────────────────────────
+# These can be changed from the CLI with --threshold-red / --threshold-amber.
+RED_THRESHOLD   = 90.0   # pairs at or above this score → RED alert
+AMBER_THRESHOLD = 70.0   # pairs at or above this score → AMBER alert
 
+
+# ─────────────────────────────────────────────────────────────────────────────
+# STEP 1 — IDENTIFY THE PROVIDER
+# ─────────────────────────────────────────────────────────────────────────────
 
 def _get_provider(raw_text: str) -> str:
     """
-    Extract the provider/clinic name from a document's raw text.
-    Tries common label patterns (Provider, Facility, Lab, etc.) and
-    falls back to the first meaningful line if nothing matches.
-    """
-    # Check for a LABORATORY INFO section first (most specific)
-    m = re.search(r"LABORATORY INFO\s*\n\s*Name\s*:\s*([^|\n\r]+)", raw_text, re.IGNORECASE)
-    if m:
-        return m.group(1).strip()
+    Read a document and extract the name of the provider/clinic.
 
-    # Check general provider labels
-    m = re.search(
+    We need the provider name so we can check whether two suspicious
+    documents actually come from the SAME clinic (legitimate) or from
+    DIFFERENT clinics (potential fraud).
+
+    The function tries three strategies, from most specific to least:
+      1. Look for a 'LABORATORY INFO' section (lab reports).
+      2. Look for a labelled field like 'Provider:', 'Clinic:', 'Facility:'.
+      3. Fall back to the first readable line of the document.
+    """
+    # Strategy 1 — lab reports have a dedicated "LABORATORY INFO" block
+    match = re.search(r"LABORATORY INFO\s*\n\s*Name\s*:\s*([^|\n\r]+)", raw_text, re.IGNORECASE)
+    if match:
+        return match.group(1).strip()
+
+    # Strategy 2 — look for a labelled provider field anywhere in the document
+    match = re.search(
         r"(?:Provider|Issued By|Laboratory|Clinic|Facility|Institution|Institute|Lab)\s*[:|]\s*([^|\n\r]+)",
         raw_text,
         re.IGNORECASE,
     )
-    if m:
-        name = m.group(1).strip()
+    if match:
+        name = match.group(1).strip()
+        # Strip trailing license/registration codes like "Lic: PRV1020"
         name = re.sub(r"\s*(?:Lic|Reg|Facility Code|\(ID|ID).*$", "", name, flags=re.IGNORECASE).strip()
         name = name.rstrip("| -:").strip()
         if name:
             return name
 
-    # Fallback: use the first non-decorative line
+    # Strategy 3 — use the first non-decorative line (e.g. not "======" or "####")
     for line in raw_text.splitlines():
         clean = line.strip()
         if clean and not all(c in "=*#-><  " for c in clean):
-            return clean[:50]
+            return clean[:50]  # cap at 50 chars to avoid returning a full paragraph
 
     return "UNKNOWN"
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# STEP 2 — FLAG SUSPICIOUS PAIRS
+# ─────────────────────────────────────────────────────────────────────────────
+
 def flag_pairs(comparison_results: list, extractions: dict) -> dict:
     """
-    Apply fraud thresholds to all compared pairs and return flagged results.
+    Go through every compared document pair and decide if it should be flagged.
+
+    A pair is flagged only when BOTH conditions are true:
+      - The similarity score is high enough (≥ AMBER_THRESHOLD)
+      - The two documents claim to be from DIFFERENT providers
 
     Args:
-        comparison_results: List of pair dicts with similarity scores.
-        extractions: Map of doc_id -> document info (used to read provider names).
+        comparison_results: Output from similarity_engine — a list of pairs
+                            with their similarity scores.
+        extractions:        The full document data (needed to read provider names
+                            from the raw document text).
 
     Returns:
-        {'red': [...], 'amber': [...], 'all_flagged': [...]}
+        A dict with three keys:
+          'red'         → list of RED-flagged pairs
+          'amber'       → list of AMBER-flagged pairs
+          'all_flagged' → both lists combined (convenient for reporting)
     """
-    red_pairs, amber_pairs = [], []
+    red_pairs   = []
+    amber_pairs = []
 
-    for r in comparison_results:
-        score = r["combined_score"]
+    for result in comparison_results:
+        score = result["combined_score"]
+
+        # Skip pairs that are not similar enough to be worth investigating
         if score < AMBER_THRESHOLD:
-            continue  # below minimum threshold, skip
+            continue
 
-        prov_a = _get_provider(extractions.get(r["doc_id_a"], {}).get("raw_text", ""))
-        prov_b = _get_provider(extractions.get(r["doc_id_b"], {}).get("raw_text", ""))
+        # Look up the provider name for each document in the pair
+        doc_a_text = extractions.get(result["doc_id_a"], {}).get("raw_text", "")
+        doc_b_text = extractions.get(result["doc_id_b"], {}).get("raw_text", "")
+        provider_a = _get_provider(doc_a_text)
+        provider_b = _get_provider(doc_b_text)
 
-        if prov_a.lower() == prov_b.lower():
-            continue  # same provider = legitimate template reuse, not fraud
+        # If both documents belong to the same provider, this is NOT fraud —
+        # it just means one clinic consistently uses the same form layout.
+        if provider_a.lower() == provider_b.lower():
+            continue
 
-        pair = {**r, "provider_a": prov_a, "provider_b": prov_b, "same_provider": False}
+        # Build the record we'll store for this flagged pair
+        flagged_pair = {
+            **result,                    # copy all score fields from comparison
+            "provider_a":    provider_a,
+            "provider_b":    provider_b,
+            "same_provider": False,
+        }
 
+        # Assign the severity level
         if score >= RED_THRESHOLD:
-            pair["flag"] = "RED"
-            red_pairs.append(pair)
+            flagged_pair["flag"] = "RED"
+            red_pairs.append(flagged_pair)
         else:
-            pair["flag"] = "AMBER"
-            amber_pairs.append(pair)
+            flagged_pair["flag"] = "AMBER"
+            amber_pairs.append(flagged_pair)
 
-    return {"red": red_pairs, "amber": amber_pairs, "all_flagged": red_pairs + amber_pairs}
+    return {
+        "red":         red_pairs,
+        "amber":       amber_pairs,
+        "all_flagged": red_pairs + amber_pairs,
+    }
 
+
+# ─────────────────────────────────────────────────────────────────────────────
+# STEP 3 — DISPLAY RESULTS IN THE TERMINAL
+# ─────────────────────────────────────────────────────────────────────────────
 
 def render_flagged_pairs(flagged: dict) -> None:
     """
-    Print flagged pairs to the terminal with color coding.
-    Uses the `rich` library if available, otherwise falls back to ANSI colors.
+    Print the flagged pairs to the terminal in a readable, color-coded format.
+
+    Uses a styled table if the 'rich' library is installed.
+    Falls back to plain colored text using ANSI escape codes otherwise.
     """
     all_pairs = flagged["all_flagged"]
 
+    # Nothing found — print a success message and exit early
     if not all_pairs:
         msg = "\n[✓] No suspicious template reuse detected."
         if _RICH_AVAILABLE:
             console.print(f"[bold green]{msg}[/bold green]")
         else:
-            print(f"\033[92m{msg}\033[0m")
+            print(f"\033[92m{msg}\033[0m")  # \033[92m = green, \033[0m = reset
         return
 
+    # ── Rich table display (installed) ───────────────────────────────────────
     if _RICH_AVAILABLE:
         table = Table(title="Fraud Detection Alerts", box=box.ROUNDED, show_lines=True)
         table.add_column("Alert",      justify="center", style="bold", width=8)
@@ -122,13 +186,15 @@ def render_flagged_pairs(flagged: dict) -> None:
 
         for p in flagged["red"]:
             table.add_row(
-                "[bold red]RED[/bold red]", p["doc_id_a"], p["doc_id_b"],
+                "[bold red]RED[/bold red]",
+                p["doc_id_a"], p["doc_id_b"],
                 f"[bold red]{p['combined_score']:.1f}%[/bold red]",
                 p["provider_a"][:25], p["provider_b"][:25],
             )
         for p in flagged["amber"]:
             table.add_row(
-                "[bold yellow]AMBER[/bold yellow]", p["doc_id_a"], p["doc_id_b"],
+                "[bold yellow]AMBER[/bold yellow]",
+                p["doc_id_a"], p["doc_id_b"],
                 f"[bold yellow]{p['combined_score']:.1f}%[/bold yellow]",
                 p["provider_a"][:25], p["provider_b"][:25],
             )
@@ -136,62 +202,94 @@ def render_flagged_pairs(flagged: dict) -> None:
         console.print()
         console.print(table)
         console.print(
-            f"[bold]Summary:[/bold] [bold red]{len(flagged['red'])} RED[/bold red] | "
+            f"[bold]Summary:[/bold] "
+            f"[bold red]{len(flagged['red'])} RED[/bold red] | "
             f"[bold yellow]{len(flagged['amber'])} AMBER[/bold yellow] | "
             f"{len(all_pairs)} Total Flagged Pairs\n"
         )
+
+    # ── Plain ANSI fallback (no rich installed) ───────────────────────────────
     else:
-        RED   = "\033[91m"
-        AMBER = "\033[93m"
-        RESET = "\033[0m"
+        RED_COLOR   = "\033[91m"   # bright red
+        AMBER_COLOR = "\033[93m"   # bright yellow
+        RESET       = "\033[0m"    # back to default color
 
         print("\n" + "=" * 70)
         print("  FRAUD DETECTION ALERTS")
         print("=" * 70)
+
         for p in flagged["red"]:
-            print(f"{RED}[RED  ] {p['doc_id_a']} <-> {p['doc_id_b']} | Score: {p['combined_score']:.1f}% | {p['provider_a']} vs {p['provider_b']}{RESET}")
+            print(f"{RED_COLOR}[RED  ] {p['doc_id_a']} <-> {p['doc_id_b']} "
+                  f"| Score: {p['combined_score']:.1f}% "
+                  f"| {p['provider_a']} vs {p['provider_b']}{RESET}")
+
         for p in flagged["amber"]:
-            print(f"{AMBER}[AMBER] {p['doc_id_a']} <-> {p['doc_id_b']} | Score: {p['combined_score']:.1f}% | {p['provider_a']} vs {p['provider_b']}{RESET}")
+            print(f"{AMBER_COLOR}[AMBER] {p['doc_id_a']} <-> {p['doc_id_b']} "
+                  f"| Score: {p['combined_score']:.1f}% "
+                  f"| {p['provider_a']} vs {p['provider_b']}{RESET}")
+
         print(f"\nSummary: {len(flagged['red'])} RED | {len(flagged['amber'])} AMBER | {len(all_pairs)} total\n")
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# STEP 4 — LOAD GROUND TRUTH (for accuracy testing)
+# ─────────────────────────────────────────────────────────────────────────────
+
 def load_ground_truth(dataset_dir: str = "dataset") -> set:
     """
-    Load known fraud pairs from ground_truth.csv.
+    Load the list of known fraud pairs from ground_truth.csv.
+
+    This file is generated by dataset_generator.py and lists every pair
+    of documents that we KNOW are fraudulent (because we created them that way).
+    We use it to measure how accurately the algorithm detected the fraud.
 
     Returns:
-        Set of frozensets, each containing {doc_id_a, doc_id_b}.
-        Empty set if the file doesn't exist.
+        A set of frozensets like {frozenset({'doc_0001', 'doc_0002'}), ...}.
+        Uses frozensets so that pair order doesn't matter (A,B == B,A).
+        Returns an empty set if the file doesn't exist.
     """
     path = Path(dataset_dir) / "ground_truth.csv"
     if not path.exists():
-        return set()
+        return set()  # no ground truth available, skip accuracy evaluation
 
     with open(path, newline="", encoding="utf-8") as f:
         return {frozenset({row["doc_id_a"], row["doc_id_b"]}) for row in csv.DictReader(f)}
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# STEP 5 — MEASURE ACCURACY
+# ─────────────────────────────────────────────────────────────────────────────
+
 def evaluate_accuracy(flagged: dict, ground_truth: set, all_results: list) -> dict:
     """
-    Compute precision, recall, and F1 against known ground-truth fraud pairs.
+    Compare our flagged pairs against the known fraud pairs to measure accuracy.
 
-    True Positive  (TP): Known fraud pair that was correctly flagged.
-    False Positive (FP): Legitimate pair that was incorrectly flagged.
-    False Negative (FN): Known fraud pair that was missed.
-    True Negative  (TN): Legitimate pair that was correctly cleared.
+    The four possible outcomes for each pair:
+      TP (True Positive)  — we flagged it AND it really is fraud  ✓ correct
+      FP (False Positive) — we flagged it BUT it's actually legit  ✗ false alarm
+      FN (False Negative) — we missed it AND it really was fraud   ✗ missed fraud
+      TN (True Negative)  — we didn't flag it AND it's legit       ✓ correct
+
+    Metrics derived from those counts:
+      Precision = TP / (TP + FP)  → "Of everything we flagged, how much was real fraud?"
+      Recall    = TP / (TP + FN)  → "Of all real fraud, how much did we catch?"
+      F1 Score  = harmonic mean of Precision and Recall (overall performance)
     """
     if not ground_truth:
         print("[!] No ground_truth.csv found; skipping accuracy metrics.")
         return {}
 
-    flagged_set  = {frozenset({p["doc_id_a"], p["doc_id_b"]}) for p in flagged["all_flagged"]}
-    universe     = {frozenset({p["doc_id_a"], p["doc_id_b"]}) for p in all_results}
+    # Convert flagged pairs and all compared pairs into sets for easy comparison
+    flagged_set = {frozenset({p["doc_id_a"], p["doc_id_b"]}) for p in flagged["all_flagged"]}
+    all_pairs   = {frozenset({p["doc_id_a"], p["doc_id_b"]}) for p in all_results}
 
-    tp = len(flagged_set & ground_truth)
-    fp = len(flagged_set - ground_truth)
-    fn = len(ground_truth - flagged_set)
-    tn = len(universe - flagged_set - ground_truth)
+    # Count the four outcome categories using set operations
+    tp = len(flagged_set & ground_truth)          # flagged AND known fraud
+    fp = len(flagged_set - ground_truth)          # flagged BUT not fraud
+    fn = len(ground_truth - flagged_set)          # not flagged BUT was fraud
+    tn = len(all_pairs - flagged_set - ground_truth)  # not flagged AND not fraud
 
+    # Calculate the three accuracy metrics (guard against division by zero)
     precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0
     recall    = tp / (tp + fn) if (tp + fn) > 0 else 0.0
     f1        = (2 * precision * recall / (precision + recall)) if (precision + recall) > 0 else 0.0
@@ -217,20 +315,27 @@ def evaluate_accuracy(flagged: dict, ground_truth: set, all_results: list) -> di
     return metrics
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# STEP 6 — SAVE THE REPORT
+# ─────────────────────────────────────────────────────────────────────────────
+
 def save_report(flagged: dict, metrics: dict, output_path: str) -> None:
     """
-    Save flagged alerts to both JSON and CSV files.
+    Write the results to disk in two formats:
+      - JSON (report.json) — full structured data, good for parsing/inspection
+      - CSV  (report.csv)  — flat table, easy to open in Excel or Google Sheets
 
     Args:
-        flagged:     Flagged pair records from flag_pairs().
-        metrics:     Accuracy metrics from evaluate_accuracy().
-        output_path: Base file path (e.g. 'report.json').
+        flagged:     The flagged pairs from flag_pairs().
+        metrics:     The accuracy metrics from evaluate_accuracy().
+        output_path: Where to write the JSON file (e.g. 'report.json').
+                     The CSV is saved to the same path with a .csv extension.
     """
     json_path = Path(output_path)
     csv_path  = json_path.with_suffix(".csv")
     json_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # JSON report
+    # ── JSON report ───────────────────────────────────────────────────────────
     report = {
         "summary": {
             "red_alerts":    len(flagged["red"]),
@@ -242,12 +347,18 @@ def save_report(flagged: dict, metrics: dict, output_path: str) -> None:
     }
     json_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
 
-    # CSV report
+    # ── CSV report ────────────────────────────────────────────────────────────
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["flag", "doc_id_a", "doc_id_b", "score", "provider_a", "provider_b"])
         for p in flagged["all_flagged"]:
-            writer.writerow([p.get("flag"), p.get("doc_id_a"), p.get("doc_id_b"),
-                             p.get("combined_score"), p.get("provider_a"), p.get("provider_b")])
+            writer.writerow([
+                p.get("flag"),
+                p.get("doc_id_a"),
+                p.get("doc_id_b"),
+                p.get("combined_score"),
+                p.get("provider_a"),
+                p.get("provider_b"),
+            ])
 
     print(f"[fraud_flagger] Report written to '{json_path}' and '{csv_path}'")
