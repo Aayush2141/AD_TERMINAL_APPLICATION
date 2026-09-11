@@ -1,0 +1,17 @@
+LAB REPORT
+==========
+Ref: CLM110590   Date: 11-10-2023
+Lab: NovaMed Institute  Lic: PRV1008
+Amount: INR 2725
+
+Patient: Gaurav Trivedi  ID: PAT92978
+Doctor : Dr. Deepika Nambiar
+
+INVESTIGATIONS:
+  - Chest X-Ray: 80.05
+  - Liver Function Test (LFT): 146.06
+  - Urine Routine & Microscopy: 62.85
+  - Thyroid Stimulating Hormone (TSH): 62.85
+  - COVID-19 RT-PCR: 51.35
+
+Report validated and digitally signed.

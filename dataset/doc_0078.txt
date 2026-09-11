@@ -1,0 +1,15 @@
+E-PRESCRIPTION
+TxnID: CLM107568  |  Date: 18-08-2025  |  [QR-CODE: CLM107568]
+Physician : Dr. Vikram Mehta   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Yash Sharma   UHI: PAT61897
+Ailment: Acute Gastroenteritis
+
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Amoxicillin 500mg  x2  INR 1534                         | As directed |
+  | Cetirizine 10mg  x1  INR 604                            | As directed |
+  +----------------------------------------------------------+-------------+
+
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

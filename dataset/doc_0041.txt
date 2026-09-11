@@ -1,0 +1,19 @@
+EXPENSE VOUCHER
+Voucher Ref: CLM143714
+Date of Service: 08-03-2025
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Bharat Kapoor | Claimant ID: PAT37152
+
+SERVICE ITEMS:
+  - Dolo 650  x1  INR 333
+  - Atorvastatin 20mg  x1  INR 183
+  - Vitamin D3 60000IU  x3  INR 918
+  - Paracetamol 650mg  x1  INR 162
+
+COST SUMMARY:
+  Consultation Fee ............... INR 343
+  Tests & Medicines .............. INR 914
+  GST @ 18% ........................ INR 226
+
+Net Payable: INR 1483
+Certified by: Dr. Deepika Agarwal

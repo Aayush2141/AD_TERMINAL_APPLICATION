@@ -1,0 +1,26 @@
+==================================================
+                   PRESCRIPTION
+==================================================
+Rx No.     : CLM128017
+Date       : 28-07-2023
+--------------------------------------------------
+Doctor     : Dr. Kavitha Chandra
+Clinic     : Trident Specialty Care
+Reg. No.   : PRV2010
+--------------------------------------------------
+Patient    : Aarav Malhotra
+Patient ID : PAT44760
+Diagnosis  : Dengue Fever
+--------------------------------------------------
+MEDICATIONS PRESCRIBED:
+  - Atorvastatin 20mg  x3  INR 1815
+  - Omeprazole 20mg  x1  INR 371
+  - Pantoprazole 40mg  x1  INR 101
+  - Montelukast 10mg  x3  INR 1614
+  - Amoxicillin 500mg  x3  INR 1779
+--------------------------------------------------
+Instructions: Take as directed. Avoid alcohol.
+Follow-up   : After 7 days or as needed.
+==================================================
+Doctor's Signature: ___________________
+==================================================

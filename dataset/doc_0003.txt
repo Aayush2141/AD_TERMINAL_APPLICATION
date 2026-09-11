@@ -1,0 +1,23 @@
+***** HEALTHCARE BILLING DOCUMENT *****
+Bill Ref   : CLM135094
+Bill Date  : 03-04-2025
+***************************************
+TO:
+  Patient Name : Ishaan Kumar
+  Patient ID   : PAT95909
+FROM:
+  Issued By  : Global Horizon Hospital
+  Reg. No.   : PRV2004
+***************************************
+PRESCRIBED ITEMS / SERVICES:
+  - Pantoprazole 40mg  x3  INR 1872
+  - Atorvastatin 20mg  x3  INR 957
+  - Omeprazole 20mg  x3  INR 1944
+- Consultation        : INR 946
+- Investigations      : INR 3786
+***************************************
+GST Applied    : 18%  (INR 851)
+GRAND TOTAL    : INR 5583
+***************************************
+Authorised By  : Dr. Kavitha Iyer
+***************************************

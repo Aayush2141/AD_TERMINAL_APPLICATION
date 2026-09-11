@@ -1,0 +1,24 @@
+==================================================
+                   PRESCRIPTION
+==================================================
+Rx No.     : CLM123417
+Date       : 17-02-2025
+--------------------------------------------------
+Doctor     : Dr. Anitha Bose
+Clinic     : Silverline Medicare
+Reg. No.   : PRV2006
+--------------------------------------------------
+Patient    : Tanvi Bhatia
+Patient ID : PAT89818
+Diagnosis  : Hypothyroidism
+--------------------------------------------------
+MEDICATIONS PRESCRIBED:
+  - Ibuprofen 400mg  x1  INR 663
+  - Dolo 650  x2  INR 1100
+  - Vitamin D3 60000IU  x1  INR 164
+--------------------------------------------------
+Instructions: Take as directed. Avoid alcohol.
+Follow-up   : After 7 days or as needed.
+==================================================
+Doctor's Signature: ___________________
+==================================================

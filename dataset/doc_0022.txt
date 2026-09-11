@@ -1,0 +1,17 @@
+EXPENSE VOUCHER
+Voucher Ref: CLM185427
+Date of Service: 02-01-2023
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Aarav Trivedi | Claimant ID: PAT29973
+
+SERVICE ITEMS:
+  - Paracetamol 650mg  x2  INR 1532
+  - Omeprazole 20mg  x2  INR 854
+
+COST SUMMARY:
+  Consultation Fee ............... INR 440
+  Tests & Medicines .............. INR 6899
+  GST @ 18% ........................ INR 1321
+
+Net Payable: INR 8660
+Certified by: Dr. Anitha Bose

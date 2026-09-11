@@ -1,0 +1,25 @@
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM111543
+Report Date: 11-05-2024
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Karan Bhatia
+Patient ID : PAT10150
+Referred By: Dr. Arun Sharma
+----------------------------------------------
+TEST RESULTS:
+  - HBsAg (Hepatitis B): 26.64
+  - Complete Blood Count (CBC): 57.96
+  - Liver Function Test (LFT): 176.23
+  - Kidney Function Test (KFT): 97.2
+  - ECG (Electrocardiogram): 6.26
+----------------------------------------------
+Total Charges: INR 5428
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Arun Sharma
+##############################################

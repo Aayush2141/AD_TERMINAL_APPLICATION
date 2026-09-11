@@ -1,0 +1,18 @@
+E-PRESCRIPTION
+TxnID: CLM182832  |  Date: 17-10-2023  |  [QR-CODE: CLM182832]
+Physician : Dr. Deepika Pillai   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Hema Choudhary   UHI: PAT10205
+Ailment: Acute Gastroenteritis
+
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Atorvastatin 20mg  x2  INR 238                          | As directed |
+  | Clopidogrel 75mg  x3  INR 1821                          | As directed |
+  | Montelukast 10mg  x3  INR 1707                          | As directed |
+  | Metformin 1000mg  x3  INR 210                           | As directed |
+  | Ibuprofen 400mg  x2  INR 1062                           | As directed |
+  +----------------------------------------------------------+-------------+
+
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

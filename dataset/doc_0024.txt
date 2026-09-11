@@ -1,0 +1,16 @@
+LAB REPORT
+==========
+Ref: CLM123087   Date: 24-09-2025
+Lab: NovaMed Institute  Lic: PRV1008
+Amount: INR 5522
+
+Patient: Amrita Kapoor  ID: PAT73372
+Doctor : Dr. Kavitha Iyer
+
+INVESTIGATIONS:
+  - Complete Blood Count (CBC): 97.77
+  - Chest X-Ray: 71.29
+  - Thyroid Stimulating Hormone (TSH): 52.04
+  - HbA1c: 56.29
+
+Report validated and digitally signed.

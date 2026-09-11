@@ -1,0 +1,17 @@
+E-PRESCRIPTION
+TxnID: CLM170576  |  Date: 22-12-2025  |  [QR-CODE: CLM170576]
+Physician : Dr. Sunita Pillai   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Eshan Joshi   UHI: PAT66531
+Ailment: Anxiety Disorder
+
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Clopidogrel 75mg  x2  INR 1138                          | As directed |
+  | Montelukast 10mg  x2  INR 1464                          | As directed |
+  | Metformin 1000mg  x2  INR 768                           | As directed |
+  | Amlodipine 5mg  x2  INR 1526                            | As directed |
+  +----------------------------------------------------------+-------------+
+
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

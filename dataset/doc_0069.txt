@@ -1,0 +1,18 @@
+E-PRESCRIPTION
+TxnID: CLM167569  |  Date: 05-06-2025  |  [QR-CODE: CLM167569]
+Physician : Dr. Deepika Pillai   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Karan Trivedi   UHI: PAT49221
+Ailment: Vitamin D Deficiency
+
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Amlodipine 5mg  x2  INR 778                             | As directed |
+  | Paracetamol 650mg  x3  INR 486                          | As directed |
+  | Pantoprazole 40mg  x2  INR 1294                         | As directed |
+  | Azithromycin 250mg  x2  INR 1584                        | As directed |
+  | Amoxicillin 500mg  x3  INR 2082                         | As directed |
+  +----------------------------------------------------------+-------------+
+
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

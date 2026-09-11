@@ -1,0 +1,19 @@
+EXPENSE VOUCHER
+Voucher Ref: CLM111958
+Date of Service: 27-02-2023
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Yash Joshi | Claimant ID: PAT27054
+
+SERVICE ITEMS:
+  - Clopidogrel 75mg  x3  INR 1449
+  - Metformin 1000mg  x3  INR 306
+  - Cetirizine 10mg  x2  INR 1328
+  - Losartan 50mg  x2  INR 820
+
+COST SUMMARY:
+  Consultation Fee ............... INR 1271
+  Tests & Medicines .............. INR 1049
+  GST @ 18% ........................ INR 417
+
+Net Payable: INR 2737
+Certified by: Dr. Arun Mehta

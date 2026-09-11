@@ -1,0 +1,16 @@
+LAB REPORT
+==========
+Ref: CLM118715   Date: 28-10-2025
+Lab: NovaMed Institute  Lic: PRV1008
+Amount: INR 1630
+
+Patient: Aditi Gupta  ID: PAT18812
+Doctor : Dr. Anitha Pillai
+
+INVESTIGATIONS:
+  - Blood Glucose (PP): 5.67
+  - Kidney Function Test (KFT): 37.62
+  - Liver Function Test (LFT): 103.79
+  - Lipid Profile: 182.75
+
+Report validated and digitally signed.

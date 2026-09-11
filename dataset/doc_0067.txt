@@ -1,0 +1,15 @@
+E-PRESCRIPTION
+TxnID: CLM131553  |  Date: 07-10-2024  |  [QR-CODE: CLM131553]
+Physician : Dr. Kavitha Chandra   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Hema Pillai   UHI: PAT88317
+Ailment: Vitamin D Deficiency
+
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Montelukast 10mg  x2  INR 374                           | As directed |
+  | Metformin 1000mg  x2  INR 1588                          | As directed |
+  +----------------------------------------------------------+-------------+
+
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

@@ -1,0 +1,15 @@
+LAB REPORT
+==========
+Ref: CLM120759   Date: 10-09-2023
+Lab: NovaMed Institute  Lic: PRV1008
+Amount: INR 8382
+
+Patient: Arjun Shah  ID: PAT24871
+Doctor : Dr. Kavitha Krishnamurthy
+
+INVESTIGATIONS:
+  - Dengue NS1 Antigen: 154.65
+  - Lipid Profile: 170.96
+  - Kidney Function Test (KFT): 68.31
+
+Report validated and digitally signed.

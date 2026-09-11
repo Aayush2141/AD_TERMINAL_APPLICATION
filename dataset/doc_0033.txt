@@ -1,0 +1,23 @@
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM100337
+Report Date: 10-12-2024
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Rahul Pillai
+Patient ID : PAT29476
+Referred By: Dr. Kavitha Nambiar
+----------------------------------------------
+TEST RESULTS:
+  - Dengue NS1 Antigen: 9.21
+  - HBsAg (Hepatitis B): 149.07
+  - Urine Routine & Microscopy: 141.19
+----------------------------------------------
+Total Charges: INR 9520
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Kavitha Nambiar
+##############################################

@@ -1,0 +1,17 @@
+E-PRESCRIPTION
+TxnID: CLM147824  |  Date: 24-03-2023  |  [QR-CODE: CLM147824]
+Physician : Dr. Anitha Bose   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Ishaan Choudhary   UHI: PAT33021
+Ailment: Vitamin D Deficiency
+
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Ibuprofen 400mg  x2  INR 1086                           | As directed |
+  | Vitamin D3 60000IU  x2  INR 792                         | As directed |
+  | Pantoprazole 40mg  x1  INR 529                          | As directed |
+  | Atorvastatin 20mg  x1  INR 194                          | As directed |
+  +----------------------------------------------------------+-------------+
+
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

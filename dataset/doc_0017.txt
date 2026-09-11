@@ -1,0 +1,24 @@
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM171820
+Report Date: 27-01-2024
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Lakshmi Saxena
+Patient ID : PAT89516
+Referred By: Dr. Priyanka Sharma
+----------------------------------------------
+TEST RESULTS:
+  - Liver Function Test (LFT): 5.37
+  - HBsAg (Hepatitis B): 49.35
+  - COVID-19 RT-PCR: 95.29
+  - HbA1c: 170.02
+----------------------------------------------
+Total Charges: INR 5595
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Priyanka Sharma
+##############################################

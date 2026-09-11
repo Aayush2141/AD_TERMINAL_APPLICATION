@@ -1,0 +1,23 @@
+OUTPATIENT PRESCRIPTION
+Ref No: CLM103719   Date Issued: 03-01-2025
+
+PATIENT
+  Full Name  : Gaurav Kumar
+  Member ID  : PAT84991
+  Clinical Dx: Type 2 Diabetes Mellitus
+
+PRESCRIBER
+  Name       : Dr. Suresh Desai
+  Facility   : Lotus Wellness Hub
+  License    : PRV1005
+
+DRUG LIST:
+  1. Vitamin D3 60000IU  x2  INR 1088
+  2. Clopidogrel 75mg  x1  INR 751
+  3. Ibuprofen 400mg  x2  INR 708
+  4. Pantoprazole 40mg  x2  INR 248
+  5. Montelukast 10mg  x3  INR 333
+
+Dispensing Note: Dispense as written. No substitution.
+Rx Valid Until : 30 days from date of issue.
+Prescriber Seal: ___________________

@@ -1,0 +1,25 @@
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM170454
+Report Date: 26-11-2023
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Uday Trivedi
+Patient ID : PAT20730
+Referred By: Dr. Arun Sharma
+----------------------------------------------
+TEST RESULTS:
+  - Lipid Profile: 98.02
+  - Blood Glucose (PP): 179.83
+  - Liver Function Test (LFT): 89.37
+  - Serum Creatinine: 11.6
+  - Blood Glucose (Fasting): 26.82
+----------------------------------------------
+Total Charges: INR 9402
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Arun Sharma
+##############################################

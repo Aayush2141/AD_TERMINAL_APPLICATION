@@ -1,0 +1,22 @@
+OUTPATIENT PRESCRIPTION
+Ref No: CLM103366   Date Issued: 10-10-2025
+
+PATIENT
+  Full Name  : Karan Kumar
+  Member ID  : PAT19961
+  Clinical Dx: Hypertension
+
+PRESCRIBER
+  Name       : Dr. Deepika Agarwal
+  Facility   : Lotus Wellness Hub
+  License    : PRV1005
+
+DRUG LIST:
+  1. Montelukast 10mg  x3  INR 276
+  2. Clopidogrel 75mg  x2  INR 1190
+  3. Paracetamol 650mg  x2  INR 1454
+  4. Metformin 1000mg  x2  INR 240
+
+Dispensing Note: Dispense as written. No substitution.
+Rx Valid Until : 30 days from date of issue.
+Prescriber Seal: ___________________

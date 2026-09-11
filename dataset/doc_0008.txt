@@ -1,0 +1,23 @@
+==================================================
+                   PRESCRIPTION
+==================================================
+Rx No.     : CLM114323
+Date       : 08-04-2023
+--------------------------------------------------
+Doctor     : Dr. Vikram Sharma
+Clinic     : Vanguard Clinical Labs
+Reg. No.   : PRV2009
+--------------------------------------------------
+Patient    : Chetan Choudhary
+Patient ID : PAT34050
+Diagnosis  : Acute Gastroenteritis
+--------------------------------------------------
+MEDICATIONS PRESCRIBED:
+  - Azithromycin 250mg  x3  INR 450
+  - Dolo 650  x1  INR 717
+--------------------------------------------------
+Instructions: Take as directed. Avoid alcohol.
+Follow-up   : After 7 days or as needed.
+==================================================
+Doctor's Signature: ___________________
+==================================================

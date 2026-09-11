@@ -1,0 +1,25 @@
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM108969
+Report Date: 08-11-2025
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Farida Verma
+Patient ID : PAT66881
+Referred By: Dr. Sunita Krishnamurthy
+----------------------------------------------
+TEST RESULTS:
+  - HbA1c: 136.52
+  - Liver Function Test (LFT): 36.42
+  - ECG (Electrocardiogram): 35.43
+  - Urine Routine & Microscopy: 122.09
+  - Blood Glucose (Fasting): 76.82
+----------------------------------------------
+Total Charges: INR 6998
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Sunita Krishnamurthy
+##############################################

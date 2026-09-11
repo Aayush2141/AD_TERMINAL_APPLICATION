@@ -1,0 +1,15 @@
+E-PRESCRIPTION
+TxnID: CLM152035  |  Date: 26-08-2023  |  [QR-CODE: CLM152035]
+Physician : Dr. Rajesh Chandra   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Chitra Nair   UHI: PAT14910
+Ailment: Anxiety Disorder
+
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Vitamin D3 60000IU  x2  INR 1030                        | As directed |
+  | Losartan 50mg  x3  INR 1818                             | As directed |
+  +----------------------------------------------------------+-------------+
+
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

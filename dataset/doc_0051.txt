@@ -1,0 +1,17 @@
+LAB REPORT
+==========
+Ref: CLM174929   Date: 21-04-2024
+Lab: NovaMed Institute  Lic: PRV1008
+Amount: INR 5390
+
+Patient: Om Gupta  ID: PAT18109
+Doctor : Dr. Kavitha Krishnamurthy
+
+INVESTIGATIONS:
+  - Chest X-Ray: 73.1
+  - ECG (Electrocardiogram): 183.63
+  - Dengue NS1 Antigen: 77.79
+  - Blood Glucose (Fasting): 155.01
+  - HbA1c: 135.94
+
+Report validated and digitally signed.

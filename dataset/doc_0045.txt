@@ -1,0 +1,17 @@
+EXPENSE VOUCHER
+Voucher Ref: CLM172911
+Date of Service: 12-02-2024
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Amrita Choudhary | Claimant ID: PAT83526
+
+SERVICE ITEMS:
+  - Paracetamol 650mg  x3  INR 969
+  - Clopidogrel 75mg  x1  INR 234
+
+COST SUMMARY:
+  Consultation Fee ............... INR 521
+  Tests & Medicines .............. INR 3368
+  GST @ 18% ........................ INR 700
+
+Net Payable: INR 4589
+Certified by: Dr. Deepika Desai

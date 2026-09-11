@@ -1,0 +1,20 @@
+OUTPATIENT PRESCRIPTION
+Ref No: CLM142982   Date Issued: 22-05-2024
+
+PATIENT
+  Full Name  : Varun Choudhary
+  Member ID  : PAT31842
+  Clinical Dx: Mild Anaemia
+
+PRESCRIBER
+  Name       : Dr. Kavitha Pillai
+  Facility   : Lotus Wellness Hub
+  License    : PRV1005
+
+DRUG LIST:
+  1. Amlodipine 5mg  x2  INR 1358
+  2. Montelukast 10mg  x2  INR 662
+
+Dispensing Note: Dispense as written. No substitution.
+Rx Valid Until : 30 days from date of issue.
+Prescriber Seal: ___________________

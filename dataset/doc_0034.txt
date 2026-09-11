@@ -1,0 +1,18 @@
+E-PRESCRIPTION
+TxnID: CLM185462  |  Date: 05-08-2023  |  [QR-CODE: CLM185462]
+Physician : Dr. Kavitha Krishnamurthy   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Rahul Iyer   UHI: PAT23154
+Ailment: Vitamin D Deficiency
+
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Amoxicillin 500mg  x1  INR 126                          | As directed |
+  | Amlodipine 5mg  x2  INR 642                             | As directed |
+  | Atorvastatin 20mg  x2  INR 1376                         | As directed |
+  | Cetirizine 10mg  x3  INR 1371                           | As directed |
+  | Clopidogrel 75mg  x3  INR 396                           | As directed |
+  +----------------------------------------------------------+-------------+
+
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

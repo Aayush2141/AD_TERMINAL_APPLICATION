@@ -1,0 +1,24 @@
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM122839
+Report Date: 09-01-2023
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Om Singh
+Patient ID : PAT18330
+Referred By: Dr. Kavitha Sharma
+----------------------------------------------
+TEST RESULTS:
+  - Chest X-Ray: 199.72
+  - Blood Glucose (PP): 169.54
+  - Complete Blood Count (CBC): 85.54
+  - HBsAg (Hepatitis B): 22.04
+----------------------------------------------
+Total Charges: INR 1878
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Kavitha Sharma
+##############################################

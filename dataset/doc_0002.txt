@@ -1,0 +1,24 @@
+***** HEALTHCARE BILLING DOCUMENT *****
+Bill Ref   : CLM130513
+Bill Date  : 28-02-2024
+***************************************
+TO:
+  Patient Name : Tanvi Joshi
+  Patient ID   : PAT31319
+FROM:
+  Issued By  : Zenith Medical Centre
+  Reg. No.   : PRV2003
+***************************************
+PRESCRIBED ITEMS / SERVICES:
+  - Amlodipine 5mg  x3  INR 2100
+  - Clopidogrel 75mg  x1  INR 596
+  - Montelukast 10mg  x3  INR 900
+  - Metformin 1000mg  x1  INR 523
+- Consultation        : INR 892
+- Investigations      : INR 1153
+***************************************
+GST Applied    : 18%  (INR 368)
+GRAND TOTAL    : INR 2413
+***************************************
+Authorised By  : Dr. Priyanka Pillai
+***************************************

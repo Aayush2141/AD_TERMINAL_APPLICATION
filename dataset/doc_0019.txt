@@ -1,0 +1,17 @@
+EXPENSE VOUCHER
+Voucher Ref: CLM133973
+Date of Service: 25-04-2025
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Zara Bhatia | Claimant ID: PAT73517
+
+SERVICE ITEMS:
+  - Amlodipine 5mg  x1  INR 328
+  - Pantoprazole 40mg  x2  INR 754
+
+COST SUMMARY:
+  Consultation Fee ............... INR 1272
+  Tests & Medicines .............. INR 4186
+  GST @ 18% ........................ INR 982
+
+Net Payable: INR 6440
+Certified by: Dr. Anitha Chandra

@@ -1,0 +1,26 @@
+==================================================
+                   PRESCRIPTION
+==================================================
+Rx No.     : CLM109072
+Date       : 25-09-2023
+--------------------------------------------------
+Doctor     : Dr. Vikram Nambiar
+Clinic     : Crestview Healthcare
+Reg. No.   : PRV2007
+--------------------------------------------------
+Patient    : Nisha Kapoor
+Patient ID : PAT31643
+Diagnosis  : Anxiety Disorder
+--------------------------------------------------
+MEDICATIONS PRESCRIBED:
+  - Omeprazole 20mg  x3  INR 1107
+  - Ibuprofen 400mg  x2  INR 1474
+  - Dolo 650  x3  INR 1296
+  - Amlodipine 5mg  x2  INR 1158
+  - Vitamin D3 60000IU  x2  INR 346
+--------------------------------------------------
+Instructions: Take as directed. Avoid alcohol.
+Follow-up   : After 7 days or as needed.
+==================================================
+Doctor's Signature: ___________________
+==================================================

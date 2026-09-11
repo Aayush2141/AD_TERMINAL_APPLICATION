@@ -1,0 +1,14 @@
+LAB REPORT
+==========
+Ref: CLM115044   Date: 18-04-2025
+Lab: NovaMed Institute  Lic: PRV1008
+Amount: INR 5530
+
+Patient: Bharat Gupta  ID: PAT19359
+Doctor : Dr. Rajesh Bose
+
+INVESTIGATIONS:
+  - Blood Glucose (Fasting): 177.94
+  - Complete Blood Count (CBC): 147.04
+
+Report validated and digitally signed.

@@ -1,0 +1,24 @@
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM101331
+Report Date: 17-04-2023
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Lakshmi Pillai
+Patient ID : PAT82768
+Referred By: Dr. Anitha Sharma
+----------------------------------------------
+TEST RESULTS:
+  - Urine Routine & Microscopy: 70.69
+  - Serum Creatinine: 91.02
+  - ECG (Electrocardiogram): 61.67
+  - Thyroid Stimulating Hormone (TSH): 46.49
+----------------------------------------------
+Total Charges: INR 6983
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Anitha Sharma
+##############################################

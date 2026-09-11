@@ -1,0 +1,22 @@
+***** HEALTHCARE BILLING DOCUMENT *****
+Bill Ref   : CLM120970
+Bill Date  : 26-11-2024
+***************************************
+TO:
+  Patient Name : Karan Malhotra
+  Patient ID   : PAT88104
+FROM:
+  Issued By  : Elite Diagnostics Hub
+  Reg. No.   : PRV2005
+***************************************
+PRESCRIBED ITEMS / SERVICES:
+  - Clopidogrel 75mg  x1  INR 748
+  - Amlodipine 5mg  x3  INR 969
+- Consultation        : INR 613
+- Investigations      : INR 5640
+***************************************
+GST Applied    : 18%  (INR 1125)
+GRAND TOTAL    : INR 7378
+***************************************
+Authorised By  : Dr. Kavitha Nambiar
+***************************************

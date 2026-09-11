@@ -1,0 +1,20 @@
+EXPENSE VOUCHER
+Voucher Ref: CLM150941
+Date of Service: 15-06-2025
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Priya Choudhary | Claimant ID: PAT86983
+
+SERVICE ITEMS:
+  - Paracetamol 650mg  x1  INR 504
+  - Cetirizine 10mg  x2  INR 582
+  - Pantoprazole 40mg  x2  INR 302
+  - Amoxicillin 500mg  x3  INR 1278
+  - Losartan 50mg  x3  INR 2130
+
+COST SUMMARY:
+  Consultation Fee ............... INR 1400
+  Tests & Medicines .............. INR 1611
+  GST @ 18% ........................ INR 541
+
+Net Payable: INR 3552
+Certified by: Dr. Mohan Iyer

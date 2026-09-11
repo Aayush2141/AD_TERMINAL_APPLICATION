@@ -1,0 +1,26 @@
+>>>>>>>>>> DIAGNOSTIC LABORATORY REPORT <<<<<<<<<<
+
+SAMPLE DETAILS
+  Collected On : 23-03-2025
+  Reported On  : 23-03-2025
+  Sample Ref   : CLM109863
+
+LABORATORY INFO
+  Name         : Global Horizon Hospital
+  Accred. No.  : PRV2004
+
+PATIENT INFO
+  Name         : Jyoti Saxena
+  UHID         : PAT82420
+  Referring Dr : Dr. Mohan Iyer
+
+TEST FINDINGS:
+  01. Blood Glucose (PP): 156.13
+  02. Lipid Profile: 176.88
+  03. Thyroid Stimulating Hormone (TSH): 81.57
+
+BILLING SUMMARY
+  Amount Due   : INR 2047
+  All results reviewed by a certified pathologist.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<

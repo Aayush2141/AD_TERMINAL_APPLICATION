@@ -1,0 +1,16 @@
+E-PRESCRIPTION
+TxnID: CLM119199  |  Date: 10-01-2024  |  [QR-CODE: CLM119199]
+Physician : Dr. Vikram Sharma   Institute: BlueCross Pharmacy   Reg: PRV1006
+Patient Name: Jyoti Reddy   UHI: PAT95979
+Ailment: Acute Gastroenteritis
+
+  +----------------------------------------------------------+-------------+
+  | MEDICINE / DOSE                                          | DURATION    |
+  +----------------------------------------------------------+-------------+
+  | Montelukast 10mg  x3  INR 2286                          | As directed |
+  | Ibuprofen 400mg  x2  INR 380                            | As directed |
+  | Pantoprazole 40mg  x1  INR 680                          | As directed |
+  +----------------------------------------------------------+-------------+
+
+REGULATORY NOTE: This e-prescription is system-generated and legally valid.
+Physician Digital Signature: ___________________

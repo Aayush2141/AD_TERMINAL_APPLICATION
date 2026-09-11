@@ -1,0 +1,25 @@
+>>>>>>>>>> DIAGNOSTIC LABORATORY REPORT <<<<<<<<<<
+
+SAMPLE DETAILS
+  Collected On : 09-03-2024
+  Reported On  : 09-03-2024
+  Sample Ref   : CLM166308
+
+LABORATORY INFO
+  Name         : Sterling Care Clinic
+  Accred. No.  : PRV2002
+
+PATIENT INFO
+  Name         : Farida Joshi
+  UHID         : PAT47353
+  Referring Dr : Dr. Mohan Sharma
+
+TEST FINDINGS:
+  01. COVID-19 RT-PCR: 148.61
+  02. Lipid Profile: 31.51
+
+BILLING SUMMARY
+  Amount Due   : INR 4303
+  All results reviewed by a certified pathologist.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<

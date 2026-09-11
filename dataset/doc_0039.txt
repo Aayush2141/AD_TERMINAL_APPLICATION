@@ -1,0 +1,25 @@
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM151718
+Report Date: 01-05-2025
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Jyoti Rao
+Patient ID : PAT86619
+Referred By: Dr. Suresh Pillai
+----------------------------------------------
+TEST RESULTS:
+  - COVID-19 RT-PCR: 23.78
+  - Serum Creatinine: 9.55
+  - Kidney Function Test (KFT): 7.92
+  - Blood Glucose (PP): 199.19
+  - Urine Routine & Microscopy: 23.67
+----------------------------------------------
+Total Charges: INR 2699
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Suresh Pillai
+##############################################

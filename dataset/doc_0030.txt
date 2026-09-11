@@ -1,0 +1,23 @@
+##############################################
+#          LABORATORY TEST REPORT            #
+##############################################
+Report ID  : CLM111971
+Report Date: 08-11-2025
+----------------------------------------------
+Laboratory : LifeLine Laboratories
+Lab Reg.   : PRV1007
+----------------------------------------------
+Patient    : Zara Rao
+Patient ID : PAT85529
+Referred By: Dr. Rajesh Bose
+----------------------------------------------
+TEST RESULTS:
+  - Thyroid Stimulating Hormone (TSH): 99.35
+  - Urine Routine & Microscopy: 132.69
+  - Serum Creatinine: 80.39
+----------------------------------------------
+Total Charges: INR 1797
+----------------------------------------------
+Verified By: Lab Technician
+Pathologist: Dr. Rajesh Bose
+##############################################

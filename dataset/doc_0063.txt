@@ -1,0 +1,20 @@
+EXPENSE VOUCHER
+Voucher Ref: CLM147304
+Date of Service: 18-10-2024
+Facility: Greenleaf Hospital | Facility Code: PRV1003
+Claimant: Priya Gupta | Claimant ID: PAT90209
+
+SERVICE ITEMS:
+  - Amlodipine 5mg  x2  INR 1276
+  - Vitamin D3 60000IU  x1  INR 178
+  - Azithromycin 250mg  x2  INR 1414
+  - Ibuprofen 400mg  x1  INR 510
+  - Cetirizine 10mg  x2  INR 1492
+
+COST SUMMARY:
+  Consultation Fee ............... INR 1311
+  Tests & Medicines .............. INR 715
+  GST @ 18% ........................ INR 364
+
+Net Payable: INR 2390
+Certified by: Dr. Sunita Krishnamurthy
