@@ -1,30 +1,31 @@
 # Similar Document Template Matching Algorithm
-### Fraud Detection for Medical Insurance Claims (Python & Node.js)
+### Fraud Detection for Medical Insurance Claims (Node.js)
 
-A high-performance CLI tool (available in both **Python** and **Node.js**) that detects fraudulent insurance documents (invoices, prescriptions, lab reports) by identifying when different documents were generated from the **same structural template** — even when surface content (names, dates, amounts, providers) has been changed.
+A high-performance Node.js CLI tool that detects fraudulent insurance documents (invoices, prescriptions, lab reports) by identifying when different documents were generated from the **same structural template** — even when surface content (names, dates, amounts, providers) has been changed.
+
+---
+
+## Highlights
+
+- **Zero External Dependencies**: Runs directly on Node.js using native built-in modules (`fs`, `path`).
+- **High Performance**: Evaluates 1,033 pairwise comparisons in **~1.2 seconds**.
+- **100% Precision, Recall, and F1 Score**: Perfectly isolates fraud clusters across providers without false alarms.
+- **Built-in Test Suite**: Automated verification via `npm test`.
 
 ---
 
 ## Quick Start
 
-### Option A: Node.js (Zero external dependencies)
 ```bash
-# Navigate to the project directory
+# 1. Navigate to the project directory
 cd fraud_detector
 
-# Run full analysis with color-coded fraud report
-node main.js analyze
-# Or using npm
+# 2. Run full pairwise analysis with color-coded alerts
 npm start
-```
+# or: node main.js analyze
 
-### Option B: Python
-```bash
-# 1. Install optional pretty-printing dependency (optional)
-pip install rich
-
-# 2. Run full analysis
-python main.py analyze
+# 3. Run the automated test suite
+npm test
 ```
 
 ---
@@ -36,7 +37,7 @@ Fraudsters photocopy or digitally reuse the same invoice / prescription template
 
 ### Solution: Template Skeleton Matching
 
-#### Step 1 — Template Extraction (`template_extractor.js` / `.py`)
+#### Step 1 — Template Extraction (`template_extractor.js`)
 Every document is passed through a **masking pipeline** that uses regular expressions to find and replace variable fields:
 
 | Pattern type          | Replaced with   |
@@ -53,17 +54,17 @@ Every document is passed through a **masking pipeline** that uses regular expres
 
 What remains is the **structural skeleton** — section headers, field labels, separator lines, and placeholder tokens in the original order.
 
-#### Step 2 — Skeleton Comparison (`similarity_engine.js` / `.py`)
+#### Step 2 — Skeleton Comparison (`similarity_engine.js`)
 Every pair of skeletons of the same document type is compared using a **two-component weighted score**:
 
 ```
 Combined Score = 0.75 × Sequence Similarity + 0.25 × Line Count Ratio
 ```
 
-- **Sequence Similarity** (75 %): Ratcliff-Obershelp / SequenceMatcher ratio on the full skeleton text. Measures character and phrase alignment of the document layout.
+- **Sequence Similarity** (75 %): Inverted-index Ratcliff-Obershelp `SequenceMatcher` ratio on the full skeleton text. Measures character and phrase alignment of the document layout.
 - **Line Count Ratio** (25 %): Compares proportional length (`min(lines_a, lines_b) / max(lines_a, lines_b)`) to verify structural height.
 
-#### Step 3 — Fraud Flagging (`fraud_flagger.js` / `.py`)
+#### Step 3 — Fraud Flagging (`fraud_flagger.js`)
 | Score range | Flag  | Action              |
 |-------------|-------|---------------------|
 | ≥ 90 %      | 🔴 RED   | High fraud likelihood |
@@ -78,76 +79,47 @@ Pairs are flagged only when the documents claim to be from **different providers
 
 ```
 fraud_detector/
-├── main.js                # Node.js CLI entry point
-├── template_extractor.js  # Node.js skeleton extractor
-├── similarity_engine.js   # Node.js fast SequenceMatcher & scoring
-├── fraud_flagger.js       # Node.js alert flagger, evaluator, reporter
-├── dataset_generator.js   # Node.js synthetic dataset generator
-├── test.js                # Node.js test suite
-├── package.json           # Node.js metadata and scripts
-├── main.py                # Python CLI entry point
-├── template_extractor.py  # Python skeleton extractor
-├── similarity_engine.py   # Python similarity engine
-├── fraud_flagger.py       # Python alert flagger
-├── dataset_generator.py   # Python dataset generator
+├── main.js                # CLI entry point (subcommands & argument parsing)
+├── template_extractor.js  # Regex masking pipeline → structural skeletons
+├── similarity_engine.js   # Fast inverted-index SequenceMatcher & scoring
+├── fraud_flagger.js       # Provider heuristics, alert thresholds, terminal & file reports
+├── dataset_generator.js   # Synthetic claims generator across 9 medical templates
+├── test.js                # Automated test suite
+├── package.json           # NPM scripts and project configuration
 ├── dataset/               # Document files
 │   ├── doc_0000.txt       # Individual document files
 │   ├── ...
 │   ├── metadata.json      # Template key + is_fraud flag per document
-│   └── ground_truth.csv   # Known fraud pairs (for accuracy testing)
+│   └── ground_truth.csv   # Known fraud pairs (for accuracy evaluation)
 ├── report.json            # Generated after running analyze
-├── report.csv             # CSV report of flagged pairs
-└── similarity_results.json
+├── report.csv             # Flat CSV table of flagged fraud pairs
+└── similarity_results.json# Detailed score records
 ```
 
 ---
 
-## CLI Commands
+## CLI Commands & Options
 
-### Node.js
 ```bash
-# Run full analysis
+# Run full pairwise analysis
 node main.js analyze
 
-# Compare a single new document against the existing dataset
+# Run quietly (suppresses decorative banners)
+node main.js analyze --quiet
+
+# Compare a single new document against the dataset
 node main.js analyze --file dataset/doc_0000.txt
 
-# Override fraud thresholds
+# Override fraud alert thresholds
 node main.js analyze --threshold-red 85 --threshold-amber 65
 
-# Generate new synthetic dataset (default: 80 documents)
-node main.js generate-dataset --n 80
+# Generate a new synthetic dataset with custom size and seed
+node main.js generate-dataset --n 80 --seed 42
 
-# Run automated tests
-npm test
+# Show version and help
+node main.js --version
+node main.js --help
 ```
-
-### Python
-```bash
-# Run full analysis
-python main.py analyze
-
-# Compare a single new document against the existing dataset
-python main.py analyze --file dataset/doc_0000.txt
-
-# Override fraud thresholds
-python main.py analyze --threshold-red 85 --threshold-amber 65
-
-# Generate new synthetic dataset (default: 80 documents)
-python main.py generate-dataset --n 80
-```
-
----
-
-## Performance Comparison
-
-| Metric | Python | Node.js |
-|---|---|---|
-| **Runtime (80 documents, 1,033 comparisons)** | ~4.64s | **~1.21s (~4x faster)** |
-| **Precision** | 100.0% | **100.0%** |
-| **Recall** | 100.0% | **100.0%** |
-| **F1 Score** | 100.0% | **100.0%** |
-| **External Dependencies** | `rich` (optional) | **Zero (Native Node.js built-ins)** |
 
 ---
 
@@ -155,7 +127,7 @@ python main.py generate-dataset --n 80
 
 | File | Description |
 |------|-------------|
-| `dataset/doc_NNNN.txt` | Generated document files |
+| `dataset/doc_NNNN.txt` | Generated document text files |
 | `dataset/metadata.json` | Per-document metadata (doc type, template, is_fraud flag) |
 | `dataset/ground_truth.csv` | Known fraud pairs for accuracy evaluation |
 | `report.json` | Flagged pairs + accuracy metrics |
@@ -164,12 +136,15 @@ python main.py generate-dataset --n 80
 
 ---
 
-## Dataset Design
+## Detection Accuracy Benchmarks
 
-The synthetic dataset deliberately simulates the fraud pattern:
+Tested on standard synthetic dataset (80 documents, 1,033 pairwise comparisons):
 
-- **~65 legitimate documents** — random combinations of document type and template.
-- **~15 fraud documents** — 3 "fraud clusters" of 5 documents each. Each cluster uses the *same structural skeleton* but with different patient names, dates, amounts, and provider labels.
-- **30 known fraud pairs** — recorded in `ground_truth.csv` (5 documents × C(5,2) = 10 pairs per cluster × 3 clusters).
-
-This design allows objective accuracy measurement (100% precision, recall, and F1 score).
+- **True Positives (TP)**: 30 / 30 correctly caught fraud pairs
+- **False Positives (FP)**: 0
+- **False Negatives (FN)**: 0
+- **True Negatives (TN)**: 1,003
+- **Precision**: 100.0%
+- **Recall**: 100.0%
+- **F1 Score**: 100.0%
+- **Execution Time**: ~1.21s
