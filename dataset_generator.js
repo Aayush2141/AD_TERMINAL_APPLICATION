@@ -14,7 +14,14 @@
 const fs = require("fs");
 const path = require("path");
 
-// Simple reproducible pseudo-random number generator (Mulberry32)
+// ─────────────────────────────────────────────────────────────────────────────
+// STEP 1 — REPRODUCIBLE PSEUDO-RANDOM NUMBER GENERATOR (PRNG) & DATA POOLS
+// ─────────────────────────────────────────────────────────────────────────────
+
+/**
+ * 32-bit Mulberry32 PRNG.
+ * Ensures the exact same synthetic dataset can be deterministically reproduced.
+ */
 function createRng(seed = 42) {
   let s = seed >>> 0;
   return function () {
@@ -46,7 +53,9 @@ function randSample(arr, n) {
   return sample;
 }
 
-// --- Filler Data Pools ---
+// ─────────────────────────────────────────────────────────────────────────────
+// STEP 2 — FILLER DATA POOLS
+// ─────────────────────────────────────────────────────────────────────────────
 const FIRST_NAMES = [
   "Aarav", "Aditi", "Arjun", "Bhavya", "Chetan", "Deepa", "Eshan", "Farida",
   "Gaurav", "Hema", "Karan", "Priya", "Rahul", "Simran", "Zara",
@@ -99,6 +108,14 @@ const FRAUD_FAKE_PROVIDERS = [
   ["Trident Specialty Care", "PRV2010"],
 ];
 
+// ─────────────────────────────────────────────────────────────────────────────
+// STEP 3 — DYNAMIC FILLER GENERATOR
+// ─────────────────────────────────────────────────────────────────────────────
+
+/**
+ * Generate randomized realistic values to populate any document template.
+ * Computes consistent fees, itemized medicine/test rows, GST, and totals.
+ */
 function buildFiller() {
   const consult = randInt(300, 1500);
   const subtotal = randInt(500, 8000);
@@ -132,6 +149,10 @@ function buildFiller() {
     amount: consult + subtotal + gst,
   };
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// STEP 4 — TEMPLATE DEFINITIONS (3 Invoices, 3 Prescriptions, 3 Lab Reports)
+// ─────────────────────────────────────────────────────────────────────────────
 
 // 9 Templates
 function invoice0(v) {
@@ -381,6 +402,23 @@ function generateDocument(docType, templateIdx, provider, providerId) {
   return TEMPLATE_REGISTRY[key](filler);
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// STEP 5 — DATASET GENERATION (Fraud Clusters & Ground Truth)
+// ─────────────────────────────────────────────────────────────────────────────
+
+/**
+ * Generate synthetic claim documents and save them with metadata and ground-truth fraud pairs.
+ *
+ * Structure:
+ *   - 15 Fraudulent claims: 3 clusters of 5 documents each, where all documents in a cluster
+ *     share the same template skeleton but carry different fake provider names.
+ *   - Remaining: Legitimate claims from official providers using their own templates.
+ *
+ * @param {string} [outputDir="dataset"]
+ * @param {number} [nTotal=80]
+ * @param {number} [seed=42]
+ * @returns {{metadata: Record<string, any>, fraud_pairs: Array<[string, string]>, output_dir: string}}
+ */
 function generateDataset(outputDir = "dataset", nTotal = 80, seed = 42) {
   rng = createRng(seed);
   const out = path.resolve(outputDir);
