@@ -1,20 +1,25 @@
 /**
  * template_extractor.js — Extracts a structural "skeleton" from a medical document.
  *
- * How it works:
+ * HOW IT WORKS:
  *   Variable fields (names, dates, amounts, IDs) are replaced with placeholder
- *   tokens like <DATE>, <AMOUNT>, <PATIENT>, etc. Two documents generated from
- *   the same template will then produce nearly identical skeletons, making fraud
- *   easy to detect even when the surface text looks different.
+ *   tokens like <DATE>, <AMOUNT>, <PATIENT>, etc.
+ *
+ *   Two documents generated from the same template will produce nearly identical
+ *   skeletons, making fraud easy to detect even when the surface text looks different.
  */
 
 const fs = require("fs");
 const path = require("path");
 
+// ─────────────────────────────────────────────────────────────────────────────
+// STEP 1 — MASKING PIPELINE
+// ─────────────────────────────────────────────────────────────────────────────
+
 /**
  * Replace variable content in a document with structural placeholder tokens.
  *
- * Masking order (order matters — more specific patterns run first):
+ * MASKING ORDER (Order matters — more specific patterns run first):
  *   1. Reference & Claim IDs  (CLM123, PRV123, PAT123)  → <REF_ID>
  *   2. Dates                  (DD-MM-YYYY, Month DD YYYY) → <DATE>
  *   3. Currency amounts        (INR 1,500)               → <AMOUNT>
@@ -22,9 +27,9 @@ const path = require("path");
  *   5. Percentages             (18%, 5.5%)               → <PERCENT>
  *   6. Decimal numbers         (14.5, 0.95)              → <NUMBER>
  *   7. Quantities & dosages    (x2, 500mg, 10ml)         → <QTY>
- *   8. Patient name values                               → <PATIENT>
- *   9. Provider name values                              → <PROVIDER>
- *   10. Remaining large numbers (3+ digits)              → <NUMBER>
+ *   8. Patient name values     (Patient: Jane Doe)       → <PATIENT>
+ *   9. Provider name values    (Clinic: City Health)     → <PROVIDER>
+ *   10. Remaining large numbers (3+ standalone digits)   → <NUMBER>
  *
  * @param {string} text - The raw document text
  * @returns {string} The masked skeleton text
@@ -32,51 +37,60 @@ const path = require("path");
 function extractSkeleton(text) {
   let s = text;
 
-  // 1. Claim / Provider / Patient IDs
+  // 1. Claim / Provider / Patient IDs (e.g., CLM100234, PRV2001, PAT90123)
+  // Must run before generic numbers so IDs are not partially masked as numbers.
   s = s.replace(/\b(CLM\d+|PRV\d+|PAT\d+)\b/g, "<REF_ID>");
 
-  // 2. Dates
+  // 2. Dates (e.g., 14-08-2024, 2024/08/14, Aug 14, 2024)
+  // Masked before currency or generic numbers so day/year integers don't get detached.
   s = s.replace(
     /\b(?:\d{1,2}[-/]\d{1,2}[-/]\d{2,4}|\d{4}[-/]\d{2}[-/]\d{2}|(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2},?\s+\d{4})\b/gi,
     "<DATE>"
   );
 
-  // 3. Currency amounts (INR 2,500 or INR 500)
+  // 3. Currency amounts (e.g., INR 2,500, INR 500.00)
   s = s.replace(/\bINR\s+[\d,]+(?:\.\d{2})?\b/gi, "<AMOUNT>");
 
-  // 4. Doctor names (Dr. Firstname Lastname)
+  // 4. Doctor names (e.g., Dr. Rajesh Mehta, Dr. Deepika Pillai)
   s = s.replace(/\bDr\.\s+[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\b/g, "<DOCTOR>");
 
-  // 5. Percentages
+  // 5. Percentages (e.g., 18%, 5.5%)
   s = s.replace(/\b\d+(?:\.\d+)?%/g, "<PERCENT>");
 
-  // 6. Decimal numbers
+  // 6. Decimal numbers (e.g., 14.5, 0.95 test readings)
   s = s.replace(/\b\d+\.\d+\b/g, "<NUMBER>");
 
-  // 7. Quantities & dosages (x2, 500mg, 10ml, 60000IU)
+  // 7. Quantities & dosages (e.g., x2, 500mg, 10ml, 60000IU, 2 tabs)
   s = s.replace(/\bx\d+\b/gi, "<QTY>");
-  s = s.replace(/\b\d+(?:\.\d+)?\s*(?:mg|mcg|ml|IU|g|units?|tab|caps?)\b/gi, "<QTY>");
+  s = s.replace(
+    /\b\d+(?:\.\d+)?\s*(?:mg|mcg|ml|IU|g|units?|tab|caps?)\b/gi,
+    "<QTY>"
+  );
 
-  // 8. Patient name values (after labels like "Patient:", "Full Name:", etc.)
+  // 8. Patient name values (following field labels like "Patient Name:", "Claimant:")
   s = s.replace(
     /(Patient(?:\s+Name)?|Full\s+Name|Claimant|Member\s+ID|UHID?)\s*[:|]\s*([^\n\r|]+)/gi,
     "$1: <PATIENT>"
   );
 
-  // 9. Provider name values (after labels like "Provider:", "Clinic:", etc.)
+  // 9. Provider name values (following field labels like "Provider:", "Clinic:", "Issued By:")
   s = s.replace(
     /(Provider|Issued\s+By|Laboratory|Clinic|Facility|Institution|Institute|Lab(?:\s+Name)?)\s*[:|]\s*([^\n\r|]+)/gi,
     "$1: <PROVIDER>"
   );
 
-  // 10. Any remaining large standalone numbers
+  // 10. Any remaining large standalone numbers (3+ digits)
   s = s.replace(/\b\d{3,}\b/g, "<NUMBER>");
 
   return s;
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// STEP 2 — LOAD & EXTRACT SINGLE DOCUMENT
+// ─────────────────────────────────────────────────────────────────────────────
+
 /**
- * Read a document file and extract its structural skeleton.
+ * Read a document file from disk and extract its structural skeleton.
  *
  * @param {string} filepath - Path to the document
  * @returns {{doc_id: string, raw_text: string, skeleton: string, lines: number}}
@@ -94,6 +108,10 @@ function loadAndExtract(filepath) {
     lines,
   };
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// STEP 3 — BULK EXTRACTION ACROSS DATASET
+// ─────────────────────────────────────────────────────────────────────────────
 
 /**
  * Extract skeletons for every .txt document in datasetDir.
@@ -114,7 +132,9 @@ function extractAll(datasetDir = "dataset") {
     .sort();
 
   if (files.length === 0) {
-    throw new Error(`No .txt documents found in '${datasetDir}'. Run \`generate-dataset\` first.`);
+    throw new Error(
+      `No .txt documents found in '${datasetDir}'. Run \`generate-dataset\` first.`
+    );
   }
 
   const metaPath = path.join(folder, "metadata.json");
@@ -135,7 +155,9 @@ function extractAll(datasetDir = "dataset") {
     extractions[doc.doc_id] = doc;
   }
 
-  console.log(`[template_extractor] Extracted skeletons for ${Object.keys(extractions).length} documents.`);
+  console.log(
+    `[template_extractor] Extracted skeletons for ${Object.keys(extractions).length} documents.`
+  );
   return extractions;
 }
 
