@@ -108,6 +108,32 @@ function parseArgs(argv) {
   return args;
 }
 
+function validateArgs(args) {
+  if (args.command === "analyze") {
+    if (isNaN(args.thresholdRed) || args.thresholdRed < 0 || args.thresholdRed > 100) {
+      console.error("ERROR: --threshold-red must be a number between 0 and 100.");
+      process.exit(1);
+    }
+    if (isNaN(args.thresholdAmber) || args.thresholdAmber < 0 || args.thresholdAmber > 100) {
+      console.error("ERROR: --threshold-amber must be a number between 0 and 100.");
+      process.exit(1);
+    }
+    if (args.thresholdAmber > args.thresholdRed) {
+      console.error("ERROR: --threshold-amber cannot be greater than --threshold-red.");
+      process.exit(1);
+    }
+  } else if (args.command === "generate-dataset") {
+    if (isNaN(args.n) || args.n < 15) {
+      console.error("ERROR: -n / --n must be an integer >= 15 (to house the 3 fraud clusters).");
+      process.exit(1);
+    }
+    if (isNaN(args.seed)) {
+      console.error("ERROR: --seed must be a valid number.");
+      process.exit(1);
+    }
+  }
+}
+
 function cmdGenerateDataset(args) {
   const { generateDataset } = require("./dataset_generator");
   const outputDir = resolvePath(args.dataset);
@@ -213,6 +239,8 @@ function main() {
     printHelp();
     process.exit(args.help ? 0 : 1);
   }
+
+  validateArgs(args);
 
   if (args.command === "generate-dataset") {
     cmdGenerateDataset(args);
