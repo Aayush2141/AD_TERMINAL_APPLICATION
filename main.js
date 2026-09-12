@@ -39,6 +39,8 @@ positional arguments:
 options:
   -h, --help            show this help message and exit
   -v, --version         show program's version number and exit
+  -q, --quiet           suppress non-essential logs and banner
+  --seed SEED           random seed for dataset generation (default: 42)
 `);
 }
 
@@ -49,8 +51,10 @@ function parseArgs(argv) {
     output: "report.json",
     file: null,
     n: 80,
+    seed: 42,
     thresholdRed: 90.0,
     thresholdAmber: 70.0,
+    quiet: false,
     version: false,
     help: false,
   };
@@ -67,6 +71,9 @@ function parseArgs(argv) {
     } else if (arg === "-v" || arg === "--version") {
       args.version = true;
       i++;
+    } else if (arg === "-q" || arg === "--quiet") {
+      args.quiet = true;
+      i++;
     } else if (!args.command && (arg === "generate-dataset" || arg === "analyze")) {
       args.command = arg;
       i++;
@@ -81,6 +88,9 @@ function parseArgs(argv) {
       i++;
     } else if (arg === "-n" || arg === "--n") {
       args.n = parseInt(rawArgs[++i], 10);
+      i++;
+    } else if (arg === "--seed") {
+      args.seed = parseInt(rawArgs[++i], 10);
       i++;
     } else if (arg === "--threshold-red") {
       args.thresholdRed = parseFloat(rawArgs[++i]);
@@ -102,12 +112,16 @@ function cmdGenerateDataset(args) {
   const { generateDataset } = require("./dataset_generator");
   const outputDir = resolvePath(args.dataset);
 
-  console.log("\n=== Generating Synthetic Dataset ===");
-  const result = generateDataset(outputDir, args.n);
-  console.log(`\nDone! Dataset written to: ${result.output_dir}`);
-  console.log(`  metadata.json    → template_key and is_fraud for each document`);
-  console.log(`  ground_truth.csv → ${result.fraud_pairs.length} known fraud pairs`);
-  console.log(`\nNext step: node main.js analyze`);
+  if (!args.quiet) {
+    console.log("\n=== Generating Synthetic Dataset ===");
+  }
+  const result = generateDataset(outputDir, args.n, args.seed);
+  if (!args.quiet) {
+    console.log(`\nDone! Dataset written to: ${result.output_dir}`);
+    console.log(`  metadata.json    → template_key and is_fraud for each document`);
+    console.log(`  ground_truth.csv → ${result.fraud_pairs.length} known fraud pairs`);
+    console.log(`\nNext step: node main.js analyze`);
+  }
 }
 
 function cmdAnalyze(args) {
@@ -122,12 +136,14 @@ function cmdAnalyze(args) {
   const datasetDir = resolvePath(args.dataset);
   const outputPath = resolvePath(args.output);
 
-  console.log(`\n=== Template Matching Fraud Detector (Node.js) ===`);
-  console.log(`Dataset   : ${datasetDir}`);
-  console.log(`Report    : ${outputPath}`);
-  console.log(
-    `Thresholds: RED ≥ ${args.thresholdRed}% | AMBER ≥ ${args.thresholdAmber}%\n`
-  );
+  if (!args.quiet) {
+    console.log(`\n=== Template Matching Fraud Detector (Node.js) ===`);
+    console.log(`Dataset   : ${datasetDir}`);
+    console.log(`Report    : ${outputPath}`);
+    console.log(
+      `Thresholds: RED ≥ ${args.thresholdRed}% | AMBER ≥ ${args.thresholdAmber}%\n`
+    );
+  }
 
   // Step 1: Extract skeletons
   let extractions;
