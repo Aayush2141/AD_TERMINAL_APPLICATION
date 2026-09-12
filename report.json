@@ -1,11 +1,33 @@
 {
   "summary": {
-    "red_alerts": 4,
-    "amber_alerts": 0,
-    "total_flagged": 4
+    "red_alerts": 26,
+    "amber_alerts": 4,
+    "total_flagged": 30
   },
-  "accuracy_metrics": {},
+  "accuracy_metrics": {
+    "precision": 100,
+    "recall": 100,
+    "f1": 100,
+    "tp": 30,
+    "fp": 0,
+    "fn": 0,
+    "tn": 1003,
+    "total_fraud_pairs": 30,
+    "total_flagged": 30
+  },
   "flagged_pairs": [
+    {
+      "doc_id_a": "doc_0002",
+      "doc_id_b": "doc_0004",
+      "doc_type": "invoice",
+      "sequence_sim": 0.9798,
+      "feature_sim": 1,
+      "combined_score": 98.5,
+      "provider_a": "Zenith Medical Centre",
+      "provider_b": "Elite Diagnostics Hub",
+      "same_provider": false,
+      "flag": "RED"
+    },
     {
       "doc_id_a": "doc_0000",
       "doc_id_b": "doc_0003",
@@ -15,6 +37,42 @@
       "combined_score": 98.2,
       "provider_a": "Apex Health Partners",
       "provider_b": "Global Horizon Hospital",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0001",
+      "doc_id_b": "doc_0004",
+      "doc_type": "invoice",
+      "sequence_sim": 0.9748,
+      "feature_sim": 1,
+      "combined_score": 98.1,
+      "provider_a": "Sterling Care Clinic",
+      "provider_b": "Elite Diagnostics Hub",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0003",
+      "doc_id_b": "doc_0004",
+      "doc_type": "invoice",
+      "sequence_sim": 0.9691,
+      "feature_sim": 0.9583,
+      "combined_score": 96.6,
+      "provider_a": "Global Horizon Hospital",
+      "provider_b": "Elite Diagnostics Hub",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0005",
+      "doc_id_b": "doc_0009",
+      "doc_type": "prescription",
+      "sequence_sim": 0.9496,
+      "feature_sim": 1,
+      "combined_score": 96.2,
+      "provider_a": "Silverline Medicare",
+      "provider_b": "Trident Specialty Care",
       "same_provider": false,
       "flag": "RED"
     },
@@ -31,6 +89,18 @@
       "flag": "RED"
     },
     {
+      "doc_id_a": "doc_0002",
+      "doc_id_b": "doc_0003",
+      "doc_type": "invoice",
+      "sequence_sim": 0.9549,
+      "feature_sim": 0.9583,
+      "combined_score": 95.6,
+      "provider_a": "Zenith Medical Centre",
+      "provider_b": "Global Horizon Hospital",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
       "doc_id_a": "doc_0000",
       "doc_id_b": "doc_0002",
       "doc_type": "invoice",
@@ -39,6 +109,174 @@
       "combined_score": 95.4,
       "provider_a": "Apex Health Partners",
       "provider_b": "Zenith Medical Centre",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0007",
+      "doc_id_b": "doc_0009",
+      "doc_type": "prescription",
+      "sequence_sim": 0.9344,
+      "feature_sim": 1,
+      "combined_score": 95.1,
+      "provider_a": "Pinnacle Pathology",
+      "provider_b": "Trident Specialty Care",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0005",
+      "doc_id_b": "doc_0007",
+      "doc_type": "prescription",
+      "sequence_sim": 0.9302,
+      "feature_sim": 1,
+      "combined_score": 94.8,
+      "provider_a": "Silverline Medicare",
+      "provider_b": "Pinnacle Pathology",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0001",
+      "doc_id_b": "doc_0002",
+      "doc_type": "invoice",
+      "sequence_sim": 0.9286,
+      "feature_sim": 1,
+      "combined_score": 94.6,
+      "provider_a": "Sterling Care Clinic",
+      "provider_b": "Zenith Medical Centre",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0008",
+      "doc_id_b": "doc_0009",
+      "doc_type": "prescription",
+      "sequence_sim": 0.9384,
+      "feature_sim": 0.9565,
+      "combined_score": 94.3,
+      "provider_a": "Vanguard Clinical Labs",
+      "provider_b": "Trident Specialty Care",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0006",
+      "doc_id_b": "doc_0007",
+      "doc_type": "prescription",
+      "sequence_sim": 0.9341,
+      "feature_sim": 0.9583,
+      "combined_score": 94,
+      "provider_a": "Crestview Healthcare",
+      "provider_b": "Pinnacle Pathology",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0006",
+      "doc_id_b": "doc_0009",
+      "doc_type": "prescription",
+      "sequence_sim": 0.9333,
+      "feature_sim": 0.9583,
+      "combined_score": 94,
+      "provider_a": "Crestview Healthcare",
+      "provider_b": "Trident Specialty Care",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0012",
+      "doc_id_b": "doc_0013",
+      "doc_type": "lab",
+      "sequence_sim": 0.9344,
+      "feature_sim": 0.95,
+      "combined_score": 93.8,
+      "provider_a": "Zenith Medical Centre",
+      "provider_b": "Global Horizon Hospital",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0005",
+      "doc_id_b": "doc_0006",
+      "doc_type": "prescription",
+      "sequence_sim": 0.9292,
+      "feature_sim": 0.9583,
+      "combined_score": 93.6,
+      "provider_a": "Silverline Medicare",
+      "provider_b": "Crestview Healthcare",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0005",
+      "doc_id_b": "doc_0008",
+      "doc_type": "prescription",
+      "sequence_sim": 0.9285,
+      "feature_sim": 0.9565,
+      "combined_score": 93.5,
+      "provider_a": "Silverline Medicare",
+      "provider_b": "Vanguard Clinical Labs",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0013",
+      "doc_id_b": "doc_0014",
+      "doc_type": "lab",
+      "sequence_sim": 0.9105,
+      "feature_sim": 1,
+      "combined_score": 93.3,
+      "provider_a": "Global Horizon Hospital",
+      "provider_b": "Elite Diagnostics Hub",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0007",
+      "doc_id_b": "doc_0008",
+      "doc_type": "prescription",
+      "sequence_sim": 0.9222,
+      "feature_sim": 0.9565,
+      "combined_score": 93.1,
+      "provider_a": "Pinnacle Pathology",
+      "provider_b": "Vanguard Clinical Labs",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0010",
+      "doc_id_b": "doc_0012",
+      "doc_type": "lab",
+      "sequence_sim": 0.9179,
+      "feature_sim": 0.95,
+      "combined_score": 92.6,
+      "provider_a": "Apex Health Partners",
+      "provider_b": "Zenith Medical Centre",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0001",
+      "doc_id_b": "doc_0003",
+      "doc_type": "invoice",
+      "sequence_sim": 0.9136,
+      "feature_sim": 0.9583,
+      "combined_score": 92.5,
+      "provider_a": "Sterling Care Clinic",
+      "provider_b": "Global Horizon Hospital",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0010",
+      "doc_id_b": "doc_0014",
+      "doc_type": "lab",
+      "sequence_sim": 0.893,
+      "feature_sim": 1,
+      "combined_score": 92,
+      "provider_a": "Apex Health Partners",
+      "provider_b": "Elite Diagnostics Hub",
       "same_provider": false,
       "flag": "RED"
     },
@@ -53,6 +291,90 @@
       "provider_b": "Sterling Care Clinic",
       "same_provider": false,
       "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0006",
+      "doc_id_b": "doc_0008",
+      "doc_type": "prescription",
+      "sequence_sim": 0.9135,
+      "feature_sim": 0.9167,
+      "combined_score": 91.4,
+      "provider_a": "Crestview Healthcare",
+      "provider_b": "Vanguard Clinical Labs",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0010",
+      "doc_id_b": "doc_0013",
+      "doc_type": "lab",
+      "sequence_sim": 0.8852,
+      "feature_sim": 1,
+      "combined_score": 91.4,
+      "provider_a": "Apex Health Partners",
+      "provider_b": "Global Horizon Hospital",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0012",
+      "doc_id_b": "doc_0014",
+      "doc_type": "lab",
+      "sequence_sim": 0.8861,
+      "feature_sim": 0.95,
+      "combined_score": 90.2,
+      "provider_a": "Zenith Medical Centre",
+      "provider_b": "Elite Diagnostics Hub",
+      "same_provider": false,
+      "flag": "RED"
+    },
+    {
+      "doc_id_a": "doc_0011",
+      "doc_id_b": "doc_0014",
+      "doc_type": "lab",
+      "sequence_sim": 0.8648,
+      "feature_sim": 0.9524,
+      "combined_score": 88.7,
+      "provider_a": "Sterling Care Clinic",
+      "provider_b": "Elite Diagnostics Hub",
+      "same_provider": false,
+      "flag": "AMBER"
+    },
+    {
+      "doc_id_a": "doc_0010",
+      "doc_id_b": "doc_0011",
+      "doc_type": "lab",
+      "sequence_sim": 0.8364,
+      "feature_sim": 0.9524,
+      "combined_score": 86.5,
+      "provider_a": "Apex Health Partners",
+      "provider_b": "Sterling Care Clinic",
+      "same_provider": false,
+      "flag": "AMBER"
+    },
+    {
+      "doc_id_a": "doc_0011",
+      "doc_id_b": "doc_0012",
+      "doc_type": "lab",
+      "sequence_sim": 0.838,
+      "feature_sim": 0.9048,
+      "combined_score": 85.5,
+      "provider_a": "Sterling Care Clinic",
+      "provider_b": "Zenith Medical Centre",
+      "same_provider": false,
+      "flag": "AMBER"
+    },
+    {
+      "doc_id_a": "doc_0011",
+      "doc_id_b": "doc_0013",
+      "doc_type": "lab",
+      "sequence_sim": 0.809,
+      "feature_sim": 0.9524,
+      "combined_score": 84.5,
+      "provider_a": "Sterling Care Clinic",
+      "provider_b": "Global Horizon Hospital",
+      "same_provider": false,
+      "flag": "AMBER"
     }
   ]
 }

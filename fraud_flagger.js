@@ -56,8 +56,8 @@ function getProvider(rawText) {
   );
   if (fieldMatch) {
     let name = fieldMatch[1].trim();
-    // Strip trailing license/registration codes like "Lic: PRV1020"
-    name = name.replace(/\s*(?:Lic|Reg|Facility Code|\(ID|ID).*$/i, "").trim();
+    // Strip trailing license/registration codes like "Lic: PRV1020" without cutting into words like "Trident"
+    name = name.replace(/\s*(?:\bLic\b|\bReg\b|\bFacility Code\b|\(ID\b|\bID\b).*$/i, "").trim();
     name = name.replace(/[| \-:]+$/, "").trim();
     if (name) return name;
   }

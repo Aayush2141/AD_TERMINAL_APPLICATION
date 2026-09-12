@@ -60,6 +60,10 @@ assert.strictEqual(
   getProvider("Issued By: Sterling Care Clinic"),
   "Sterling Care Clinic"
 );
+assert.strictEqual(
+  getProvider("Clinic: Trident Specialty Care | Reg: PRV2010"),
+  "Trident Specialty Care"
+);
 console.log("  ✓ Provider extractor correctly isolates provider names");
 
 // Test 4: End-to-end full run on dataset
