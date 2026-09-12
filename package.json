@@ -1,0 +1,24 @@
+{
+  "name": "fraud-detector",
+  "version": "1.0.0",
+  "description": "Similar Document Template Matching Algorithm for detecting medical insurance claim fraud",
+  "main": "main.js",
+  "bin": {
+    "fraud-detector": "./main.js"
+  },
+  "scripts": {
+    "start": "node main.js analyze",
+    "analyze": "node main.js analyze",
+    "generate-dataset": "node main.js generate-dataset",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "fraud-detection",
+    "template-matching",
+    "similarity",
+    "healthcare",
+    "insurance"
+  ],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,31 +1,5 @@
 flag,doc_id_a,doc_id_b,score,provider_a,provider_b
-RED,doc_0002,doc_0004,98.5,Zenith Medical Centre,Elite Diagnostics Hub
 RED,doc_0000,doc_0003,98.2,Apex Health Partners,Global Horizon Hospital
-RED,doc_0001,doc_0004,98.1,Sterling Care Clinic,Elite Diagnostics Hub
-RED,doc_0003,doc_0004,96.6,Global Horizon Hospital,Elite Diagnostics Hub
-RED,doc_0005,doc_0009,96.2,Silverline Medicare,Tr
 RED,doc_0000,doc_0004,95.7,Apex Health Partners,Elite Diagnostics Hub
-RED,doc_0002,doc_0003,95.6,Zenith Medical Centre,Global Horizon Hospital
 RED,doc_0000,doc_0002,95.4,Apex Health Partners,Zenith Medical Centre
-RED,doc_0007,doc_0009,95.1,Pinnacle Pathology,Tr
-RED,doc_0005,doc_0007,94.8,Silverline Medicare,Pinnacle Pathology
-RED,doc_0001,doc_0002,94.6,Sterling Care Clinic,Zenith Medical Centre
-RED,doc_0008,doc_0009,94.3,Vanguard Clinical Labs,Tr
-RED,doc_0006,doc_0007,94.0,Crestview Healthcare,Pinnacle Pathology
-RED,doc_0006,doc_0009,94.0,Crestview Healthcare,Tr
-RED,doc_0012,doc_0013,93.8,Zenith Medical Centre,Global Horizon Hospital
-RED,doc_0005,doc_0006,93.6,Silverline Medicare,Crestview Healthcare
-RED,doc_0005,doc_0008,93.5,Silverline Medicare,Vanguard Clinical Labs
-RED,doc_0013,doc_0014,93.3,Global Horizon Hospital,Elite Diagnostics Hub
-RED,doc_0007,doc_0008,93.1,Pinnacle Pathology,Vanguard Clinical Labs
-RED,doc_0010,doc_0012,92.6,Apex Health Partners,Zenith Medical Centre
-RED,doc_0001,doc_0003,92.5,Sterling Care Clinic,Global Horizon Hospital
-RED,doc_0010,doc_0014,92.0,Apex Health Partners,Elite Diagnostics Hub
 RED,doc_0000,doc_0001,91.5,Apex Health Partners,Sterling Care Clinic
-RED,doc_0006,doc_0008,91.4,Crestview Healthcare,Vanguard Clinical Labs
-RED,doc_0010,doc_0013,91.4,Apex Health Partners,Global Horizon Hospital
-RED,doc_0012,doc_0014,90.2,Zenith Medical Centre,Elite Diagnostics Hub
-AMBER,doc_0011,doc_0014,88.7,Sterling Care Clinic,Elite Diagnostics Hub
-AMBER,doc_0010,doc_0011,86.5,Apex Health Partners,Sterling Care Clinic
-AMBER,doc_0011,doc_0012,85.5,Sterling Care Clinic,Zenith Medical Centre
-AMBER,doc_0011,doc_0013,84.5,Sterling Care Clinic,Global Horizon Hospital
